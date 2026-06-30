@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAC Hymnal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-text">
+        <span class="oac">OAC</span>
+        <span class="church-name">Old Apostolic Church</span>
+       
+    </div>
+
+    <h1>Welcome to the OAC Hymnal</h1>
+    <h2>Experience the Power of Worship</h2>
+
+    <input type="text" id="searchInput" placeholder="Search by hymn number or title...">
+</header>
+
+<main>
+    <!-- Verse Slideshow -->
+    <div id="verseSlideshow">
+        <div id="verseReference"></div>
+        <div id="verseText"></div>
+    </div>
+
+    <!-- Daily Verses Button -->
+    <button id="dailyVerseBtn">📖 Daily Verses</button>
+
+    <!-- Daily Verses Full Page -->
+    <div id="dailyVersesPage" class="hidden">
+        <button id="dailyVersesBackBtn">← Back to Hymns</button>
+        <h2>Daily Encouragement</h2>
+        
+        <div class="verse-card">
+            <h3>Faith</h3>
+            <p>Proverbs 3:5<br><br>Trust in the Lord with all your heart and lean not on your own understanding.</p>
+        </div>
+        <div class="verse-card">
+            <h3>Strength</h3>
+            <p>Philippians 4:13<br><br>I can do all things through Christ who strengthens me.</p>
+        </div>
+        <div class="verse-card">
+            <h3>Hope</h3>
+            <p>Jeremiah 29:11<br><br>For I know the plans I have for you.</p>
+        </div>
+    </div>
+
+    <div id="loading">
+    Loading hymns...
+    </div>
+
+    <!-- Hymn List -->
+    <div id="hymnList"></div>
+
+    <!-- Pagination -->
+    <div id="pagination">
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <!-- Single Hymn View -->
+    <div id="hymnDetails" class="hidden">
+        <button id="backBtn">← Back</button>
+        <h2 id="hymnTitle"></h2>
+        <pre id="hymnLyrics"></pre>
+    </div>
+
+    <p id="noResults" class="hidden">No hymn found 😬</p>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-info">© 2026 OAC Hymnal • All Rights Reserved</div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

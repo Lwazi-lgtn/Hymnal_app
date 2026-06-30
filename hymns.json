@@ -1,0 +1,77 @@
+[
+  { "number": 1, 
+  "title": "Amazing Grace", 
+  "lyrics": "Amazing grace! How sweet the sound..."
+ },
+
+  { "number": 2,
+   "title": "How Great Thou Art", 
+   "lyrics": "O Lord my God..."
+ },
+
+  { "number": 3,
+   "title": "Holy Holy Holy", 
+   "lyrics": "Holy, Holy, Holy..."
+ },
+
+  { "number": 4, 
+  "title": "What a Friend We Have in Jesus", 
+  "lyrics": "What a friend we have in Jesus..." 
+},
+
+  { "number": 5, 
+  "title": "Blessed Assurance", 
+  "lyrics": "Blessed assurance, Jesus is mine..." 
+},
+
+  { "number": 6, 
+  "title": "It Is Well", 
+  "lyrics": "When peace like a river..."
+ },
+
+  { "number": 7,
+   "title": "Great Is Thy Faithfulness", 
+   "lyrics": "Great is Thy faithfulness..."
+ },
+
+  { "number": 8,
+   "title": "Be Thou My Vision", 
+   "lyrics": "Be Thou my vision, O Lord of my heart..."
+ },
+
+  { "number": 9,
+   "title": "Holy Spirit Rain Down", 
+   "lyrics": "Holy Spirit rain down..."
+ },
+
+  { "number": 10,
+   "title": "Jesus Loves Me", 
+   "lyrics": "Jesus loves me this I know..." 
+},
+
+  { "number": 11,
+   "title": "Rock of Ages", 
+   "lyrics": "Rock of Ages, cleft for me..."
+ },
+
+  { "number": 12,
+   "title": "Abide With Me", 
+   "lyrics": "Abide with me, fast falls the eventide..." 
+ },
+
+  { "number": 13,
+   "title": "Come Thou Fount", 
+   "lyrics": "Come thou fount of every blessing..."
+ },
+
+  { "number": 14,
+   "title": "The Old Rugged Cross", 
+   "lyrics": "On a hill far away..." 
+},
+
+  { "number": 15, 
+  "title": "Shall We Gather at the River", 
+  "lyrics": "Shall we gather at the river..." 
+}
+
+]
