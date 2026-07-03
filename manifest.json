@@ -8,12 +8,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "oac_pic.png",
+      "src": "app_pic.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "oac_pic.png",
+      "src": "app_pic.png",
       "sizes": "512x512",
       "type": "image/png"
     }

@@ -19,8 +19,8 @@
        
     </div>
 
-    <h1>Welcome to the OAC Hymnal</h1>
-    <h2>Experience the Power of Worship</h2>
+    <h1 id="pageHeading">Welcome to the OAC Hymnal</h1>
+    <h2 id="pageSubheading">Experience the Power of Worship</h2>
 
     <input type="text" id="searchInput" placeholder="Search by hymn number or title...">
 </header>
@@ -70,6 +70,15 @@
     <!-- Single Hymn View -->
     <div id="hymnDetails" class="hidden">
         <button id="backBtn">← Back</button>
+
+        <div class="hymn-toolbar">
+            <div class="font-controls" role="group" aria-label="Text size">
+                <button id="decreaseFontBtn" aria-label="Decrease text size">A−</button>
+                <button id="increaseFontBtn" aria-label="Increase text size">A+</button>
+            </div>
+            <button id="shareBtn">📤 Share</button>
+        </div>
+
         <h2 id="hymnTitle"></h2>
         <pre id="hymnLyrics"></pre>
     </div>
