@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OAC Hymnal</title>
+
+    <!-- Applies the saved/preferred theme before first paint, so there's
+         no flash of the wrong theme while app.js is still loading. -->
+    <script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('oacHymnalTheme');
+                var theme = (stored === 'dark' || stored === 'light')
+                    ? stored
+                    : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                // localStorage can throw in some locked-down browser contexts; default to light.
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 
 <link rel="manifest" href="manifest.json">
@@ -12,6 +30,12 @@
 </head>
 <body>
 
+<!-- Shown when a new deployed version has taken over in the background -->
+<div id="updateBanner" class="hidden" role="status">
+    <span>A new version of the app is available.</span>
+    <button id="updateReloadBtn">Refresh</button>
+</div>
+
 <header>
   <div class="logo-text">
         <span class="oac">OAC</span>
@@ -19,9 +43,14 @@
        
     </div>
 
+    <button id="themeToggleBtn" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
+        <span id="themeToggleIcon">🌙</span>
+    </button>
+
     <h1 id="pageHeading">Welcome to the OAC Hymnal</h1>
     <h2 id="pageSubheading">Experience the Power of Worship</h2>
 
+    <label for="searchInput" class="sr-only">Search hymns by number or title</label>
     <input type="text" id="searchInput" placeholder="Search by hymn number or title...">
 </header>
 
@@ -55,7 +84,8 @@
     </div>
 
     <div id="loading">
-    Loading hymns...
+        <span id="loadingText">Loading hymns...</span>
+        <button id="retryBtn" class="hidden">Retry</button>
     </div>
 
     <!-- Hymn List -->

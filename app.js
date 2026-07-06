@@ -13,6 +13,8 @@ const backBtn = document.getElementById("backBtn");
 const pagination = document.getElementById("pagination");
 const noResults = document.getElementById("noResults");
 const loading = document.getElementById("loading");
+const loadingText = document.getElementById("loadingText");
+const retryBtn = document.getElementById("retryBtn");
 
 const verseSlideshow = document.getElementById("verseSlideshow");
 const dailyVerseBtn = document.getElementById("dailyVerseBtn");
@@ -26,6 +28,12 @@ const shareBtn = document.getElementById("shareBtn");
 const pageHeading = document.getElementById("pageHeading");
 const pageSubheading = document.getElementById("pageSubheading");
 
+const updateBanner = document.getElementById("updateBanner");
+const updateReloadBtn = document.getElementById("updateReloadBtn");
+
+const themeToggleBtn = document.getElementById("themeToggleBtn");
+const themeToggleIcon = document.getElementById("themeToggleIcon");
+
 const bibleVerses = [
     { reference: "Psalm 23:1", text: "The Lord is my shepherd; I shall not want." },
     { reference: "Philippians 4:13", text: "I can do all things through Christ who strengthens me." },
@@ -33,6 +41,59 @@ const bibleVerses = [
     { reference: "Proverbs 3:5", text: "Trust in the Lord with all your heart and lean not on your own understanding." },
     { reference: "Isaiah 41:10", text: "Fear not, for I am with you." }
 ];
+
+// ====================== DARK / LIGHT THEME ======================
+const THEME_KEY = "oacHymnalTheme";
+
+function getStoredOrPreferredTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "dark" || stored === "light") return stored;
+    return (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+}
+
+function applyTheme(theme) {
+    const isDark = theme === "dark";
+    document.documentElement.setAttribute("data-theme", theme);
+
+    if (themeToggleBtn) {
+        themeToggleBtn.setAttribute("aria-pressed", String(isDark));
+        themeToggleBtn.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+    }
+    if (themeToggleIcon) {
+        themeToggleIcon.textContent = isDark ? "☀️" : "🌙";
+    }
+
+    // Keep the mobile browser status bar color in sync with the active theme.
+    const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeColorMeta) {
+        themeColorMeta.setAttribute("content", isDark ? "#16283f" : "#1d3557");
+    }
+}
+
+// index.html already set data-theme on <html> before first paint (to avoid
+// a flash of the wrong theme); this just syncs the toggle button's
+// icon/label to match, and re-applies whenever the user toggles manually.
+let currentTheme = getStoredOrPreferredTheme();
+applyTheme(currentTheme);
+
+if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+        currentTheme = currentTheme === "dark" ? "light" : "dark";
+        localStorage.setItem(THEME_KEY, currentTheme);
+        applyTheme(currentTheme);
+    });
+}
+
+// If the user hasn't explicitly chosen a theme, keep following the system
+// setting live (e.g. their OS switching to dark mode at sunset).
+if (!localStorage.getItem(THEME_KEY) && window.matchMedia) {
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+        if (!localStorage.getItem(THEME_KEY)) {
+            currentTheme = e.matches ? "dark" : "light";
+            applyTheme(currentTheme);
+        }
+    });
+}
 
 // ====================== HEADER / SUBTITLE SWAPPING ======================
 const DEFAULT_HEADING = "Welcome to the OAC Hymnal";
@@ -65,24 +126,32 @@ function setHeaderForDailyVerses() {
     pageSubheading.textContent = DAILY_VERSE_SUBHEADING;
 }
 
-// Load Hymns
-fetch("hymns.json")
-    .then(res => res.json())
-    .then(data => {
-        hymns = data;
-        filteredHymns = [...data];
-        displayHymns();
-    })
-    .catch(err => {
-        console.error(err);
-        // Failed fetch used to give the user no feedback at all.
-        if (loading) loading.textContent = "Couldn't load hymns. Please check your connection and try again.";
-    })
-    .finally(() => {
-        // Only hide the loading message once the fetch actually settles,
-        // instead of immediately after fetch() was called.
-        if (loading) loading.style.display = "none";
-    });
+// ====================== LOAD HYMNS (with retry) ======================
+function loadHymns() {
+    if (loading) loading.style.display = "block";
+    if (loadingText) loadingText.textContent = "Loading hymns...";
+    if (retryBtn) retryBtn.classList.add("hidden");
+
+    fetch("hymns.json")
+        .then(res => res.json())
+        .then(data => {
+            hymns = data;
+            filteredHymns = [...data];
+            displayHymns();
+            if (loading) loading.style.display = "none";
+        })
+        .catch(err => {
+            console.error(err);
+            if (loadingText) loadingText.textContent = "Couldn't load hymns. Please check your connection and try again.";
+            if (retryBtn) retryBtn.classList.remove("hidden");
+        });
+}
+
+loadHymns();
+
+if (retryBtn) {
+    retryBtn.addEventListener("click", loadHymns);
+}
 
 // Display Hymns
 function displayHymns() {
@@ -104,7 +173,19 @@ function displayHymns() {
         const card = document.createElement("div");
         card.className = "hymn-card";
         card.innerHTML = `<strong>${hymn.number}</strong><br>${hymn.title}`;
-        card.onclick = () => openHymn(hymn);
+
+        card.setAttribute("role", "button");
+        card.setAttribute("tabindex", "0");
+        card.setAttribute("aria-label", `Hymn ${hymn.number}: ${hymn.title}`);
+
+        card.addEventListener("click", () => openHymn(hymn));
+        card.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+                e.preventDefault();
+                openHymn(hymn);
+            }
+        });
+
         hymnList.appendChild(card);
     });
 
@@ -112,10 +193,6 @@ function displayHymns() {
 }
 
 // ====================== FONT SIZE CONTROLS ======================
-// Note: guarded with "if (increaseFontBtn)" etc. below. If the toolbar
-// markup is ever missing from index.html, the rest of the app (search,
-// pagination, hymn opening) will keep working instead of the whole
-// script throwing and silently breaking everything else.
 const FONT_SIZE_KEY = "oacHymnalFontSize";
 const MIN_FONT_SIZE = 14;
 const MAX_FONT_SIZE = 28;
@@ -152,7 +229,6 @@ if (shareBtn) {
     shareBtn.addEventListener("click", async () => {
         const shareText = `${hymnTitle.textContent}\n\n${hymnLyrics.textContent}`;
 
-        // Prefer the native share sheet (works well on mobile: WhatsApp, SMS, etc.)
         if (navigator.share) {
             try {
                 await navigator.share({ title: hymnTitle.textContent, text: shareText });
@@ -162,7 +238,6 @@ if (shareBtn) {
             return;
         }
 
-        // Fall back to copying to the clipboard on desktop / unsupported browsers.
         if (navigator.clipboard && navigator.clipboard.writeText) {
             try {
                 await navigator.clipboard.writeText(shareText);
@@ -174,7 +249,6 @@ if (shareBtn) {
             return;
         }
 
-        // Last-resort fallback for very old browsers with neither API.
         window.prompt("Copy this text:", shareText);
     });
 }
@@ -196,7 +270,6 @@ function openHymn(hymn) {
     hymnLyrics.textContent = hymn.lyrics;
     applyFontSize();
 
-    // Hide home screen elements
     hymnList.classList.add("hidden");
     verseSlideshow.classList.add("hidden");
     dailyVersesPage.classList.add("hidden");
@@ -206,11 +279,6 @@ function openHymn(hymn) {
 
     hymnDetails.classList.remove("hidden");
     setHeaderForHymn();
-
-    // Note: the search term and current page are intentionally left as-is
-    // here (previously this cleared searchInput.value), so that hitting
-    // Back restores the same filtered list and page instead of resetting
-    // to the full hymn list.
 }
 
 backBtn.addEventListener("click", () => {
@@ -223,10 +291,6 @@ backBtn.addEventListener("click", () => {
     pagination.style.display = "block";
     setHeaderForHome();
 
-    // Fixed: previously this reset filteredHymns/currentPage to the full,
-    // unfiltered list every time, silently discarding any active search.
-    // Now it just re-renders with whatever filteredHymns/currentPage were
-    // already in place before the hymn was opened.
     displayHymns();
 });
 
@@ -236,7 +300,7 @@ let searchDebounceTimer = null;
 
 function runSearch(rawValue) {
     currentPage = 1;
-    const value = rawValue.toLowerCase();
+    const value = rawValue.trim().toLowerCase();
 
     filteredHymns = hymns.filter(hymn =>
         hymn.title.toLowerCase().includes(value) ||
@@ -247,7 +311,6 @@ function runSearch(rawValue) {
 }
 
 searchInput.addEventListener("input", (e) => {
-    // Debounce so fast typing doesn't re-filter/re-render on every keystroke.
     clearTimeout(searchDebounceTimer);
     const value = e.target.value;
     searchDebounceTimer = setTimeout(() => runSearch(value), SEARCH_DEBOUNCE_MS);
@@ -255,9 +318,6 @@ searchInput.addEventListener("input", (e) => {
 
 searchInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
-        // The input isn't inside a <form>, so Enter was never actually
-        // going to submit/reload the page — but pressing Enter should
-        // still search immediately rather than waiting on the debounce.
         e.preventDefault();
         clearTimeout(searchDebounceTimer);
         runSearch(searchInput.value);
@@ -300,6 +360,7 @@ dailyVerseBtn.addEventListener("click", () => {
     pagination.style.display = "none";
     searchInput.style.display = "none";
     dailyVerseBtn.style.display = "none";
+    noResults.classList.add("hidden");
     dailyVersesPage.classList.remove("hidden");
     setHeaderForDailyVerses();
 });
@@ -311,7 +372,7 @@ dailyVersesBackBtn.addEventListener("click", () => {
     searchInput.style.display = "block";
     dailyVerseBtn.style.display = "block";
     setHeaderForHome();
-    updatePaginationButtons();
+    displayHymns();
 });
 
 // Verse Slideshow
@@ -324,8 +385,25 @@ function showVerse() {
 showVerse();
 setInterval(showVerse, 10000);
 
-// Register Service Worker
-if ('serviceWorker' in navigator) {
+// ====================== UPDATE BANNER + SERVICE WORKER ======================
+if (updateReloadBtn) {
+    updateReloadBtn.addEventListener("click", () => window.location.reload());
+}
+
+const isLocalDev = ["localhost", "127.0.0.1"].includes(location.hostname);
+
+if ('serviceWorker' in navigator && !isLocalDev) {
+    const hadController = Boolean(navigator.serviceWorker.controller);
+    let refreshing = false;
+
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (refreshing) return;
+        refreshing = true;
+        if (hadController && updateBanner) {
+            updateBanner.classList.remove("hidden");
+        }
+    });
+
     navigator.serviceWorker.register('service-worker.js')
         .then(registration => {
             console.log('Service Worker registered with scope:', registration.scope);
@@ -333,4 +411,10 @@ if ('serviceWorker' in navigator) {
         .catch(error => {
             console.error('Service Worker registration failed:', error);
         });
+} else if ('serviceWorker' in navigator && isLocalDev) {
+    // Unregister any leftover service worker from earlier testing so local
+    // dev (e.g. Live Server) never gets stuck serving stale cached files.
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+        registrations.forEach(registration => registration.unregister());
+    });
 }

@@ -1,8 +1,8 @@
-// Bump this any time index.html, styles.css, app.js, or hymns.json change.
-// The browser only re-fetches and re-caches files when CACHE_NAME itself
-// changes — keeping the same name means updates never reach devices that
-// already have the app installed/cached.
-const CACHE_NAME = "oac-hymnal-v5";
+// Bump this any time index.html, styles.css, app.js, or the static asset
+// list changes. The browser only re-fetches and re-caches files when
+// CACHE_NAME itself changes — keeping the same name means updates never
+// reach devices that already have the app installed/cached.
+const CACHE_NAME = "oac-hymnal-v9";
 
 const urlsToCache = [
     "./",
@@ -18,9 +18,6 @@ self.addEventListener("install", event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => cache.addAll(urlsToCache))
-            // Activate this new service worker immediately instead of
-            // waiting for all tabs to close — otherwise updates can sit
-            // "waiting" indefinitely on a page that's always open.
             .then(() => self.skipWaiting())
     );
 });
@@ -38,6 +35,25 @@ self.addEventListener("activate", event => {
 });
 
 self.addEventListener("fetch", event => {
+    const url = new URL(event.request.url);
+
+    // hymns.json gets network-first treatment so content edits show up
+    // right away for visitors with a connection, falling back to cache
+    // when offline.
+    if (url.pathname.endsWith("hymns.json")) {
+        event.respondWith(
+            fetch(event.request)
+                .then(networkResponse => {
+                    const responseClone = networkResponse.clone();
+                    caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
+                    return networkResponse;
+                })
+                .catch(() => caches.match(event.request))
+        );
+        return;
+    }
+
+    // Everything else stays cache-first for fast, reliable offline loads.
     event.respondWith(
         caches.match(event.request)
             .then(response => response || fetch(event.request))
