@@ -172,7 +172,7 @@ function displayHymns() {
     pageItems.forEach(hymn => {
         const card = document.createElement("div");
         card.className = "hymn-card";
-        card.innerHTML = `<strong>${hymn.number}</strong><br>${hymn.title}`;
+        card.innerHTML = `<strong>${hymn.number}:</strong> ${hymn.title}`;
 
         card.setAttribute("role", "button");
         card.setAttribute("tabindex", "0");
@@ -264,10 +264,17 @@ function flashShareFeedback(message) {
     }, 1500);
 }
 
+// Some hymns store "lyrics" as a single string, others as an array of
+// verse strings (one verse per array entry, for readability in the JSON
+// file itself). This normalizes either shape into displayable text.
+function getLyricsText(hymn) {
+    return Array.isArray(hymn.lyrics) ? hymn.lyrics.join("\n\n") : hymn.lyrics;
+}
+
 // OPEN HYMN
 function openHymn(hymn) {
-    hymnTitle.textContent = `${hymn.number} - ${hymn.title}`;
-    hymnLyrics.textContent = hymn.lyrics;
+    hymnTitle.textContent = `${hymn.number}: ${hymn.title}`;
+    hymnLyrics.textContent = getLyricsText(hymn);
     applyFontSize();
 
     hymnList.classList.add("hidden");

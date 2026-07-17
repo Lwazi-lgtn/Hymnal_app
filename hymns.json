@@ -1,26 +1,43 @@
 [
   { "number": 1, 
-  "title": "Amazing Grace", 
+  "title": "Yiza yiza Manuweli", 
   "lyrics": "Amazing grace! How sweet the sound..."
  },
 
   { "number": 2,
-   "title": "How Great Thou Art", 
-   "lyrics": "O Lord my God..."
+   "title": "Yesu langa lomphefumlo", 
+   "lyrics": ["Yesu, langa lomphefumlo, Akumnyama xa ukhoyo Makungabiko nany’intoEnokundahlula nawe.",
+              "Ndakuhlelwa bubuthongo, Selecima nalamehlo, Mandibe ndicinga ngawe Nangopumlo olunawe.",
+              "Hlala nam imini yonke,Ungekho andingephili,Hlala nam kwakuza ukuhlwa,Ize ndingoyik’ukufa",
+              "U’ba kukh’umntwana wakho othe wadel’izwi lakho,Z’umguqule umxolele,Az’ onwabe xa elele.",
+              "Balunguze abafayo Batyebis’abaswele Nabo bonk’ abalusiziBakhangel’ubonwabise.",
+              "Yiza kuthi sakuvuka, Usigcine yonk’imihlaSide simke emhlabeni sibe nawe eZulwini. Amen." ]
+   
  },
 
-  { "number": 3,
-   "title": "Holy Holy Holy", 
-   "lyrics": "Holy, Holy, Holy..."
- },
+  { "number": 3, 
+  "title": "Zovakala Iindudumo", 
+  "lyrics": ["zovakala indudumo engcwabeni; zondivusa ndisalele engcwabeni",
+             " kwakungena edlakeni ukukhanya kwemibani londibiza ixilongo mandiphume. ",
+             "Ndihlangene nengelosi emafini ndiyivume apha ingoma yoloyiso. Zebabone ndinophawu lawo umnqamlezo ngcwele."]
 
-  { "number": 4, 
-  "title": "What a Friend We Have in Jesus", 
-  "lyrics": "What a friend we have in Jesus..." 
+  
 },
 
+  { "number": 4,
+   "title": "Bawo ndingumntwana wakho", 
+   "lyrics": [ "Bawo ndingumntwana wakho, Noko Ndonileyo, Ndiyalila phambi kwakho, Bawo ndixolele.",
+             "Iziphoso zam zininzi, Azinakubalwa, Noko ndibekise kuwe,Bawo! Ndixolele.",
+             "Imithetho ndiyaphule, Wena ndakudela, UmSindisi ndimlahlile, Bawo! Ndixolele.",
+             "Ndone ngako ukuthetha,Ndone nangeengcinga,Ndone nangemisebenzi,Bawo! Ndixolele.",
+             "Noko ndibe ndifanele Ukukubulela, Ndone ngokukulibala, Bawo! Ndixolele.",
+             "Ngaz’ izoono ezininzi, Bawo, ndizonele, Wena ndikuhlazisile, Bawo! Ndixolele.",
+             "UnguThixo onenceba Engazang’ iphele, Ngako ndiya lila, ndithi, Bawo! Ndixolele. Amen." ]
+ },
+
+
   { "number": 5, 
-  "title": "Blessed Assurance", 
+  "title": "Kwaye kukho Abelusi", 
   "lyrics": "Blessed assurance, Jesus is mine..." 
 },
 
