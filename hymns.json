@@ -1,94 +1,2053 @@
 [
-  { "number": 1, 
-  "title": "Yiza yiza Manuweli", 
-  "lyrics": "Amazing grace! How sweet the sound..."
- },
+  {
+    "number": 1,
+    "title": "Yiza, Yiza Manuweli",
+    "lyrics": [
+      "Yiza, yiza, Manuweli, Khulula u-Sirayeli, Uyalila kulentlango, Elind' u-Nyana ka-Thixo. Vuya! vuya! Sirayeli, Uza kuw'u-Manuweli.",
+      "Yiza, Ntonga yakwa-Isayi, Ubakhulule abakho Ku-Satana nesihogo, Ze baloyise nengcwaba. Vuya! vuya! Sirayeli, Uza kuw' u-Manuweli.",
+      "Yiza, Wena Khwezi lomso, Sivuse ngokuza kwakho, Gxoth'amafu obumnyama Kwa namathunzi okufa. Vuya! vuya! Sirayeli, Uza kuw'u-Manuweli.",
+      "Yiza, Nyana ka-Davide, Vul' amasango e-Zulu, Sikhokhelele phezulu, Usinqande ebubini. Vuya! vuya! Sirayeli, Uza kuw' u-Manuweli.",
+      "Yiza ke, Thixo Somandla, Owathi, kubantu bakho Phezu kwentaba ye-Sinayi, Wabanik' umthetho wakho. Vuya! vuya! Sirayeli, Uza kuw' u-Manuweli. - Amen"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Yesu, Langa Lomphefumlo",
+    "lyrics": [
+      "Yesu, Langa lompefumlo, Akumnyama xa ukhoyo: Makungabikho nany' into Enokundahlula nawe.",
+      "Ndakuhlelwa bubuthongo, Selecima nalamehlo, Mandibe ndicinga ngawe Nangophumlo olunawe.",
+      "Hlala nam imini yonke, Ungekho andingephile, Hlala nam kwakuza kuhlwa, Ize ndingoyik' ukufa.",
+      "U'ba kukh' umntwana wakho Othe wadel' izwi lakho, Z'umguqule umxolele, Az' onwabe xa elele.",
+      "Balunguze abafayo, Batyebis' abasweleyo, Nabo bonk' abalusizi Bakhangel' ubonwabise,",
+      "Yiza kuthi sakuvuka, Usigcine yonk' imihla, Side simke emhlabeni, Sibe nawe e-Zulwini. - Amen."
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Zovakala Indudumo",
+    "lyrics": [
+      "Zovakala indudumo Engcwabeni, Zondivusa ndisalele Engcwabeni, Kwakungena edlakeni Ukukhanya kwemibane, Londibiza ixilongo, Mandiphume.",
+      "M-Sindisi omanxeba Amahlanu Ndikhulule mina moni Ezonweni, 'Ze babone ndinophawu Lawo umnqamlez' ongcwele, 'Ze ndithembe xa ndiphuma Engcwabeni.",
+      "Ndihlangane ne-Ngelosi Emafini, Ndiyivume aph' ingoma Yoloyiso, Ze ndingene kumasango Ase-Bhotwe e-golide, Ndibulele ndidumise E-Zulwini. - Amen."
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Bawo, Ndingumntwana Wakho",
+    "lyrics": [
+      "Bawo, ndingumntwana Wakho, Noko ndonileyo, Ndiyalila phambi kwakho, Bawo, ndixolele.",
+      "Iziphoso zam zininzi, Azinakubalwa, Noko ndibhekisa kuwe, Bawo, ndixolele.",
+      "Imithetho ndiyaphule, Wena ndakudela, U-Msindisi ndimlahlile, Bawo, ndixolele.",
+      "Ndone ngako ukuthetha Ndone nangengcinga, Ndone nangemisebenzi, Bawo, ndixolele.",
+      "Noko ndibe ndifanele Ukukubulela, Ndisuke ndakulibala, Bawo, ndixolele.",
+      "Ngaz' izono ezininzi, Bawo, ndikonile, Wena ndikuhlazisile, Bawo, ndixolele.",
+      "Ungu-Thixo onenceba Engazang' iphele Ngoko ndiyalila, ndithi, Bawo, ndixolele. - Amen."
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Kwaye Kukho Abalusi",
+    "lyrics": [
+      "Kwaye kukho abalusi Belind' ebusuku I-Sithunywa seza kubo Baye besoyika.",
+      "Sasisithi i-Sithunywa, 'Ningoyiki nina, Ndinishumayez' indaba Ezivuyisayo.",
+      "'Ngokokuba nizalelwe Namhla u-Msindisi Ongu-Kristu eyi-Nkosi, Nangu umqondiso,",
+      "'Usana nolufumana Emzini ka-Davide Lusongelw' eziqhiyeni Emkhombeni we-stali.'",
+      "Kwabe kukho ngesiqupe Kunye ne-Ngelosi Umkhosi wase-Zulwini, Udumis' usithi:",
+      "'Udumiso malubekho Ku-Thix' e-Zulwini Inkolelo ebantwini Ngamaxesha onke.' - Amen."
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Hay' Inyweba Yabo",
+    "lyrics": [
+      "Hay' inyweba yabo Bantliziy' inyulu! Ngabo abombon' u-Thixo, Yen' ahlale kubo.",
+      "Owashiy' i-Zulu, Esiza nobomi Abe ngohlal' ebantwini, Eyi-Nkosi yabo,",
+      "Usazinikela Kozithobileyo Ath' omsulwa ngentliziyo Amenz' indlu yakhe.",
+      "Sakufuna, Nkosi, Siph' elithamsanqa Intliziyw' emsulwa kanye Eyingcwele yakho, - Amen."
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Kuthethw' Izimanga Ngawe",
+    "lyrics": [
+      "Kuthethw' izimanga Ngawe, Tsiyoni, Mzi ka-Thixo, Low' olizwi lingephulwe Uhlala kuwe Yena. Usekwe phezu kolwalwa, Akushukumi ngoko, Ungqongiwe lusindiso, Utshab' alunto Kuwe.",
+      "Amanzi ampompozayo Atsawul' eluthandweni, Onyana nentombi zakho Bayaneliswa ngawo. Ngubanin' onxaniweyo? Nang' empompoz' amanzi Angasokuze aphele, Alubabalo lwakhe.",
+      "Indlu zakho zonganyelwe Lil' ilifu nomlilo Ziyathetha ziyaxela Zith' i-Nkos' ikufuphi. Ibakhokele intsika, Ikukhany' ebusuku, Badl' i-man' imihla yonke Abamkeliswa yona.",
+      "Ndingumntwana womzi Wakho, I-Tsiyone, Msindisi, Ndoqhayisa nge-Gama Lakho, Malidel' izwe lona. Ubuyolo belilizwe Bobomzuzwana kodwa, Imivuyo yaphakade Yeyosapho lwe-Tsiyoni. - Amen."
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Khangelani Nizibone",
+    "lyrics": [
+      "Khangelani nizibone Izibele ezingaka, Zityhiliwe ngu-Msindisi Owafela thina 'bantu.",
+      "Besihamba emnyameni, Singenalo ukhanyiso, Besihamba ekoneni, Singakwazi ukulunga.",
+      "Wasinceda Wena, Thixo, Ngobubele obukhulu, Wasinik' u-Nyana Wakho Wasikhanyisela ngaye.",
+      "Simbulela ongu-Yesu, Thina boni abonayo, Wazizek' izono zethu, Wazithwala Yena Yedwa.",
+      "Wena, Moya Oyingcwele, Uz' ungene kuthi sonke Usincede, sikubone Oko kwenziwayo nguye. - Amen."
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Lizalis' Idinga Lakho",
+    "lyrics": [
+      "Lizalis' idinga lakho, Thixo, Nkosi yenyaniso, Zonk' intlanga zalomhlaba Mazizuze usindiso.",
+      "Amadolo kwelilizwe Makagobe phambi Kwakho, Zide zithi zonk' ilwimi, Ziluxel' udumo Lwakho,",
+      "Lawula! lawula! Yesu, Nkosi, Koza ngawe ukonwaba, Ngeziphithiphithi zethu Yonakele imihlaba.",
+      "Bona izwe lakowethu, Uxolel' izono zalo, Ungathob' ingqumbo Yakho, Luze lufusapho lwalo.",
+      "Yala singatshabalali, Usiphile ukhanyiso, Bawo, ungasibulali, Ngokudela inyaniso.",
+      "Nkosi, khawusikelele Imfundiso zezwe lethu, Uze usivuselele, Siphuthume ukulunga. - Amen."
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Ma-Kristu, Khaliphani",
+    "lyrics": [
+      "Ma-Kristu, khaliphani Ekulwen' elidabi, Eso-Sonka so-Bomi Masomeleze nina.",
+      "Olusizi alunto, Nenyembezi azinto, Nokoyika akunto, Ninikw' ukomelela.",
+      "Vuyani ngentliziyo, Hambani niphethele, Nilwe ngokukhalipha, Uloyiso lolwenu.",
+      "Ma-Kristu, niyafunzwa, Nok' intshaba zininzi Lolwenu uloyiso, Phambili ke, ma-Kristu!",
+      "Uzuko kuwe, Yise, Uzuko kuwe, Nyana, Nakuwe, Moy' Ongcwele, Ngawo onke amaxa. - Amen."
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Luthando, Endenziwe Nguwe",
+    "lyrics": [
+      "Luthando, endenziwe nguwe Ndifuze Wena ngaphakati, Ndandilahleke, wandifuna, Ndikude wandifuna Wena, Luthando, ndizinike kuwe Ndibe ngowako wedwa kanye.",
+      "Luthando, kade wandifuna, Ndingekabikho wandinyula, Wazalwa apha emhlabeni, Usinyusele e-Zulwini, Luthando ndizinike kuwe, Ndibe ngowakho wedwa kanye.",
+      "Luthando, wafa ngomnqamlezo Bunzima ubuhlungu Bakho, Wasizuzela ukuphila Novuy' olungenakuphela Luthando, ndizinike Kuwe, Ndibe ngowakho wedwa kanye.",
+      "Luthando, undithanda futhi, Uman' ukundithethelela Waqala wandihlawulela, Ngothand' olungenakubalwa, Luthando, ndizinike Kuwe, Ndibe ngowakho wedwa kanye.",
+      "Luthando, ngezwi elikhulu Undikhuphile ekufeni, Ngamandla akho amakhulu Ndohlala nawe e-Zulwini, Luthando, ndizinike kuwe, Ndibe ngowakho wedwa kanye. - Amen."
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Msindisi Waboni",
+    "lyrics": [
+      "Msindisi waboni, Ndisondele kuwe: Msindisi waboni, Ndizibika kuwe.",
+      "Akukho nalinye Endilithethayo, Akukho nandawo Ndizincoma ngayo.",
+      "Ndisindwa ngumthwalo Ondixhalisayo, Umnced' andinaye Ondikhululayo.",
+      "Asikuko nokuba Ndililo ijacu, Ndithwele ihlazo, Kuba ndingumoni.",
+      "Ndincolile kanye Emphefumlweni, Ndiyiyo imfama Eselusizini.",
+      "Nakuba ke, Nkosi, Ndiyinto engento, Ndiyazi ukuba Andiyikugxothwa.",
+      "Ndibamb' amadinga Owabekileyo, Ndigcine amazwi Owathethileyo.",
+      "Msindisi waboni, Ndisabela kuwe, Msindisi waboni, Ndiphephela kuwe. - Amen."
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Njengebhadi Libhadula",
+    "lyrics": [
+      "Njengebhadi libhadula Ngokufun' umthombo, Ikufuna njalo, Thixo, Eyam intliziyo.",
+      "Inxaniwe intliziyo, Inxanelw' u-Thixo, Ewe, lowo waziwayo Ungophilileyo.",
+      "* Bandibuza, ndasibeka Isililo mina, Bakuhlala bendibuza 'Uno-Thixo phina?'",
+      "* Zaphalala inyembezi Ndakuba ndindedwa, Ndakucinga ngabaninzi Abangasekhoyo.",
+      "* Kuba namhla ndinjenjenje, Ndililolo apha: Ndandisiya nezihlwele Kuyo indlu yakho.",
+      "* Ndotsho ndithi, 'O Thixo wam, Undilahlele ni, De ndihlekwe, luth' utshaba, 'Uno-Thixo phina?'",
+      "Kunganina, mphefumlo wam, Udakumbileyo? Bek' ithemba lakho kuye Uthuthuzeleke. - Amen."
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Nkosi, Sihlangene",
+    "lyrics": [
+      "Nkosi, sihlangene, Sisendlwini yakho, Yiza nawe, sesingene Ebusweni bakho.",
+      "Izithetho zakho, Bawo, masizive Kwase-Kerikeni yakho, Nawe masikuve.",
+      "Intliziyo yethu Iyakugulela, Nawo umphefumlo wethu Uyakukhangela.",
+      "Mawusilungise Thina bantu bakho, Sakubhubha singenise E-Zulwini lakho. - Amen."
+    ]
+  },
+  {
+    "number": 15,
+    "title": "Sinelizwi Lika-Thixo",
+    "lyrics": [
+      "Sinelizwi lika-Thixo, Sinobomi ngalo, Siyazaz' izono zethu, No-msindisi, ngalo.",
+      "Lihambile elo-Lizwi, Lisahamba lona, Ezozizwe ezikude, Zilindele lona.",
+      "Ziyoyisw' intshaba zakho, Nge-Zwi lakho, Nkosi, Wozalisw' umhlaba wonke Li-Zwi lakho, Nkosi.",
+      "Imilambo yelilizwe Yovuyiswa lilo, Abantwana bezizwe Bolulekwa lilo.",
+      "Zopheliswa' imfazwe zonke, Nge-Zwi lakho, Thixo, Kwakulawul' uxolo lodwa Nge-Zwi lakho, Thixo. - Amen."
+    ]
+  },
+  {
+    "number": 16,
+    "title": "Singabakho! Bawo Wethu",
+    "lyrics": [
+      "Singabakho! Bawo wethu, Mawusive e-Zulwini, Masihlale singabakho Wonk' unaphakade.",
+      "Singabakho! Bomi bethu, Nguwe osiphilisayo, Kusaliwa emhlabeni, Masigcinwe nguwe.",
+      "Singabakho! nguwe wedwa Oyi-Nene, oyi-Ndlela, Masihlale sifundiswa, Sikhokelwa nguwe.",
+      "Singabakho! sizigusha Ezihlala zilahleka, Masisinde, Sobubele, Ngokwaluswa nguwe.",
+      "Singabakho! Nkosi yethu Masiphiwe konke nguwe Sikhululwe ekoneni Sigoduswe nguwe. - Amen."
+    ]
+  },
+  {
+    "number": 17,
+    "title": "Thixo, Ngobubele Bakho",
+    "lyrics": [
+      "Thixo, ngobubele bakho Usiphil' i-Lizwi lakho, Elo-Lizwi elikhulu, Elivela ngaphezulu.",
+      "Lona liyasifundisa, Lona liyasivuyisa, Liyasusa ubumnyama, Libonis' abazimfama.",
+      "Besihamba endleleni Ekhokelel' ekufeni, Eli-Lizwi leza kuthi, Ngoko sobulela futhi.",
+      "Ngeli-Lizwi sabuyiswa, Ngeli-Lizwi sasindiswa, Lasisonga ebubini, Size siye e-Zulwini.",
+      "Malihambe eli-Lizwi Mazilive zonk' izizwe Lide lifundise bonke Abasendaweni zonke. - Amen."
+    ]
+  },
+  {
+    "number": 18,
+    "title": "Hozana Enyangweni",
+    "lyrics": [
+      "Hozana enyangweni Ndivuma ngezwi lam Kunyana kaDavide Ozayo ngenxa yam. Hozana! undisiza Ebunzimeni bam, Uyeza akabizwa OngumSindisi wam.",
+      "Ndovatha ezinjani, Wakutyelela kum? Yilungisele Wena Yonk' intliziyo yam, Ndiyinikele kuwe OnguMhlanguli wam, Ma iqubude kuwe Ngenene, Nkosi yam.",
+      "Ndandikhululwe nguwe Entolongweni yam. Se liqhawulwe nguwe, Ikhamandela lam. Elandincamisayo, Ndalahl' ubomi bam, Se undivuyisile Ekulileni kwam. - Amen."
+    ]
+  },
+  {
+    "number": 19,
+    "title": "Wabengezela Umbono",
+    "lyrics": [
+      "Wabengezela umbono, Owamchwayitisayo Um-profite wakwa-Yuda, Ngokuva ezolwimi.",
+      "Yaye i-Nkosi irawulwe Zizandekela zayo, Zizalise i-Tempile, Zikhungel' engomeni:-",
+      "'Ngcwele, Ngcwele, Ngcwele, Nkosi: Uzalise i-Zulu, Ngobuqaqawuli bakho, Yamkela ke uzuko.'",
+      "Zisalila e-Zulwini, Nomhlab' uyathelela Kulengoma ye-Ngelosi- 'Ngcwele, Ngcwele, Ngcwele, Nkosi.'",
+      "Uyazukiswa phezulu Zizandekela zakhe, Ngengoma enye neyethu, Thina Kerike yakhe:",
+      "'Nkosi, obakh' ubungcwele Buzalise i-Zulu, Wena Ngcwele, Ngcwele, Ngcwele, Yamkela indumiso.' - Amen."
+    ]
+  },
+  {
+    "number": 20,
+    "title": "Wena Moy' Ongcwele",
+    "lyrics": [
+      "Wena Moy' Ongcwele, Yihla phezu kwethu, Njengomhla we-Pentekoste, Ngalemini yakho.",
+      "Sihlangene apha Kuyo lendlu yakho, Njengomhla wakw' amaza, Silind' idinga le-Nkosi- U-Moya wofefe.",
+      "Njengomoy' uqutha Phezu kwaw' amaza, Zuziphefumlele njalo Intliziyo zethu.",
+      "Sibabale sonke Ngo-Moya wengqondo, Siphe ilwimi zomlilo Sidumise ngazo.",
+      "Moy' Ongcwele, yiza, Gxotha ubumnyama, Yenza sivuthe uthando, Lona lwemfezeko.",
+      "Moya wenyaniso, Hlal' uhleli nathi, Moya wobunyana bethu, Mawusingcwalise. - Amen."
+    ]
+  },
+  {
+    "number": 21,
+    "title": "Xa Umhlab' Uphithizela",
+    "lyrics": [
+      "Xa umhlab' uphithizela Ngemihlali eshukuma, X' amazulu edunuma, Kuwe wedwa ndokhangela.",
+      "Xa umhlab' ubengezela, Uthi, mandiwulandele, Ngamadolo ndizigoba, Kuwe wedwa ndokhangela.",
+      "Xa ubutsha bundihenda, Nemihlali indikhoba, Ngamadolo ndizigoba, Kuwe wedwa ndokhangela.",
+      "Xa kuvuka uqhwithela Oluduba i-Karke, Yesu, zundikhedamele, Kuwe wedwa ndokhangela.",
+      "Onk' amazwi abukhali Makahlabe, makasike, Noko mina mandizame Kuwe wedw' ukukhangela.",
+      "Kuwe wedwa, Yesu, Ndlela, Mandibek' i-Yoredane, 'De ndiweli' i-liso lami, Kuwe wedwa ndikhangela. - Amen."
+    ]
+  },
+  {
+    "number": 22,
+    "title": "Yanga Intliziyo Yam",
+    "lyrics": [
+      "Yanga intliziyo yam Ingaphuma ezonweni, Wanga umphefumlo wam Ungangen' ebungcweleni, Yiva, yiva, Nkosi yam, Yiva, ukukhunga kwam.",
+      "Kwanga ukuhamba kwam Kungabeka e-Zulwini, Zanga zonk' izenzo zam Zingayama e-Nkosini, Nceda, nceda, Nkosi yam, Nceda ukukhunga kwam.",
+      "Kwanga ukuvuya kwam Ndingavuya futhi ngawe, Ndanga ndinga, Nkosi yam, Ndibe se-Zulwini nawe Vuma, vuma, Nkosi yam, Ndiye e-Zulwini nam. - Amen."
+    ]
+  },
+  {
+    "number": 23,
+    "title": "Yesu, Wena Ungu-Mhlobo",
+    "lyrics": [
+      "Yesu, Wena ungu-Mhlobo, U-mhlobo womphefumlo, Ndiza kuwe undincede, Uncede lentliziyo.",
+      "Themba limbi andinalo Endingabamba lona, Nqaba yimbi andinayo Endingangena kuyo.",
+      "Ndizibika kuwe, Nkosi, Ndiyint' engenamhlobo Ndithemb' umsebenzi wakho Lowo wothando lwakho.",
+      "Ndiza kuzifaka kuwe Phantsi kwephiko lakho' Ndakuba ndingene khona Ndingaswela nto-nina?",
+      "Nguwe wedwa ongu-Mthombo, U-Mthombo wab' ubomi, Apho bangahlamba khona Bonke abangaboni.",
+      "Hlamba lentliziyo yami, Uyenze msulwa yona, Yicokise, yilungise, Uyenze ngcwele yona. - Amen."
+    ]
+  },
+{
+      "number": 24,
+      "title": "Jerusalem engcwele",
+      "lyrics": [
+        "JERUSALEM engcwele, Eyase-Zulwini, Umlomo uye yiswa Yinkazimlo yakho,",
+        "Buphezu kwembaliso Ubungcwele bakho, Luphezu kokuqonda Noloyolo lwakho.",
+        "Im'i-Jerusaleme Ngenkazimlo yayo, Izele zi-Ngelosi Na-Bangcwele bayo, I-Nkos'ihleli khona Ngenkaziml'enkulu, Buphezu kwembaliso Ubukhulu bayo.",
+        "Bulaph'ubukumkani Obuka-Davide, Balapho ababonga I-Gama lo-Yesu, Kulapho ukuphumla Kwabadiniw eyo, Likhaya labo bonke Abasindileyo.",
+        "Sikungxamele sonke, Khaya la-Bangcwele, Sincede, Nkosi Yesu, Size silamkele, Siphulaphule, Thixo, Baw'onobubele, Zungasishiyi nawe, Moya Oyingcwele. - Amen."
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Iziqhamo zotywala",
+      "lyrics": [
+        "IZIQHAMO zotywala Zizililo nenduma, Buthandisa ukulwa, Ingxolo nenkunkuma.",
+        "Bunen kohlis' utywala, Buthembis' ukonwaba, Kanti ke bakuselwa Buluma nje ngeramba.",
+        "Bucuth' ubomi be thu Budala ingevane, Bunamehlo abomvu, Bunesizunguzane.",
+        "Bunencas' enokufa, Nobuhlungu benyoka, Bubulala nemveku, Butyhutyha nje ngempehla.",
+        "Abakhohliswa bubo Beyela bengaqondi, Bangena kulo mbubo Besith' akukho ntlondi.",
+        "Abangenayo kubo Abasenakuphuma, Bakh' abafela kubo Bengasenasidima.",
+        "Lumka ke ungeyeli, Akuyi lubuyayo , Yamkela umKhululi I-Nkos' ekuthandayo.",
+        "NguYe yedw' umPhilisi Wazo zonke izifo , NguYesu umSindisi Wabo bonk' abonayo. - Amen."
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Thixo, owobawo bethu",
+      "lyrics": [
+        "THIXO, owobawo bethu, Owabakhokela bona, Nathi siyinzala yabo, Ma usikhokele thina.",
+        "Wabalondoloza bona, Enkcithakalweni yabo , Wabakhusela kwa bona, Kuzo zonk' iingozi zabo.",
+        "Onke amadinga ethu, Okugcina izwi laKho, Waqinise ngexa lethu Ngabo ubuThixo baKho.",
+        "Nathi, Bawo, sizibeka Kweso sandla sobubele, Ma sithi sakuzibika Yonk' inceba usenzele. - Amen."
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Omny' umnyaka uthwasile",
+      "lyrics": [
+        "OMNY'umnyaka uthwasile, Nang'ufike siphilile, Thixo wethu, sibulela, Ngaye lowo wasifela.",
+        "Thukulul' ilwimi zethu Nceda ukucula kwethu, Sikubonge, sibulele, Olo gcino silwamkele.",
+        "Yonk' imihl' eyongezwayo Yobu bomi bolulwayo, Ma sikunikele kuWe Konke okubizwa nguWe.",
+        "Ma sidlule kokukhoyo, Siphuthume okuzayo, Ma sihambe, zonk' imini, Sikhumbule ezulwini. - Amen."
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Vumani kuYehova",
+      "lyrics": [
+        "VUMANI kuYehova Ntbong'igama laKhe, Ntlondolozwe nguYe, Ma nenz' udumo lwaKhe.",
+        "Kufik'umnyaka omtsha, Omdala se umkile, Sisekho ebomini, Uninzi se lufile.",
+        "Ma singazilibali Ezo nto sizamkele, Ngomnyak'ogqithileyo, NgobaKhe ububele.",
+        "Nezono sona ngazo, Phakathi kwexa lawo, Sicela uxolelo, Zimkiswe kwa nje ngawo.",
+        "Ngalo uvelileyo, Kwa yonk' imihla yawo, Ma senz'inkonzo yethu Ilunge kuwe, Bawo.",
+        "Ma singakuqumbisi Ngokwenza sikwenzayo, Ma singakudanisi Ngezimvo sizivayo.",
+        "Sithemb'uthando lwaKho Wasiph' uYesu ngalo, Sincede ngenxa yaKhe Ikesha sisenalo.",
+        "Sandule, lakuphela, Sicande emafini, Sinyuke nomSindisi, Sihlale ezulwini. - Amen."
+      ]
+    },
+    {
+      "number": 29,
+      "title": "HLALA nami",
+      "lyrics": [
+        "HLALA nami litshonil' ilanga Ubusuku bufikile, Nkosi, Ma ndingasali ndingenamncedi, Ndenzel' uncedo ngokuhlala nam.",
+        "Buya khaw'le za obu bomi bam Ndiya shiywa zezomhlab' izin to Ndibona iinguquleko zodwa, Wen' ongaguqukiyo: Hlala nam.",
+        "Yiba soloko ukufuphi nam, Undigxothele zonk' intshaba zam Nguwe Nkosi onokundigcina, Phakathi kwentsunguzi: Hlala nam.",
+        "Andinakuxhala kukho Wena, Intlungu neentsizi azinani, Luphi uloyiso lwakho ngcwaba ? Ndiya koyisa xa Uhleli nam.",
+        "Zibonakalis' emehlweni am Uz'undikhombise okwezulu Ndikhanvisele yonk' indlela yam, Nasekufeni kwam Uz'ube nam. - Amen."
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Kuhlwile, imini yaphela",
+      "lyrics": [
+        "KUHLWILE, imini yaphela, Lise litshonile ilanga, Inkan'yo ezintle zezulu zavela, Yaphuma ngobuhle inyanga.",
+        "Kubantu nasezinkomeni Uphumlo lomzimba luphiwe, Kuphumla nomoya usebuthongweni, Ulel'ungasaxhalisiwe.",
+        "Uhleli olondolozayo, Akaze afin' ukozela, Usonga ngesandla esingadinwayo, Intshab' ezifun' ukuvela.",
+        "Solala sisekuthembeni Sisezingalweni zoMgcini, Naxa singabizwa sisebuthongweni, Singaya kuvuk' ezulwini. - Amen."
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Sisekho emhlabeni",
+      "lyrics": [
+        "SISEKHO emhlabeni Sisadl' ubomi bethu, Sigcinwe elishweni, NgumLondolozi wethu. Ma simbulele sonke, Kwa ngenyameko yonke, Silulamele sonke Ngase Nkosini yethu.",
+        "Sivuke siphilile, Kwa ngobubele baYo, Kaloku se kuhlwile, Sisenentlalo ngaYo. Samkel' ukutya kwethu Kwa nezivatho zethu, Sanikw' indlela yethu Ngalo ufe fe lwaYo.",
+        "Solala ngokonwaba, Ngobu busuku bonke, Asikoyika ntshaba, In Kos' iphezu konke. Yobona xa silele, Yoman' isikhangele, Yowenza ngobubele, Kwa ngamaxesha onke. - Amen."
+      ]
+    },
+    {
+      "number": 32,
+      "title": "IMIN' iya phela",
+      "lyrics": [
+        "IMIN' iya phela Se kumathunzi, Ku fike ixesha Lokusiphumza.",
+        "Yesu, mthuthuzele Odiniweyo, Uz'uthamsanqele Oxakiweyo.",
+        "Xolis' abantwana Xa balalayo, Ukhusele bonke Abahambayo.",
+        "Osezintlungwini Uz'umphulule Abasebubini Zabahlargule.",
+        "Ndakuba ndilele Ndingasazi nto, Yalez'üngelosi Zindingabise.",
+        "Kothi xa kusile Ndakuvuka nam, Ma ndibe ngomsulwa Ngentliziyo yam.",
+        "Udumo kuYise Nakuy'uNyana, Nakuye uMoya, Ngonaphakade. - Amen."
+      ]
+    },
+    {
+      "number": 33,
+      "title": "NKOSI sisondela",
+      "lyrics": [
+        "NKOSI sisondela Kwisihlalo saKho, Abazali nabazalwa, Sikho phambi kwaKho.",
+        "Buka, Nkosi! yona Le ntlangano yethu, Abazali nabantwana, Yonke indlu yethu.",
+        "Sibulela, Thixo! Zonk'izipho zaKho, Sinokudla, sineengubo, Sinelizwi laKho.",
+        "Sing'ungasamkela Kuyo indlu yaKho, Sifundise, sisindise, Siph'uxolo lwaKho.",
+        "Mawusihlalise Sithandane kunye, Sabelane, sincedane, Nje ngabendlu enye.",
+        "Mawusihambise Siphuthume kunye, Elo khaya lilizulu, Singafuni limbi.",
+        "Mawusingenise Kwelo khaya laKho, Abazali nabantwana, Ebusweni baKho. - Amen."
+      ]
+    },
+    {
+      "number": 34,
+      "title": "VUKA, mphefumlo wami",
+      "lyrics": [
+        "VUKA, mphefumlo wami Nants' imini ivelile, Ihlaziy' impilo yami Ithi kum \"Uphilile\".",
+        "Ma simbonge u Yehova Ngale mpil' asiphile yo, Abaninzi baya gula, Kukho nababubileyo.",
+        "Ma luvuke lonk' uluntu Lumdumise u Yehova, Ngenxa yolu gcino lw a Khe Enzulwini yobusuku.",
+        "Ngale mini esinayo Ma sikhonz' u Thixo ngayo, Ithi yonk' inkqubo yethu Singcwalise Yena kuyo. - Amen."
+      ]
+    },
+    {
+    "number": 35,
+    "title": "SIPHAHLIWE zizibele",
+    "lyrics": [
+      "SIPHAHLIWE zizibele, Ze zomzimba nezomxhelo, Noko singazifanele, Zikho, zingenasiphelo.",
+      "Ebusuku nasemini, USomandla uya gcina, Esahleli ezulwini, Nanku esibona thina.",
+      "Oku kuhlwa, Bawo wethu, Sikubong'ukondla kwa Kho, Sibulel'ukutya kwethu, Nako konke esinako.",
+      "Ngoku sizibeka ku We, Usilinde sakulala, Maxa sikhuselwa ngu We, Asinak'ukwenzakala.",
+      "Iinto esikone ngazo Sixolele zona zonke, Izoyiko neenkathazo Uzisonge kuthi sonke.",
+      "Ma siphumle sonwabile, Nga Ye umSindisi wethu, Xa anathi sinqabile, Yena uliliwa lethu - Amen."
+    ]
+  },
+  {
+    "number": 36,
+    "title": "YESU! Mhlobo wabantwana",
+    "lyrics": [
+      "YESU! Mhlobo wabantwana Ndiza kuWe themba lam, Nas'isandla ndikhokele Ndise ekhayeni lam. Hleze ndilahleke mpela, Ndiyiphos'indlela yam Andibaqe uSatana, Andenze ixhoba nam.",
+      "Ndikhuthazwa kukubona Kuyo yonk'indiela yam. Amanyathel'aKho khona, Kumke ukoyika kwam. Kanti naWe Wazithoba, Wayinyama kwa nje ngam, Wazithwala zonk'iintsizi Ungemon'ofana nam.",
+      "Yesu! Lulam' elikhulu Yenza le ntliziyo yam, Ilifanele izulu, Ngokuhlamb'izono zam. Ndinga ndingafuza Wena Kubo ubulumko bam, Ndize ndiwazuz'amandla Okukhonzi'Nkosi yam. - Amen."
+    ]
+  },
+  {
+    "number": 37,
+    "title": "OWAQAL' esemncinane",
+    "lyrics": [
+      "OWAQAL' esemncinane Ukumkhonz' uThixo wakhe Uya vuya yena. Usindile, enje njalo, Kwiinkathazo ezininzi, Emhlabeni apha.",
+      "Icham lakhe lelikhulu, Iinoyolo, linamandla, Ngamaxesha onke , Xa u Yesu amlandela, Ngokuthanda, nangokwenza Konke okungcwele.",
+      "Le nto iyinene kanye, Bonke abamkhonz' uThixo Banenyhweba bona. Ngu Ye lowo ongu Mncedi, Wokunceda ngeento zonke Zomabin' amazwe.",
+      "Ma ndithembe Yena ngoko Ndikhangele ku Ye yedwa Ukonwaba kwami. Ndiyilahl' inkonzo yimbi, Ma ndiyenze intw' enkulu Yonk' inkonzo ya Khe. - Amen."
+    ]
+  },
+  {
+    "number": 38,
+    "title": "UYEZA! uyeza! umGwebi omkhulu",
+    "lyrics": [
+      "UYEZA! uyeza! umGwebi omkhulu Abantu bobona iNkosi yezulu, Babeya kuvuswa kwa semanchwabeni Babonakaliswe kwa sekukhanyeni.",
+      "Izinto esizibonayo zotshiswa, Amawa neentaba zonyiblikiswa, Ilanga locinywa, inyanga yophela, Aboni abakuba nakuzimela.",
+      "UmGwebi wofika nomkhosi omkhulu Umkhosi wezaKh' izithunywa zezulu, Amehlo omGwebi omkhulu obona Izinto zasese, izinto zokona.",
+      "Aboni boba nelikhulu ivuso, Bongcangcazelela obaKhe ubuso, Abangalungile botshatyalaliswa, Kwa sesihogweni somlilo botshiswa.",
+      "Yekani izono, noyike, nilunge, Iiveni ilizwile Nkosi, nikhunge, Zithandazeleni, nifun' izibele, Lixesha kaloku, yizan' anamkele. - Amen."
+    ]
+  },
+  {
+    "number": 39,
+    "title": "SINGABAZALWANA, singabazalwana",
+    "lyrics": [
+      "SINGABAZALWANA, singabazalwana, Lusapho lweNkosi enkulu, Singe sithandana, singe sithandana, Awukho umona phezulu.",
+      "Singabancedani, singabancedani, Bakhonzi beNkosi enkulu, Nge singahlukani, nge singahlukani, Akwenziwa njalo phezulu.",
+      "Sisemkhosini mnye, sisemkhosini mnye, Makroti eNkosi enkulu, Singe siyilwela kwa ngantliziyo-nye, Akukho bugwala phezulu.",
+      "Ezulwini liny e mvuyelelweni Sobong' uKumkani omkhulu, Kungawo amandla avel' eNkosini Esoda sifike phezulu. - Amen."
+    ]
+  },
+  {
+    "number": 40,
+    "title": "SIKUYO indlela yelizwe lobomi",
+    "lyrics": [
+      "SIKUYO indlela yelizwe lobomi, Ikhaya labantu bahleli ngenyhweba. Nna ke nahluka kuThixo ngokona, Nthi ni?noya na ?noya na phezulu?",
+      "Noya na, noya na, noya na, noya na? Nithi ni? noya na? noya na phezu lu?",
+      "Usizi, usizi, alunakuba kho, Kwelo zwe, bangcwele abalihambayo. Bahambi kanzima, nigaitywa bububi, Nithi ni? noya na? noya na phezu lu?",
+      "Kwelo zwe akukho buhlwempu nakanye, Zindyebo ngeendyebo izinto zikhoyo. Isifo asikho. Hay' asingebikho. Nithi ni? noya na? noya na phezu lu?",
+      "Hambani bakhonzi, elo zwe lelethu, Songqina singqine inyameko zalo. Ewe ke, sohamba ngaphezu kwentaba, Sisele amanzi ovuyo phezu lu.",
+      "Nakana ke, moni, asikulahlile, Simil'umzuzwana, simele kwa wena. Yiza ke kuThixo, az' akusingathe Akuse kwa ngoku, ekusa phezu lu.",
+      "Ndicinga ngokuthi, usebunzimen, Usithi, Ngubani ongalisusayo Ityala lingaka liseniliziyweni? Ngu Yesu kuphela, thandaza ke, uye.",
+      "Ndobamba, ndobamba, ndobamba, ndobamba. Ewe ke, ndobamba ndisiya phezu lu. - Amen."
+    ]
+  },
+  {
+    "number": 41,
+    "title": "BONGANI, bongani iNkosi yezulu",
+    "lyrics": [
+      "BONGANI, bongani iNkosi yezulu, Kunamhla sibon' ukukhanya kweCawa. Yimini kaThixo, yimini enkulu, Yimini yemini, licham ebantwini.",
+      "UThixo wadala izulu nomhlaba, Wabuya waphumla ngemini yeCawa. Ithamsanqa laKhe labekwa ke kuyo, Kungoko loo mini kusithwa ingcwele.",
+      "UKristu kanjalo, ngeyaKhe imini, Wavuk' ekufeni, wabonwa ehleli. Kungoko kumiswe le mini yeNkosi, Ndaweni yaleya yamiswa kuqala.",
+      "Ngemini engcwele kwindawo ngendawo Abantu beNkosi bahlanganisene, NgoMoya kaThixo, uMoya kaBawo, Besenza inkonzo, bevuya kunene. - Amen."
+    ]
+  },
+  {
+    "number": 42,
+    "title": "JERUSALEM, ikhaya lam",
+    "lyrics": [
+      "JERUSALEM, ikhaya lam, Endilithandayo, Wofezwa nin' umzamo wam? Ze ndiphumle kuwe.",
+      "Obona nin'amehlo am Loo masango mahle, Nezitrato zegolide, Zomzi wosindiso ?",
+      "Umzi omhle kune Eden, Ongangenwa sono, Nezihlalo zawo zihle, Ndikhumbula wona.",
+      "Zingandidakumbisa na Lintungu nokufa ? Se ndiyibon' iKanana Engunaphakade.",
+      "Namabandl' abapostile Angqong' uMsindisi, Nabo bonk' abaku Kristu Baya kuya khona.",
+      "Ndiya kulangazelela, Jenusalem entsha, Imizamo yam yophela Ndakufika kuwe. - Amen."
+    ]
+  },
+  {
+    "number": 43,
+    "title": "HAY' inyhweba abanayo",
+    "lyrics": [
+      "HAY' inyhweba abanayo Abangcwele baphezulu Abemiyo phambi kwayo Iterone yekomkhulu.",
+      "Sihle isihlwele sabo, lingelosi zibangqonga! Intle nalo ntsholo yabo Bayenzayo bakubonga!",
+      "Nabo khon' esazulwini Abangubo zablanjwayo, Zenzwa mhlophe egazini Lal' oMvana yalophayo.",
+      "Bathi ukubonga kwabo Bayibong' iMvana leyo, Bambulel' uThixo wabo Konke abakwenzelweyo.",
+      "Kupheliswe lonk' ityala, Kugqityelwe ubunqambi, Akasekho namaxhala, Abanxanwa, abalambi.",
+      "Ukuphumla bakuphiwe, Baya hlala bonwabile, Iinyembezi zisuliwe, Zonk' intlungu ziphelile.",
+      "Ndinga nam ndingema nabo, Abo bantu abangcwele, Ndidumis' iNkosi yabo, Leyo Mvana ibafele. - Amen."
+    ]
+  },
+  {
+    "number": 44,
+    "title": "ZULU, khaya lami!",
+    "lyrics": [
+      "ZULU, khaya lami! Uthandiwe ndimi. Zulu, khaya lami! Ulindiwe ndimi. Zulu, khaya lami! Unqwenelwa ndimi, Uno-Bawo wami, Une-Nkosi yami.",
+      "Zulu, khaya lami! Uthenjiwe ndimi. Zulu, khaya lami! Unobomi bami, Ndakubeka panti Obu budlulayo, Ndofumana kuwe Obungapheliyo.",
+      "Unelifa lami Elingabhubhiyo Elingagugiyo, Elingangcoliyo. Zulu, khaya lami! Uvuyelwa ndimi, Unobuhle bami, Nobungcwele bami.",
+      "Kweli ihlabati Ndingowa ewile, Ndingohlala apha Ezingcolisile. Ebuhleni kuwe Ndohlambululeka, Enkohlakalweni Ndakukhululeka. - Amen."
+    ]
+  },
+  {
+    "number": 45,
+    "title": "BULELANI ku Yehova",
+    "lyrics": [
+      "BULELANI ku Yehova, Kuba elungile, Kuba ububele baKhe Bubobaphakade.",
+      "Matsho amaSirayeli, Indlu zawo zonke, Athi, ububele baKhe Bubobaphakade.",
+      "Ndamemeza ku Yehova, Ndandisengxingweni, Wandinceda wandibeka Endawen' ebanzi.",
+      "Ingecala lam iNkosi, Andisokoyika, Ingasuka ithi ni na Le nto umntu kumi ?",
+      "Ingecala lam inKosi, Iya kundinceda, Indincede ngokummandi Kwabandithiyayo.",
+      "Uku themba u Yehova, Nokuphepha nga Ye, Kuko okulungileyo, Kungathenjwa bantu.",
+      "Ma ndisinde nga We nKosi Undisikelele! Ma ndiphumle nga We nKosi Undithamsanqele. - Amen."
+    ]
+  },
+  {
+      "number": 46,
+      "title": "MASIBULELE ku Yesu",
+      "lyrics": [
+        "MASIBULELE ku Yesu, Ngokuba wasifela. Wasenzela izibele Ngokusifela kwa Khe.",
+        "Taru ! Bawo, Yiba nofefe kuthi.",
+        "Thina bantwana bemfama, Oweza kuthi apha. Akwakhetha bala lamntu, Wafel' abazimfama. Taru ! Bawo, Yiba nofefe kuthi.",
+        "Abantsundu, nabamhlophe, Ma babulele kunye, Ma bavakalise bonke, Baculele iNkosi. Taru ! Bawo, Yiba nofefe kuthi. Amen."
+      ]
+    },
+    {
+      "number": 47,
+      "title": "HAMBANI, ma-Kristu",
+      "lyrics": [
+        "HAMBANI, ma-Kristu, Njengasemfazweni, Nne-krus' ka-Yesu Inikhokhela. Uyanandulela U-Krist' i-Nkosi, Nantsi seyiamba Eyakh' imikhosi.",
+        "Hambani, ma-Kristu,",
+        "Impi zika-Satan Ziyabaleka, Zakuva kugcotya Ngokukhalipa. Dumisani nonke Ngokuvakala Amandla entshaba Azakuphela.",
+        "I-Kenke ka-Thixo Inye kuphela, Bemkile abanye, Siyalandela, Sinto inye nabo, Ukwamny' umzimba, Ngokholo nothando Nangal' ithemba.",
+        "Ubukhosi nezizwe Zinesiphelo, I-Kenke ka-Yesu Iyakuhlala, Ayinakweyiswa Yimpi ka-Satan, Utshilo u-Kristu Ngezwi lenene.",
+        "Hambani ke, bantu, Ngantliziyo nye, Dumisan' u-Kristu I-Nkosi yethu, Makabongwe futhi 'Zithunywa nathi, Nguye yedw' omkhulu, Nguy' oyi-Nkosi. Hambani, ma-Kristu, Ngengasemfazweni, Nne-krus ka-Yesu Inikho kela. - Amen."
+      ]
+    },
+    {
+      "number": 48,
+      "title": "WATHUMA aba-Postile",
+      "lyrics": [
+        "WATHUMA aba-Postile, Bahamba ngababini, Bashumayel' i-Vangeli, Bezindla-mafa kunye Zalo olofe fe lwakho, Abasebenza ngalo.",
+        "Siyakudumisa, Bawo, Ngalamagor' e-Vangeli, Owakhanyiselayo, Nkosi, Ngomhl' ovuth' uthando, Omnye uzalana nawe, Ngok' ukwazi ngenene.",
+        "U-Moya wakho okubo Ungowenz' izimanga, Wadala imiqondiso Mhla kwasekwa i-Bandla, Baliv' izwi lako, Nkosi, Kwakuvuk' intshutshiso.",
+        "Kusibekele kwakhona, Uthando luyabanda, Kwand' isono, lwaf' ukholo, Singenelwe zingcúka: Siza, Nkos' engu-Msindisi Ingafi inyaniso.",
+        "Yiba nenceba kuboni Khusel' abakholwayo, Masinyaniseke kuwe, Sikuncamele konke, Qinisa usomeleze 'De kube sekuferi.",
+        "'Ze kunye ne-Ngcwele zakho, U-Simone no-Yuda, Na-Bangcwele abalapho Sibonge sidumise, Kololwandle lwe-kristale, Zakuphela imfazwe.",
+        "Bawo, Thixo weth' omkhulu, Uzukiswa ngumhlaba, Nawe, Nkosi ya-Bangcwele, Wen' ofezekileyo, Nawe, Moya Oyingcwele, Sikubong' amax' onke. - Amen."
+      ]
+    },
+    {
+      "number": 49,
+      "title": "NGOBANINA bonke aba",
+      "lyrics": [
+        "NGOBANINA bonke aba Bemi phambi ko-Thixo, Benxibile izitsaba, Bengumkhosi omkhulu? Aliluya! khanive, Bayabonga u-Thixo.",
+        "Ngobanina bonke aba Bekhazimla ngemhlope, Bezambethe izivatho Ezingcwel' ezimhlope, Bemsulwa kokomhlaba Bavela phina aba?",
+        "Nga-Bangcwele baka-Yesu, A'babemlulamela, Bebemkhonza yonk' imihla, Nokona bakudela, Boyisil' ekulweni, Bayaphuml' e-Zulwini.",
+        "Babelingwa ngobunzima, Bev' usiz' entliz'yweni, Noko lonk' ithemba labo Balibek' e-Nkosini, Ngoku baseluxolweni, Bonwabil' e-Zulwini.",
+        "Zizicaka zakhe ezi, Ezamkhonz' emhlabeni, Kwa ngomzimba nomphefumlo, Ebusuku, emini, Ngoku sebese-Zulwini, Banoyolo eNkosini. - Amen."
+      ]
+    },
+    {
+      "number": 50,
+      "title": "KUKH' umhlobo wabantwana",
+      "lyrics": [
+        "KUKH' umhlobo wabantwana Ngaphaya kwelazulu, Lomhlobo ngohlala emi, Uthando lwakhe lumi, Ke abantu balomhlaba Baqqitha njengemihla, Lomhlobo ngohlala emi, Li-Gama lakudala.",
+        "Kukh' uphumlo lwabantwana Ngaphaya kwelazulu, Komthandayo u-Msindisi, Kothandaza ku-Yise, Luphumlo kwezinxwaleko, Kwisono nakwintsizi Nolutsh' olungabahambi Luphuml' unaphakade.",
+        "Kukh' ikhaya labantwana Ngaphaya kwelazulu, U-Yesu elawula apho, Likhaya lokonwaba, Alikho emhlaben' apha Elingafana nalo, Luvuyo lodwa kuphela, Akukho unomona.",
+        "Kukho indwe yabantwana Ngaphaya kwelazulu, Nabo bathemba u-Yesu Boyithweswa kamsinya, Iyabengezela yona, Iphiwa nguye kwabo Bazuze ufe fe apha, Bethanda nelo-Gama.",
+        "Kukh' ingoma yabantwana Ngaphaya kwelazulu, Yingoma enesikhono, Itsalele kude, le! Inqabela i-Ngelosi, Ukuba maziyazi Elethu lith, \"A! Msindisi!\" Elazo, \"A! Kumkani!\"",
+        "Kukh' ingubo yabantwana Ngaphaya kwelazulu, Nohadi lukhala mmandi, Nesebe lokweyisa, Bubuyebi nemivuyo Ku-Kristu yedwa apho, Nkosi, yiba nabantwana, Ube ngowabo kanye. - Amen."
+      ]
+    },
+    {
+      "number": 51,
+      "title": "NKOSI Thixo, sikubonga",
+      "lyrics": [
+        "NKOSI Thixo, sikubonga, Ungowe-Zulu nomhlaba, Sokubonga, sokuthanda, Wen' ophayo.",
+        "Yonk' imisebenzi yakho Ixela uthando lwakho, Sivuna ngokupha kwakho, Wen' ophayo.",
+        "Nkosi, siyakubulela Ngoxolo nangokuphila, Uhlal' usisikelela, Wen' ophayo.",
+        "Sixolelw' izono zethu, Nguwe oli-Themba lethu, Wamkel' umnikelo wethu Wen' ophayo.",
+        "Oko sikunikelayo Kuyindyebo e-Zulwini, Sikunikela kumnandi, Wen' ophayo.",
+        "Sizuza konke okwethu Kuwe, Thixo Nkosi yethu, Sanga singahlala nawe, Wen' ophayo. - Amen."
+      ]
+    },
+    {
+      "number": 52,
+      "title": "YESU Kristu, Themba lethu",
+      "lyrics": [
+        "YESU Kristu, Themba lethu, Sihlangene apha sonke, Size kuva i-Zwi Lakho, Yesu, yiba nathi namhla.",
+        "Yesu Kristu, Simakade, Mawusiphe intliziyo Ezikunxakameleyo Ukwamkel' i-lizwi Lakho.",
+        "Mawunik' umkhonzi Wakho, Ekufundiseni kwakhe, U-Muleki wokumnceda, Ongu-Moya Oyingcwele,",
+        "Asifundisise, sive Ngen tliziyo ezingcwele Ububele obukhulu Esisindiswayo ngabo.",
+        "Vusa intliziyo zethu, Zingalali ekoneni, Silamkel' i-lizwi Lakho Osishumayeza lona,",
+        "Siqinise silibambe Ngokuncedwa ngu-Muleki, Sifundiswe sihanjswe, Senze yonk' intando Yakho. - Amen."
+      ]
+    },
+    {
+      "number": 53,
+      "title": "THIXO, owadal' izulu",
+      "lyrics": [
+        "THIXO, owadal' izulu Kwa nomhlaba, Waza wadala imini Nobusuku: Sithumele i-Ngelosi, Zisilinde sakulala, Ze siphuphe okungcwele, Ebuthongweni.",
+        "Sigcine ngamaxa onke, Nasekufeni, Ngokulondolozwa nguwe, Sisindiswe: Uz'ungasilahli, Thixo, Ngexilongo lokuphela, Ebungcwaliseni bakho Sibe nawe. - Amen."
+      ]
+    },
+    {
+      "number": 54,
+      "title": "SIPHAKAMIS' intliziyo",
+      "lyrics": [
+        "SIPHAKAMIS' intliziyo Kuwe, Thix' osenyangweni, Kuba sesiku fumene Ukukhanya kwalemini.",
+        "Ngamana wasong' ilwimi Zethu kozimpikisano, Ukusel' ubomi bethu Kozingqumbo nozinkani.",
+        "Khusela amehlo ethu Ekubonen' amanyala, Kwa nasekukhangeleni Amasikiz' alomhlaba.",
+        "Yenza nyulu intliziyo Zethu ebubini bonke, Malibulawe ikratshi Ngesikwamkelayo kuwe.",
+        "'Ze kwakufika ukuhlwa Ufeziwe umsebenzi, Sisindil' ezilingweni Sikunik' uzuko, Thixo.",
+        "Udumiso kuwe, Thixo, Naku-Nyana ngokunjalo Naku-Moya Oyingcwele, Kude kus' ephakadeni. - Amen."
+      ]
+    },
+    {
+      "number": 55,
+      "title": "ICULO lombulelo nozuko",
+      "lyrics": [
+        "ICULO lombulelo nozuko Siyaculela kuwe, Msindisi, Singekaphumi siyakubonga, Siguqel' izwi lakho loxolo.",
+        "Zusiphe sibe noxolo lwakho, Usihambise ngoncedo lwakho, Linda intliziyo ne milomo Ezithandazayo kuwe, Nkosi.",
+        "Zusiph' uxolo ngobubusuku, Bukhanyise ngokubakho kwakho, Usilwele kuzo zonk' ingozi, Wen' ongozeli y' ongalaliyo.",
+        "Zusiph' uxolo yonke imihla Usithuthuzele usixhase, Sakubizwa nguwe, singenise Kuxolo olungenakuphela. - Amen."
+      ]
+    },
+    {
+      "number": 56,
+      "title": "WAZITHWAL' izono, Yesu",
+      "lyrics": [
+        "WAZITHWAL' izono, Yesu, Zingezono zaKho, Walhlawul' ityala, Yesu, Lingetyala laKho.",
+        "Wawungumntu onentsizi Ungemoni Wena Laphalal' igazi laKho, Uyingcwele Wena.",
+        "Iziphoso zethu zonke Zabalelwa kuWe. Nezilandu zethu zonke Zabalelwa kuWe.",
+        "Sixolelwa, siphiliswa, Ngezo ndungu zaKho, Siya hlanjwa ezonweni, Ngelo gazi laKho. - Amen."
+      ]
+    },
+    {
+      "number": 57,
+      "title": "ULIKHAYA lami",
+      "lyrics": [
+        "ULIKAYA lami, Wena Jerusalem, Woba luphumlo lwam Ndakumk' emhlabeni: Azi ndoza Ndiye nini Kwikhaya lam, Ku-Thixo wam?",
+        "Ilaph' i-Nkosi yam, Engu-Kumkani wam, Kunye ne-Ngelosi Eziyinqulayo: Azi ndoza Ndiye nini Kwikhaya lam, Ku-Thixo wam?",
+        "Balaph' abadala Sebephumle bona Kwanaba-Profite, Ne-Tshawe loxolo: Azi ndoza Ndiye nini Kwikhaya lam, Ku-Thixo wam?",
+        "Kwanaba-Postile Be-Mvana ka-Thixo Balapho beyuma Ingoma zoyolo: Azi ndoza Ndiye nini Kwikhaya lam, Ku-Thixo wam?",
+        "Amafa-na-Nkosi Ndowabona nawo, Etsho ngezimhlope Ezizukileyo: Azi ndoza Ndiye nini Kwikhaya lam, Ku-Thixo wam?",
+        "Andaba ndikhona Andisekhon' apha Ndikhape ke, Nkosi, Ndi ye kwikhaya lam: Azi ndoza Ndi ye nini Kwikhaya lam, Ku-Thixo wam? - Amen."
+      ]
+    },
+    {
+      "number": 58,
+      "title": "NZULU yemfihlakalo",
+      "lyrics": [
+        "NZULU yemfihlakalo! Nzulu yesimanga! Ezalise umhlaba, Nesibhaka-bhaka. Le nzulu yesimanga, NgokaThix' uNyana, Oweza ebantwini, Ngokubasindisa.",
+        "Wabon' uluntu lonke Luwe esonweni, Imiphefumlo yonke Ihlel' elishweni, Wasikwa yimfesane, Engumangaliso, Wathabathela ku Ye, Lonk' ihlazo labo.",
+        "Kwaba ngumangaliso Ukuzalwa kwaKhe, Waphila, wafundisa, Ngokuncamisayo. Waba ngumangaliso Umnqamlezo waKhe, Wafa, woyis' ukufa, Saba sisimanga.",
+        "Hayil obo bunzulu Bolu thando lwaKho Nalo msebenzi waKho Ongenakuqondwa. Abakholwayo namhla Abanakugwetywa, Ma wudunyiswe Nkosi, Kus' ephakadeni. - Amen."
+      ]
+    },
+    {
+      "number": 59,
+      "title": "NDIKHANGELE ngobubele",
+      "lyrics": [
+        "NDIKHANGELE ngobubele, O Nkosi yam! Nguwe owabundifele, O Nkosi yam! Wehla ezulwini Lakho, Wabuncam' ubomi Bakho, Ndiva usindiso Lwakho, O Nkosi yam!",
+        "Be ndihleli emnyameni, O Nkosiyam! Be ndisinga ekufeni, O Nkosiyam! Zeza izicaka Zakho, Zandivisa izwi lakho, Zandityel' ufefe Lwakho, O Nkosiyam!",
+        "Ma ndiluv' ufefe Lwakho, O Nkosiyam! Ndibe lisindiswa Lakho, O Nkosiyam! Zonk' izono ma ziphele, Indiziyo ibe ngcwele. Yiva, undithethelele, O Nkosiyam! - Amen."
+      ]
+    },
+    {
+      "number": 60,
+      "title": "AKWABA se ndivuma",
+      "lyrics": [
+        "AKWABA se ndivuma, Nangendiziyo yami, Ukwahlukana nayo, Inkohlakalo yami, Ndisuke ndiye ku Ye, OngumSindisi wami.",
+        "Akwaba ndinokuva Usizi emoyeni, Olona lusingisa Kwa seluguqukweni, Luhamba ngalo ndlela Iphela emgcobeni.",
+        "Akwaba ndinokholo Luqhub' umxhelo wami. Ndibambelele kuYe Ofe'l' ityala lami, Ndihlale ndithembela Kulo Mhlaw' leli wami.",
+        "Akwaba ndinamandla Avela eNkosini Ndikwale okomhlaba Ndibheke ezulwini. Ndivuselele, Thixo, Ndiphume ebubini. - Amen."
+      ]
+    },
+    {
+      "number": 61,
+      "title": "UKHANGELA kuwe",
+      "lyrics": [
+        "UKHANGELA kuWe, Mvana yeKalvari, Ukholo lwam, Ndiva ndithandaza, Susa ityala lam, Kususela namhla, Ndenz' owaKho.",
+        "Ndinike amandla, Kwa nenzondelelo, So-lufe fe, Uthando lwam kuwe, Ma luvuthe nene, Ekubeni Wena Wandifela.",
+        "Ndisacand' udada Lwentlalo enzima, Ndikhokele. Khanyis' ubumnyama Sula inyembezi, Ma ndingaze ndimke KuWe, Ndlela.",
+        "Kwakuphel' ubomi, Kwakufik' ukufa, Ndivelele. Msindisi ngothando, Shenxis' uloyiko, Ndise ezulwini, Ndiphunyyuzwe. - Amen."
+      ]
+    },
+      {
+    "number": 62,
+    "title": "NKOSI yam, ubundithanda",
+    "lyrics": [
+      "NKOSI yam, ubundithanda Ekulahlekeni kwam, Nkosi yam, waman’ ulanda Futhi emkhondweni wam. Ndafunyanwa, Nkosi yam.",
+      "Nkosi yam, ilizwi laKho Lingumkhanyiseli wam. Nkosi yam, ufele lwaKho Lusisonwabisa sam. Ndinovuyo, Nkosi yam.",
+      "Nkosi yam, uMoya wakho Uya ndingcwalisa nam. Nkosi yam, izulu lakho Lona lilikhaya lam. Ma ndingene, Nkosi yam. - Amen."
+    ]
+  },
+  {
+    "number": 63,
+    "title": "AMAHLATHI aphelile",
+    "lyrics": [
+      "AMAHLATHI aphelile, Andisafunwa mntu, Ndilambile, Ndikhohliwe Apho ndingayayo.",
+      "Ndosuka ndiye kuBawo Ndithi kuYe: “Bawo, Okunene ndikonile, Buya undamkele.”",
+      "Andisafanele kanye, Ukubizwa ngawe, Ndo thi ni na, ndoya phi na? Buya undamkele.",
+      "Uz’ undenze isicaka Sasendlwini Yakho, Ze ndihlale ndikubona Buya undamkele.",
+      "’Nguwe endikonileyo Ndakutshikilela, Kodwa ngoku ndibuyayo, Buya undamkele.",
+      "Ubujacu endibubo Buya bonwa Nguwe, Noko se ndisiza nabo, Buya undamkele.",
+      "Bawo onenceba kanye, Uz’ ungandigxothi, Noko ndiliyaka-yaka Buya Undamkele. - Amen."
+    ]
+  },
+  {
+    "number": 64,
+    "title": "NDIKHOKELE",
+    "lyrics": [
+      "NDIKHOKELE O Yehova! Ndingumhambi Nkosi yam, Unamandla: andinawo, Unobuthathaka ndim. O Msindisi! Nguwe olikhaka lam.",
+      "Lowo mthombo wosindiso Owavulwa ngenxa yam, Ma uvele umpompóze Uzihlamb’ izono zam. O Msindisi! Nguwe oluncedo lwam.",
+      "Ndifikile eJordane, Susa izoyiko zam, Zundikhaphe, se ndiwela: Yiba nguMncedi wam. O Msindisi! Nguwe olithemba lam. - Amen."
+    ]
+  },
+  {
+    "number": 65,
+    "title": "MANDITHWALE iziqhamo",
+    "lyrics": [
+      "MANDITHWALE iziqhamo, EzoMoya oyiNgcwele, Ubungcathu nolulamo, Ukulunga nobubele, Zonke ezizezenkolo, Nezothando, nezoxolo.",
+      "Ezi zinto ma zikhule Entlizyweni onk’ amaxa, Zindincede ndinyothule Konke oko kuzixaka Okwekratshi nokomona, Nento eziphuma khona.",
+      "Ewe, Nkosi, ma ndihlume, Ndibe ngoxakathileyo, Ndizamele, ndiphuthume Konke okulungileyo. Iz’ ingabi nakuphikwa Yonk’ imilo kwa nemikhwa. - Amen."
+    ]
+  },
+  {
+    "number": 66,
+    "title": "UNABANTU baKho, Thixo",
+    "lyrics": [
+      "UNABANTU baKho, Thixo, Ngamaxesha onke, Ubagcina, ubancede, Endaweni zonke.",
+      "Bakuwela imilambo, Uba nabo Wena, Bakutshiswa ngemililo, Uba nabo Wena.",
+      "Apho batshutshiswa khona, Bomelezwa nguWe, Nasemaramncweni, Thixo, Bagciniwe nguwe.",
+      "Bakhangela kuWe, Nkosi, Abo bantu baKho, Babulela, bakuthembe, Abo bantu baKho. - Amen."
+    ]
+  },
+    {
+    "number": 67,
+    "title": "A! Lukhanyis' oluvela e-Zulwini",
+    "lyrics": [
+      "A! Lukhanyis' oluvela e-Zulwini, Luka-Yise ongenakonakala, Ngcwele yengcwele, Yesu Kristu Nkosi.",
+      "Se' lixa lokuphumla kwelanga, Kukhany' imililo yokuhlwa, Sibonga Wena, Yise, Nyana, Moya Ongcwele.",
+      "Ufanel' ukubongw' amaxa onke Ngamazwi anyulu, Thixo, Nyana, Mniki wobom wedwa! Ngoko kulo lonke bavuma Wena, Nkosi.-Amen."
+    ]
+  },
+  {
+    "number": 68,
+    "title": "USIZI nalu lumi lodwa",
+    "lyrics": [
+      "USIZI nalu lumi lodwa, Iintlungu nazi zimi zodwa, Nab' ububele bumi bodwa, Emnqamlezweni.",
+      "I-Nkosi yehla ezulwini, Eyaba ngumntu ebantwini, Yenzelwa thina bon' indini, Emnqamlezweni.",
+      "Ukholo lwethu loma phi na ? Ithemba lethu loma phi na ? Uthando lwethu loma phi na ? Emnqamlezweni.",
+      "Ingozi ingaphela yonke, Ityala liya hlaw'lwa lonke, Izono zoxolelwa zonke, Emnqamlezweni.",
+      "Zibona iingelosi phantsi, Ziqwalasele futh' ezantsi, Zibona isimanga, nasi! Emnqamlezweni. - Amen."
+    ]
+  },
+  {
+    "number": 69,
+    "title": "MAZITH' iingqondo zethu",
+    "lyrics": [
+      "MAZITH' iingqondo zethu, Zimbonge u Yehova, Kuba iinceba zaKhe, Zimi ngonaphakade.",
+      "Ma sithi kulo lonke, Sazis' igama lakhe, Kuba iinceba zaKhe, Zimi ngonaphakade.",
+      "Ngawo amandla aKhe, Ukhanyisel' ilizwe, Kuba iinceba zaKhe, Zimi ngonaphakade.",
+      "Wondla izinto zonke, Ngaso isandla saKhe, Kuba iinceba zaKhe, Zimi ngonaphakade.",
+      "Ezintsizini zethu, Iliso liya bona, Kuba iinceba zaKhe, Zimi ngonaphakade.",
+      "Kubo bonke oothixo, Akukho onje ngaYe, Kuba iinceba zaKhe, Zimi ngonaphakade. - Amen."
+    ]
+  },
+  {
+    "number": 70,
+    "title": "PHEZU komhlaba ngamazwe ngamazwe",
+    "lyrics": [
+      "PHEZU komhlaba ngamazwe ngamazwe, Phezu komhlaba zizizwe ngezizwe, Apho iintetho zahluka-hlukayo, Apho maninz'amasiko enziwayo.",
+      "Kodwa nangona zahluka-hlukayo, Kukho indawo zihlangana ngayo, Zonke izizwe zihlel'ezonweni, Zonke izizwe zotshon'ekufeni.",
+      "Apha ngaphantsi uncedo alukho, Apha ngaphantsi ubomi abukho, Phaya phezulu silangazelela, Apho uMncedi wa boni wovela.",
+      "Yesu, inguWe onokusindisa, Yesu, inguWe onokuphilisa, Se sithembele kwawaKho amandla, Se sibambile esaKho isandla.",
+      "Wena, wafela aboni bomhlaba, Wena, wazisa izizwe iindaba Yiba nodumo, kumazwe ngamazwe, Yiba nodumo, kwizizwe ngezizwe. - Amen."
+    ]
+  },
+  {
+    "number": 71,
+    "title": "BAWO, ngobubele bakho",
+    "lyrics": [
+      "BAWO, ngobubele bakho Bona umphemlo wam, Ndiya lila phambi kwakho, Susa zonk'izono zam.",
+      "Ndikho ebusweni bakho, Zungalahli izwi lam, Ndiphe uxolelo lwakho, Susa zonk'izono zam.",
+      "Nkosi yam, andikaneli, Yiva ukubiza kwam, Wen'ungendibandezeli, Susa zonk'izono zam.",
+      "Nkosi, Bawo, ndingcolile, Hlanza intliziyo yam, Ngezi zono ndidanile, Susa zonk'izono zam. - Amen."
+    ]
+  },
+  {
+    "number": 72,
+    "title": "ABABEHLEL' emnyameni",
+    "lyrics": [
+      "ABABEHLEL' emnyameni Bayakhanyiselwa, Abakwithunzi lokufa Babon'ukukhanya",
+      "Intlanga zintontelana Zibulis' i-Nkosi, Zivuya ngokwabavuni Bethwel' amasinde.",
+      "Kuba ubathul' umthwalo, Wayichith' ingqwemla, Njengamhlana yenzwanjalo Impi yakwa-Mid'yan.",
+      "Kuba sizalelw' u-Mntwana, Siphiwe u-Nyana: Amandla aphezu kwalo Igxalaba lakhe.",
+      "Ngu-Mthetheli-xol' i-Gama, I-Nkos' yaphakade, U-Simanga, u-Mcebisi, U-Thix' onqulwayo.",
+      "Amandla nolawulo lwakhe Lusayakunaba, Lusekwe ngobulungisa, Alunakuphela.",
+      "Yesu lawula kuthi Wena, Usenze abakho, Uhleli u-Mnye no-Yise No-Moy' oyiNgcwele. - Amen."
+    ]
+  },
+  {
+    "number": 73,
+    "title": "BAWO! xa ndilahlekayo",
+    "lyrics": [
+      "BAWO! xa ndilahlekayo Kolu hambo lweli lizwe Hlal' undifundis' ukuthi: \"Ma yenzek' intando yaKho.\"",
+      "Olu hambo luneengozi, Olu hambo luneentshaba, Zezithunywe nguWe zonke, \"Ma yenzek' intando yaKho.\"",
+      "Xenikweni wandihlutha Into endiyithandayo, Ndoba ndibuyis' eyaKho \"Ma yenzek' intando yaKho.\"",
+      "Ndakuhliwa nasisifo Onk' amandla am ahluthwe Ndakuzama, Baw' ukuthi,- \"Ma yenzek' intando yaKho.\"",
+      "Yiguqul' eyam intando, Yifanise nay' eyaKho, Susa konke ukukrokra, \"Ma yenzek' intando yaKho.\" - Amen."
+    ]
+  },
+  {
+    "number": 74,
+    "title": "THIXO, akunangqaleko",
+    "lyrics": [
+      "THIXO, akunangqaleko, Thixo akunangqibeko Ukho endaweni zonke Ukho ngamaxesha onke.",
+      "Phaya ezinkwenkwezini Ukho Wena, ezulwini Wab'ukade sel'ukhona Xa zingekabikho zona.",
+      "Zoda zigqibeke zonke, Kuthi tshabalala konke, Ube Wena Ungapheli, Ube Wena usahleli. - Amen."
+    ]
+  },
+  {
+    "number": 75,
+    "title": "HE, mamelan' l'ingoma yengelosi",
+    "lyrics": [
+      "HE, mamelan' l'ingoma yengelosi, Ivakala phezu kwamathafa, Hay'inene yezongoma zoyolo, Ngobutsh'ubom kwaphel'isono! Ngelos'qo-Yesu nokukhanya, Culelani abahamb'ebusuku.",
+      "Xa siziva, sibhekisa phambili Zithi, \"Bantu, nibizwa ngu-Yesu\"",
+      "Kobu mnyama siva intsholo yazo, Silandel'ingoma yevangeli. Ngelos'qo-Yesu nokukhanya, Culelani abahamb'ebusuku.",
+      "Le, kude le, njengentsimbi zokuhlwa, Kuvakala izwi lika-Yesu, Kucothoza nezihlwele zaboni, Malusi, baguqulele kuwe. Ngelos'qo-Yesu nokukhanya, Culelani abahamb'ebusuku.",
+      "Nok'obubom bubude, bunentsizi, Nezimini zisithokothoko, Zakudlula kofika ukuphumla Okungapheliyo e-Zulwini. Ngelos'qo-Yesu nokukhanya, Culelani abahamb'ebusuku.",
+      "Zi-Ngelosi, lindani ke nicule Ingoma zaphezul'e-Nkosini, Kosa uvuyo, kuphel'ukulila, Kubek'uthand'olungapheliyo. Ngelos'qo-Yesu nokukhanya, Culelani abahamb'ebusuku. - Amen."
+    ]
+  },
+  {
+    "number": 76,
+    "title": "I-NKOS' ivukile",
+    "lyrics": [
+      "I-NKOS'ivukile, Ifezile konke: Likweyisile ukufa Igo? elikhulu.",
+      "I-Nkos'ivukile, Hades, udanile! Ivuka nabakululwa, Eyakubalawula.",
+      "I-Nkos'ivukile, Ayisokub'ife: Icamagushel'aboni, Eyabafelayo.",
+      "I-Nkos'ivukile, Yivani, Zithunywa! Zivakalisen'e-Zulwini Indaba zovuyo.",
+      "Iphin'imirubhe? Bethani ngovuyo' Kunye nomkhosi we-Zulu: I-Nkos'ivukile. - Amen."
+    ]
+  },
+  {
+    "number": 77,
+    "title": "KOBUBUNJE bam, ndingento",
+    "lyrics": [
+      "KOBUBUNJE bam, ndingento Kodwa kuba wandifela, Waye ke undibiza, Nkosi, Ndiyeza ngoko, Nkosi.",
+      "Kobubunje bam, nakuba Ndidlavuwe yimizamo, Ngaphandle nangaphakathi, Ndiyeza ngoko, Nkosi.",
+      "Kobubunje bam, ndiswele, Ndaphukile, ndiyimfama, Ndifuna usizo kuwe, Ndiyeza ngoko, Nkosi.",
+      "Kobubunje bam ndosizwa, Wondamkel' undixolele , Ngenxa yelodinga lakho Ndiyeza ngoko, Nkosi.",
+      "Kobubunje bam, ngothando Iwakho olungaziwayo, Ukuba ndibe ngowakho, Ndiyeza ngoko, Nkosi.",
+      "Kobubunje bam, ndingento, Ndize kuva ubukhulu Balo olothando lwakho, Ndiyeza ngoko, Nkosi. - Amen."
+    ]
+  },
+  {
+    "number": 78,
+    "title": "KUSUSELA ku-Baptizo",
+    "lyrics": [
+      "KUSUSELA ku-Baptizo, Mhla saphiw' ubomi bakho, Bawo, sazalwa ngokutsha, Singabakho abantwana.",
+      "Sesikhulile ke ngoku, Sesingabo bavavanywa Ngozilingo nozingozi, Mbandiswe obobomi.",
+      "Ke, namhla nje, ngenyameko, Siyazicelel' amandla Ize sikuchas' okubi, Senze nokulungileyo.",
+      "Lomandl' eza, athululwa Kuwo ummisei ongcwele, Ngok' uzalisiwe njalo Umsebenzi wo-Baptizo.",
+      "Kuthe, sakubekw' izandla Ngonegunya laba-Postile, Wehl' u-Moya, saba ngoko Ngamalungu azeleyo.",
+      "Momelezi, M-ngcw alisi, Thina zi-tempile zakho Thamsanqela, ube kuthi: Soba ngabalawulwa nguwe.",
+      "Ongu-Yise mzukiseni, Nongu-Nyana, ngokunjalo, Nimzukis' u-Moya lowo Osiveleleyo namhla. - Amen."
+    ]
+  },
+  {
+    "number": 79,
+    "title": "KWA kusasa into zonke",
+    "lyrics": [
+      "KWA kusasa into zonke Zibulela, Nkosi, kuwe, Kuba unobomi bonke, Nathi sigciniwe nguwe.",
+      "He! ilanga liphumela Ukuhamb' indlela yalo, Nali! liyasixelela, Iithi, uyi-Nkosi yalo.",
+      "Nalemini ibivela, Yaba nokukhanya kwayo, Nantsi! nayo iyatyela, Ithi, ungu-Menzi wayo.",
+      "Namazulu ajikela, Emi anenkonzo yawo: Nanga! ayashumayela, Athi, ungu-Mgcini wawo.",
+      "Zonk' izilo zikhangela Kuwe kwa ngokutya kwazo, Ngathi zitsho: Ziyacela Kuwe ongu-Mdali wazo.",
+      "Sothi ngoko, Bawo wethu, Sikubonge sibulele, Kunye no-Mkhululi wethu, Nay'u-Moya Oyingcwele. - Amen."
+    ]
+  },
+  {
+    "number": 80,
+    "title": "KWELA! kwela ngobukosi!",
+    "lyrics": [
+      "KHWELA! khwela ngobukhosi! Ubuliswa zizwe zonke, Yandlaliw'indlela yako Ngamagqabi nangengubo.",
+      "Khwela! khwela ngobukhosi! M-Sindisi wolulamo, Condobeza ukuhamba, Uye kuhle ekufeni.",
+      "Khwela! khwela ngobukhosi! Wena, Kristu, qala ngoku Ukoyisa ababambi, Ukuf'oku kwa nesono.",
+      "Khwela! khwela ngobukhosi! Kukhangelwe zi-Ngelosi, Zilijonge kalusizi Elo-Dini elizayo.",
+      "Khwela! khwela ngobukhosi! Imfazw'embi ikufuphi, Nank'u-Yise e-Troneni Elindel'u-Nyana wake.",
+      "Khwela! khwela ngobukhosil Yiza kuhle ekufeni, Buthobele ubuhlungu, Uz'ubuy'uphathe, Thixo. - Amen."
+    ]
+  },
+  {
+    "number": 81,
+    "title": "MALUSI oyintanda",
+    "lyrics": [
+      "MALUSI oyintanda Gcina imvana yako, Akoyiswa nto Wena Andingehluthwa Kuwe",
+      "M-Sindisi oyintanda, Wafa 'kuze siphile Uzolule izandla Ukub'usikelele.",
+      "Ndohlala ndikubonga, Ndenze intando Yakho, Njengabo baphezulu, Behleli ngokonwaba.",
+      "Sondela, Malusi wam, Mandiliv'i-Zwi lakho, Ndize ndingaphambuki Kulendlela imxinwa.",
+      "Ndohamba ngendlel'akho, Ngokukhokelwa nguwe, Ndide ndiye ngakuyo I-Terone ka-Bawo. - Amen."
+    ]
+  },
+  {
+    "number": 82,
+    "title": "NDIMTHANDA u-Msindisi wam",
+    "lyrics": [
+      "NDIMTHANDA u-Msindisi wam, Ngokuba engu-Mhlobo wam, Wandenzela uxolo lwam Phakathi kwam no-Thixo wam.",
+      "Ndimthanda u-Msindisi wam, Ngokuba engu-Mcoci wam, Uyazisus' izono zam, Ohlambe intliziyo yam.",
+      "Ndimthanda u-Msindisi wam, Ngokuba eku'khanya kwam, O-lizwi lisibane sam, Likhanyisel' indlela yam.",
+      "Ndimthanda u-Msindisi wam, Ngokuba engu-Mncedi wam, Unam nasebutsheni bam, Nasekwaluphaleni kwam.",
+      "Ndimthanda u-Msindisi wam, Ngokuba engamandla am, Undoyisel' intshaba zam, Ulawula ngaphakhati kwam.",
+      "Ndimthanda u-Msindisi wam, Uhlal' ehleli Yena nam, Zakumka izihlobo zam, Useko ebubomi bam. - Amen."
+    ]
+  },
+  {
+    "number": 83,
+    "title": "WAKRAZULWA ngenxa yami",
+    "lyrics": [
+      "WAKRAZULWA ngenxa yami, Liwa laphakade! Kuze ndizifihle kuWe, Nxeba likaYesu!",
+      "Yeyani na le mikrozo, Kwelo cala laKho? Yeyegazi, yeyamanzi, Ma ndihlanjululwe.",
+      "Inyembezi zeminyaka, Azinge feze nto, NguWe, Nkosi, osusayo Zonk izono zomntu.",
+      "Andinanto esandleni, Ndize kanye, Nkosi, Se ndondele ekrusini, Ekube thelweni.",
+      "Wakrazulwa ngenxa yami, Liwa laphakade! Kuze ndizifihle kuWe, Nxeba likaYesu! - Amen."
+    ]
+  },
+  {
+    "number": 84,
+    "title": "NDIZA kuwe, Wena Mvana",
+    "lyrics": [
+      "NDIZA kuwe, Wena Mvana, Ndingenazwi kuphel' eli- Wandophela, wandifela, Wandibiza ndize kuwe.",
+      "Ndiza kuwe, Wena Mvana, Wen' o-Gazi lisulayo Konke okungcolileyo, Kungasali nechaphaza.",
+      "Ndiza kuwe, Wena Mvana, Andilindi kuzihlamba Ngamandla am nakwesinye Isonwana entliz' yweni.",
+      "Ndiza kuwe, Wena Mvana, Ndiludway' oluyimfama, Uphiliso nokubona Ndivukele zona kuwe. - Amen."
+    ]
+  },
+  {
+    "number": 85,
+    "title": "NGCWELE, Ngcwele, Ngcwele, unamandla onke",
+    "lyrics": [
+      "NGCWELE, Ngcwele, Ngcwele, unamandla onke, Ungu Thixo wedwa, uyi Nkosi yaphezulu. Ngcwele, Ngcwele, Ngcwele, unenceba yonke, Ungu Bawo wethu wena, unguy' uYehova.",
+      "Ngcwele, Ngcwele, Ngcwele, Mdali wamanyange, Usahleli, wohlal'ukho, ngamaxesha onke, Usithele thina, akunakwaziwa, Ubathathu Umnye, Wena, Nkos'edunyiswayo.",
+      "Ngcwele, Ngcwele, Ngcwele, amabandla Akho Aya kudumisa Wena, Awe phambi Kwakho, Ziya kuzukisa nengelosi Zakho, Ezihlala zikhanyiswa kukukhanya Kwakho.",
+      "Ngcwele, Ngcwele, Ngcwele, unamandla onke, Udunyiswa, Uzukiswa, zizidalwa zonke, Ngcwele, Ngcwele, Ngcwele, unofefe lonke, Ngcwele, Ngcwele, Ngcwele, ubathathu umnye. UnguThixo umnye Wena, ubathathu umnye. Amen."
+    ]
+  },
+  {
+    "number": 86,
+    "title": "JERUSALEM, wena Khaya",
+    "lyrics": [
+      "JERUSALEM, wena Khaya, Khaya elimnandi, Wobonwa na, ungenwe na Ngonjengam umoni?",
+      "Emhlaben' akukho ndawo Iyole njengawe, Kuthw' abemi bakho bonke Bakholiwe nguwe.",
+      "Kuthw' intsizi kuw' azikho, Kwa nembandezelo, Kuthw' indlala nenyembezi Kuwe ziphelile.",
+      "Baphilile bonwabile Abakuhleliyo, Baxolile bayaphumla Ngokungapheliyo.",
+      "Khaya lethu lo-Msindisi, Ndiyakukhumbula, Khaya lethu lika-Thixo, Ndiyakunqwenela.",
+      "Azi ulikhaya nje na, Ndiyakukuma na ? Azi undibiza nje na, Ndoza ndifike na ?",
+      "Ukho owondingenisa, Lowo ngu-Mphilisi, Ukho owondifikisa, Lowo ngu-Msindisi - Amen."
+    ]
+  },
+  {
+    "number": 87,
+    "title": "NGOBHAPTIZO olungcwele",
+    "lyrics": [
+      "NGOBHAPTIZO olungcwele Senziwa amalungu Omzimba we-Nkos', i-Kerike , Simanyene nayo.",
+      "Ngenene, sinto nye naye Oyintoko Yena, Osiphilis' esixhasa Ngobake ubomi.",
+      "Ngokumiliselwa kuye Hayi ukuphakama Kwendlal' esiyinikwayo- Yeyase-Zulwini !",
+      "Sibaninzi simzimba mnye Ngalo-Moya umnye, Obabalay' amalungu Ngokwahlulelana.",
+      "Akwab' amalungu akho Avan' onke, Nkosi, Ibe ntle le-Ngubo yakho, Ingenasikroba.",
+      "Yihla, uze, Moy'Ongcwele, Usibumbe sonke, Sibe ngumzimb'omnye kanye Way'i-Nkosi inye. - Amen."
+    ]
+  },
+  {
+    "number": 88,
+    "title": "NGOBUSUKU benkatazo",
+    "lyrics": [
+      "NGOBUSUKU benkathazo, Benyembezi nentsizi, Amaqela abahambi, Abhekisa phambili.",
+      "Ehamba nje akayeki Ukuvuma ingoma, Zamathemba elolizwe Aya kulo, le-Kanan.",
+      "Phambi kwethu kukhokela Isibane se-Zulu, Amakholwa axakene, Ahamba emnyameni.",
+      "Lunye ukhanyiso lwabo Abangabakhululwa, Kukubakho kuka-Thixo, Osithoba imvalo.",
+      "Simanyene koluhambo, Simanyene ngokholo, Simanyene ethembeni Esonikwa ngu-Thixo.",
+      "Simanyene engomeni Evunywa ngamawaka, Simanyene kwelidabi Linengozi ezimbi.",
+      "Simanyene ngemivuyo Sakuwele-Yoredan, Aph'u-Bawo wethu sonke Aphetheyo ngothando.",
+      "Nyathelani ngesibindi Ngoko ke, bazalwana, Ntlw'imfazwe yomnqamlezo, Nfe niphantsi kwayo.",
+      "Kukufuphi ukuvuka, Ukrazuko lwengcwaba, Ukumka kwalamathunzi, Ukuphela kosizi. - Amen."
+    ]
+  },
+  {
+    "number": 89,
+    "title": "NIYABIZWA, bantu nonke",
+    "lyrics": [
+      "NIYABIZWA, bantu nonke, Ngu-Mkhululi wenu, Uthi, \"Yizani kum nonke, Nemithwalo yenu\".",
+      "Unamandla onke Yena Okunikhulula, Unenceba yonke Yena, Anganixolela.",
+      "Yesu, amatyala ethu Uz'uwaxolele. Yiva umthandazo wethu, Usisikelele.",
+      "Hlamba intliziyo zethu Ngelo-Gazi lakho, Yomelez'ukholo lwethu, Ngalo-Moya wakho.",
+      "Masikonze Wena ngoko Apha emhlabeni, Side size phambi kwakho Apho e-Zulwini. - Amen."
+    ]
+  },
+  {
+      "number": 90,
+      "title": "PHEZULU komkhulu, Thixo",
+      "lyrics": [
+        "PHEZULU komkhulu, Thixo, Luxolo noyolo, Nengoma zabazukisa Ubukhulu bakho.",
+        "Nantso !im'i-Tfone yakho, Iphahlwe ngezabo Abadala , ziqqamba Izivatho zabo.",
+        "Ngokunjalo ezo zinto Eziphilileyo, Ezo zine, ziqubuda Zinenkonzo zazo.",
+        "Neziganga ze-Ngelosi Zimi, intlu ngentlu , Ziyondela ngaku-Mdali, Zihleli zimkhonza.",
+        "Nemikhosiya bangcwele, Ingangenkwenkwezi, Ikho nayo , beyisile, Sebesiv'inyweba.",
+        "Ngezw' elinye ziyabonga Zonk' ezizidalwa Zithi, \"U-Ngcwele yengcwele Ufanel' imbeko.\"",
+        "\"Uzuko nokomelela, Nay' imibulelo , Owayekho, osekhoyo Onk' amaphakade.\"",
+        "Phezulu komkhulu lakho Yimihlali yodwa, Nemibongo, kuzukiswa U-MTrinit' Ongcwele. - Amen."
+      ]
+    },
+    {
+      "number": 91,
+      "title": "UHLELI yen' u-Yesu",
+      "lyrics": [
+        "UHLELI yen' u-Yesu ! Kufa, asisakoyiki, Uhleli ! sazi ngoko, Ngcwaba, akusenamandla. Aliluya !",
+        "Uhleli kuz'ukufa Kube lisango lobomi : Oku kosiph'uxolo, Sakulul' emnyango wakho. Aliluya!",
+        "Uhlelil wasifela, Nathi siphilela Yena, Sibe ngcwel' entliz' yweni, Simdumise u-Mkhululi. Aliluya!",
+        "Uhleli! ngokwenene Asinakwahlulwa kuye, Saye sigcinwe nguye Ebomini, ekufeni. Aliluya!",
+        "Uhlelil selenikwe Lonk'igunya emhlabeni, Singa singamlandela, Sibe naye e-Zulwini. Aliluya! - Amen."
+      ]
+    },
+    {
+      "number": 92,
+      "title": "UMSEBENZ' ugqityiwe",
+      "lyrics": [
+        "UMSEBENZ' ugqityiwe Walomzalwana wethu, Idabi selidule, Nanko engaphesheya. Simshiyela kuwe, Bawo la ulele kulendawo.",
+        "Apho kusulw inyembezi, Kutiyilw'imfihlakalo, U-Mgweb' olilungisa Ugweb' izenzo zethu. Sim shiyela kuwe, Bawo, Lo ulele ku lendaw o.",
+        "Kulaph' imiphefumlo Yabajong' e-kruseni Yazana nolothando Luka-Kristu, e-Hades. Sim shiyela kuwe, Bawo, Lo ulele ku lendaw o.",
+        "Aph' amandl' esiho go Akasaphazamisi, Kub'i-Nkos' ilikhusi, Eyabakhululayo Sim shiyela kuwe, Bawo, Lo ulele ku lendaw o.",
+        "\"Umhlaba emhlabeni Uthul' eluthulini,\" Simshiya elindele Lomhl' omkhulu wovuko. Sim shiyela kuwe, Bawo, Lo ulele ku lendaw o. - Amen."
+      ]
+    },
+    {
+      "number": 93,
+      "title": "UNGCWELE yengcwele zonke",
+      "lyrics": [
+        "UNGCWELE yengcwele zonke Makanikw'udumo Kweziphezulu indawo, Nakwezingaphantsi.",
+        "Wamthumel'u-Nyana wakho Apha elizweni, Waba nguMkhululi wethu, Kwezizono zethu.",
+        "Weyiswa yena u-Adam, Hayi kodwa Yena Uloyisile utshaba, Hayi uthando lwakhe!",
+        "Sifumene Wena ngenqu, Ubu-Thixo bakho, Ngalo-Nyama nelo-Gazi Ulwileyo ngalo.",
+        "Lunabil'uthando lwakho Osithande ngalo, Ngenthungu ozivileyo, Uzivela thina.",
+        "Weyana nenthungu Wena E-Getseman Wasishiya nomzekelo Ngokwakho ukufa.",
+        "U-Ngcwele yengcwele zonke Makanikw'udumo Kweziphezulu indawo, Nakwezingaphantsi. - Amen."
+      ]
+    },
+    {
+      "number": 94,
+      "title": "VUMAN' amandla ka-Yesu",
+      "lyrics": [
+        "VUMAN' amandla ka-Yesu, Zithunywa, yiwani, Mtheni-ijze ngesitsaba: Mthwesen'ubukhosi.",
+        "Mthweseni, makhwez'omso, Ummisi womhlaba, Vuman'ubukhosi bakhe: Mthwesen'ubukhosi.",
+        "Nani ninga-Mafa-na-Nkosi, Emiphambi kwe-Trone, Bongan' i-Ngcambu ka-Isayi: Mthwesen'ubukhosi.",
+        "Nina, nzala ka-Yakobi, Enikhululweyo, Vuman'ubukhosi bakhe: Mthwesen'ubukhosi.",
+        "Nina mlibo ka-Davide, Uyi-Nkosi yenu, Ongu-Thixo ekwangumntu, Mthwesen'ubukhosi.",
+        "Nina baginwa, yiwani Kwezonyawo zakhe, Ezizele ngamanxeba: Mthwesen'ubukhosi.",
+        "Mazithi zonke intlanga, Zimthobele Yena, Zivum'ubukhosi bakhe Zimthwes'ubukhosi. - Amen."
+      ]
+    },
+    {
+      "number": 95,
+      "title": "YESU, besikulahlile",
+      "lyrics": [
+        "YESU, besikulahlile, Kanti Wen'ubusifele, Kodwa namhla sidanile: Mawubuye usamkele.",
+        "Asisafanele thina Ukwenzelwa izibele, Kodwa siyakuthi-nina? Mawubuye usamkele.",
+        "Sinezono ezikhulu, Namhla zisibandezele, Sikhangela ngaphezulu: Mawubuye usamkele.",
+        "Nkosi, Yesu, siyahl'a, Thina sikukhedamele, Sililel'eleth'ityala: Mawubuye usamkele. - Amen."
+      ]
+    },
+    {
+      "number": 96,
+      "title": "IMFUNDISO ka Yehova",
+      "lyrics": [
+        "IMFUNDISO ka Yehova Ichaphaza nje ngemvula, Intethiso ka Yehova Ihlaziya nje ngombethe.",
+        "Ingqeqesho ka Yehova Ivuyisa indiziyo, Nje ngovuyo lwesiphango, Phezu kwengca ehlumayo.",
+        "Inkokelo ka Yehova Inje ngokhoz' olukhulu, Wabathwal' oobawo bethu Ukubasa kwelo khaya.",
+        "Uliliwa u Yehova, Kubo bonk'abantu Bakhe. Nguye umkhuseli Wabo Kuzo zonk'indlela zabo.",
+        "Yo! akwaba singalumka, Yo! akwaba singaqonda. Size sithi sakufika Ezulwini, sifezeke. - Amen."
+      ]
+    },
+    {
+      "number": 97,
+      "title": "YESU se ndivumile",
+      "lyrics": [
+        "YESU se ndivumile Ukukhonza Wena, Zuhlale ukufuphi, Nkosi nomhlobo wam. Andikoyik' ukulwa, Usecaleni kwam, Ndingeyilah'l' indlela Xa ungu-Mgcini wam.",
+        "Mandiv' ubukho bakho, Umhlab' uhlel' ukho, Ndingqongwe zizinto 'Ziphazamisayo. Intshaba zam zihleli Phakathi naphandle Yesu, Nkosi, sondela Undigcine kuzo.",
+        "Zundivise ngelozwi Livakala kuhle Phezu kwesisa qhwiti Sekratshi nenkani Thetha, undomeleze, Thetha, undinqande, Thetha, ndiphulaphule, Mgcini-mpe fumlo wam.",
+        "Yes', ubathembisile Abo bangabakho, Apho ukhona Wena Boba khona nabo. Ke, Yesu, ndivumile Ukukhonza Wena, Z'undiphe ubabalo, Ndilandele Wena.",
+        "Mandihambe indlela Emyathelwe nguwe, Ukulungelelsa Kusemandlen'akho. Ndikhokele, ndibize, Ndixhase kuphele, Undamkel'e-Zulwini, Msindisi, Mhlobo wam. - Amen."
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Z'UHLALE nam ngoku litshona nje",
+      "lyrics": [
+        "Z'UHLALE nam ngoku litshona nje Z'uhlale nam ngexesha lokuhlwa, Ndakuyekelwa ngabancedi bam, Mcholi wenkedama, z'uhlale nam.",
+        "Lihle litshone ilanga le thu, Buphele msinya ubuyol'obu, Akumi nent'endiyibonayo, O Simakade, uz'uhlale nam.",
+        "Ndumemba Wena zonke ezimini Ndosinda ngwe, Nosi, ku-Satan, Wena Mkhokheli, Wena Mkhosi wam, Lisibekele, uz'uhlale nam.",
+        "Andoyik'impi, Wena ukho oje, Andisindwa bubi nazintsi, Ukufa akusenabuhlungu, Ndimokuphila, xa uhleli nam.",
+        "Yimis'i-knus', ameh'l'ahuzizi, Ndalahisele kuw'e-Zulwini, Kuyasa, buyemka ubumnyama, Nasekufeni, Nosi, z'uhlale nam. - Amen."
+      ]
+    },
+    {
+      "number": 99,
+      "title": "UMKHULULI esahleli",
+      "lyrics": [
+        "UMKHULULI esahleli, Engekanyukeli, Wasithembis'u-Mkhokheli, Abe nathi.",
+        "Weza kuthi elundwendwe, Efun'intliziyo Ezingamnika indawo Yokuphumla",
+        "Uhleli nath'entliz'yweni, Xa simphulaphula, Eluleka, esityela Okwe-Zulu.",
+        "Bonk'obethu ubungcwele Nezoyiso zonke Nenkumbulo ezingcwele, Zizezakhe.",
+        "Moya wofefe nenene, Zusihlambulule, Size sifanele Wena Ngobungcwele. - Amen."
+      ]
+    },
+    {
+      "number": 100,
+      "title": "EYASENYANGWENI i Sabata",
+      "lyrics": [
+        "EYASENYANGWENI i-Sabata Iyolis' abasikelelweyo, Bayaphumla abadiniweyo, Bayavuzwa abakrotileyo.",
+        "Banoxolo banovuyo bona Abangenako ukuluxela, Nekomkhulu lo-Kumkani wabo Lisionwabiso sabo bona.",
+        "Yerusalem, Sixeko soxolo, Kwabo bamhandaz'ungapheliyo, 'Ze bade babe bakufumene Oko bakucamagushele yoyo.",
+        "Sovuma ingoma ezimnandi Ezase-Tsiyone yaphezulu, Bokudumisa nabannu bakho, Ngenxa yal'ufefe lwakho, Nkosi.",
+        "Ayipheli i-Sabata khona, Inye eyamakholwa akhona, Nengoma yakhona ayipheli, Sodlelana ngayo ne-Ngelosi.",
+        "Okwakaloku masixunele Kwelozwe siphongomele lona, I-Yerusalem, ikhaya lethu, Sisekwe li lokuphambukela.",
+        "Siwa phambikwakho sizukisa Wena, Mdali wazo zonk' izinto, Yise, no-Nyana, no-Moy' Ongcwele, Nibanye kuse ephakadeni. - Amen."
+      ]
+    },
+    {
+      "number": 101,
+      "title": "MAKUBE ngokwako",
+      "lyrics": [
+        "MAKUBE ngokwakho Ukuhanda, Nkos, Ndinyulel' indlela Endobamba yona.",
+        "Nokub'injanina, Yeyona iyiyo, Yeyondibhekisa Kolona luphumlo.",
+        "Ndingezinyuleli Eyon' ithandwa ndim, Ndinyulele Wena Ze ndingalahleki",
+        "Okunqwenelwa ndim, Kokwakho, Thixo wam, Nendlela mayibe Kwa yeyakho nayo.",
+        "Nokokuba uthe Mandibe nentsizi, Nokuba buyolo- Kokwakho konk'oko.",
+        "Mandizinyulelwe Nguwe nezihlobo, Nokuba sisifo Nokuba 'kuphila.",
+        "Ukunyul' asikwam, Umkhokeli nguwe, Yiba ngamandla am Ube 'nto zonke kum. - Amen."
+      ]
+    },
+    {
+      "number": 102,
+      "title": "BONYANA bam, zintombi zam",
+      "lyrics": [
+        "Ailuya! Ailuya! Ailuya!",
+        "BONYANA bam, zintombi zam, I-Nkosi yobuqaqawuli Ivukile kumanyange! Ailuya!",
+        "U-Madelina, no-Mari Ka-Yakobi, no-Salome, Beza kumthambis' u-Yesu. Aliluya!",
+        "I-Sithunywa sasihleli, Sithe-wamb' ingub' emhlope, Sath', \"Uvukil', akakw' apha.\" Aliluya!",
+        "Xa babehlanganisene, Gqi! yatsho phakathi, yathi, \"Uxolo malube nani.\" Aliluya!",
+        "U-Tomas, akuv' ukuba Bayibonile i-Nkosi, Wathi, \"Andisokukholwa.\" Aliluya!",
+        "\"Tomas, bona izandla zam, Fak' esakho ecaleni, Ungabi ngongakholwayo.\" Aliluya!",
+        "Xana wabonay' u-Tomas Icala nezandla zakhe, Wathi, \"Nkosi yam, Thixo wam!\" Aliluya !",
+        "Kwabathe bengabonanga Bakholwa noko, luyolo, Banobomi baphakade. Aliluya !",
+        "Ngumhla wovuy'olukhulu, Ewenziley'i-Nkos'ethu: Siyagcoba nathi ngawo ! Aliluya ! - Amen."
+      ]
+    },
+    {
+      "number": 103,
+      "title": "UMYENI uyafika",
+      "lyrics": [
+        "“UMYENI uyafika,” Kuthiwa manivuke, Nye kumkhawulela, Selesondele. Uzakufika, Yesu, Uzeke umtshakazi- Kwa i-Kenike yakho, Emsulwa entle.",
+        "Akumzekanga Wena Ngenkomo lomtshakazi: Igazi lakho Yesu, Iophela yena, Ngoku fa wamfumana, Wamkhupha ku-Satana, Abe ngowakho wedwa, Umhlambulule.",
+        "Ilapha le-Kerike, Ihleli emhlabeni, Mawusincede, Nkosi, Ngo fefe lwakho, Sinamathele kuyo, Singawi ezonweni, Sikhutshwe zizo kuyo, Slahlwe nguwe.",
+        "Selusondele, Yesu, Uzaku fika kuthi, Kuthiwa masivathe Sikuhlonele, Izandla zibe mhlope, Imhlope nentiziyo, Size singene kuwo Umthato nawe.",
+        "Uvuyo lwalomtshato Aluqondeki apha, Akukho ndlebe yamntu Eyeva ngaio, Akukho liso lamntu Hakha lalubona, Lulungiselwe abo Bakuthandayo,",
+        "Ucango lwako, Nkosi, Lusavulelwe thina! Ilizwi lokumema Lisavakala, Masiliphulaphule, Sambathe ubungcwele, Singene kulomtshato, Sivuye nawe. - Amen."
+      ]
+    },
+    {
+      "number": 104,
+      "title": "PHEZULU eNkosini",
+      "lyrics": [
+        "PHEZULU eNkosini, Ngabalungile bodwa, Phezulu eZulwini, Kuhlel' ingcwele zodwa.",
+        "Ofun' ukuya khona, Ma kazithandazele, Alungiselwe lona NguMoya oyiNgcwele",
+        "UYesu usifele, Kuphel' iyala lethu, Iz' ithi ibe ngcwele Nemiphefumlo ye thu.",
+        "Ukuze sakuhliwa Kukufa emhlabeni, Sngabi nakwaliwa Ukuya eZulwini. - Amen."
+      ]
+    },
+    {
+      "number": 105,
+      "title": "YISABATHA namhla, Nkosi",
+      "lyrics": [
+        "YISABATHA namhla, Nkosi, Iyi mini Yakho, Baya vuy'abantu Bakho Ngale mini Yakho.",
+        "Wawuphuma namhla, Nkosi, Engcw abeni Lakho, Waku fis'ukufa namhla Ngokuvuka Kwakho.",
+        "Uvukile Wena, ntloko Yabo bakholwayo. Sakuvuka nathi ngoko, Thina sikholwayo.",
+        "Ma liviwe ilizwi Lakho Ngabaninzi namhla, Ma bavuswe ekufeni, Babe Nawe namhla.",
+        "Sibulela Wena, Yesu, Kuyo lendlu Yakho, Sinezinto zonke thina, Ngokuvuka Kwakho. - Amen."
+      ]
+    },
+    {
+      "number": 106,
+      "title": "NGCWELE, Ngcwele, Ngcwele",
+      "lyrics": [
+        "NGCWELE, Ngcwele, Ngcwele! Thixo So-Mandla Kwakusasa siyakuculela Kuwe Ngcwele, Ngcwele, Ngcwele, ! Wen' onobubele! Ziqu zithathu, Thixo M-Triniti !",
+        "Ngcwele, Ngcwele, Ngcwele, ! Wen' odunyiswayo Ngabangcwele bonke Abase-Zulwini, Bathi Bekubonga Bawe phambi Kwakho, Ohlal' uhleli ngonaphakade",
+        "Ngcwele, Ngcwele, Ngcwele, ! Ufihlakele Thina boni singenakukubona nje, Nguwe wedw'ongcwele, kungekho Wumbi nje Ufezekile ngendawo zonke",
+        "Ngcwele, Ngcwele, Ngcwele! Thixo Somandla! Udunyiswa Wena misebenzi Yakho Ngcwele, Ngcwele, Ngcwele! Onofefe lonke! Ziqu zithathu, Thixo M-Triniti - Amen."
+      ]
+    },
+    {
+      "number": 107,
+      "title": "MA ndiyenze indumiso",
+      "lyrics": [
+        "MA ndiyenze indumiso, Enkosini yosindiso, Yandenzela imvuyiso, Se ndivuyile, Mkhululi wam!",
+        "Ndandihleli ezonweni, Ndandibanjwe etyaleni, Ndandisiya emliweni, Wandisindisa, Mkhululi wam!",
+        "Wandivisa izwi lakho, Wandidlis'ufe fe lwakho, Ndize ndibe ngumnw'an'akho, Se ndibulela Mkhululi wam!",
+        "Wandikhupha entsizini, Wandibeka ebomini, Sendisinga e zulwini, Ngo fe fe lwakho, Mkhululi wam! - Amen."
+      ]
+    },
+    {
+      "number": 108,
+      "title": "EYONA nt'inexabiso",
+      "lyrics": [
+        "EYONA nt'inexabiso Kobu bomi sibudlayo, Asikudla nezambatho, Asimpilo nakonwaba.",
+        "Komnceda ni na umntu, Ukuzuza lonk'ilizwe? Uze umphetumlo wona, Ulahlelwe emlilweni.",
+        "Eyona nt'inexabiso, Yimisebenzi yokholo, Kukuthwala umnqamlezo, Ngentobeko nengqobhoko.",
+        "Banoyolo abashiya, Inno zonke zehlabathi, Babalek'ugqatso lwabo, Bade baluphumelele.",
+        "Ma ndiphile nje ngelunga, Ndize ndi? ukuła kwalo, Ndakuhamba ngokulunga, Ndakoyisa kwa nje ngalo. - Amen."
+      ]
+    },
+    {
+      "number": 109,
+      "title": "KUKHO' iindlela ezimbini",
+      "lyrics": [
+        "KUKHO' iindlela ezimbini, Ekuhanjwa ngazo apha, Enye iya eku feni, Enye iya ebomini.",
+        "Ieyo iya eku feni, Igudile, intle kambe, Iya hanjwa ngabaninzi, Besenziwa kuyithanda.",
+        "Bephikele Ieyo ndlela Ngobudenge nokumatha, Boda bazintywilisele Ebubini baphakade.",
+        "Enye incinane yona Inamatye, inameva Iyahanjwa ngabambalwa, Ngenxa yobunzima bayo.",
+        "Kanti iba mnandi noko, Kwabo bayiqhelileyo, Kuba iya ekhayeni, Elo balingxameleyo.",
+        "Iya ebungcwaliseni, Iya ekukhazimleni, Iya kumKhululi wabo, Iya eNkosini yabo.",
+        "Ma nizame le indlela, Nakuba inzima njalo, Kuba yona iphelela Kumihlali ne ziyolo. – Amen."
+      ]
+    },
+  {
+      "number": 110,
+      "title": "KUKH' induli eluhlaza",
+      "lyrics": [
+        "KUKH' induli eluhlaza, Engabiyelwanga, Aph' u Yesu bamlimaza, Wafa engonanga.",
+        "Intlungu awazivayo, Asingezixeli, Umntu yena owonayo, Angenyamezeli.",
+        "Kwakungekho cebo limbi, Loku unlawful lityala, Kwakungekho ndlela yimbi, Yokusus' ixhala.",
+        "Lalivaliwe isango, Kungekho sitshixo, Kwakungekho nonebango, Engenabuthixo.",
+        "Zazingeze nengelosi, Zifele abaKhe, Kuba zazingesindise, Aho bafi baKhe.",
+        "Yayingu Ye onebango Hinobunzulu, Bokuvula amasango, Silingen' izulu.",
+        "Hayi! olo thando lw aKhe, Nge simthanda nathi, Sithemb' elo gazi laKhe, 'Ze simkhonze futhi. - Amen."
+      ]
+    },
+    {
+      "number": 111,
+      "title": "NAKU ndimi ndinkqonkqoza",
+      "lyrics": [
+        "NAKU ndimi ndinkqonkqoza, Kolu cango lw akho moni, Ngelithambiley'ilizwi: Ndingene na? Ndingene na? Ndim'emnyango ndinkqonkqoza, Ndimi ndicenga ngomonde, Uthi ni mon'olusizi. Ndingene na? Ndingene na?",
+        "Ndawanyame zela mina Amanxeb'okube thelwa, Ngenxa yakho mgqithi ndimi: Ndingene na? Ndingene na? Ndim'emnyango,....",
+        "Ndev'iindungu zomnqamlezo, Ndalala nasengcwabeni, Ndizond'ukonwaba kwakho: Ndingene na? Ndingene na? Ndim'emnyango,....",
+        "Ndiza ndinoxolo lwakho, Ndiza nokonwaba kwakho, Wen' unamaxhal' ezono Ndingene na? Ndingene na? Ndim'emnyango,....",
+        "Ndingumhlobo ndibubomi, Ndilikhaka, ndililiwa, Ongazinqabisa kulo: Ndingene na? Ndingene na? Ndim'emnyango,.... ",
+        "Yemka ke imini yakho, Latshona ilanga lakho, Usesendlelen' yembubo: Ndingene na? Ndingene na? Ndim'emnyango,.... - Amen."
+      ]
+    },
+    {
+      "number": 112,
+      "title": "NDINIK' amehlo ndikhangele",
+      "lyrics": [
+        "NDINIK' amehlo ndikhangele, Phezulu ebulwini, Ndibone khona abangcwele, Bevuya eNkosi.",
+        "Okuya babasemhlabeni, Belila inyembezi, Babandezelwa zizilungo, Umlingi engaphezi.",
+        "Ndibona se bezoyisile, Ndabuza “Kungani na? ‘Kungaye,’ batsho, ‘obefile’ Owayefela thina.",
+        "Babona inyathelo laKhe, Libheka ebomini, Bahamba emkhondweni waKhe, Baphumla ezulwini.",
+        "Makadunyiswe uMkhokeli, Ngalo mzekelo waKhe, Kungasweleki umlandeli Wasemkhondweni waKhe. - Amen."
+      ]
+    },
+    {
+      "number": 113,
+      "title": "NDIYAKHALA kuwe, Nkosil",
+      "lyrics": [
+        "NDIYAKHALA kuwe, Nkosil Bawo Oyingcwele, ndive Kobu bugxwayiba, ndive Ekweneni kweli lizwe.",
+        "Ndiyigusha, ndalableka Ma ndifunwe, ndibuyiswe, Ndiyoyika kula mawa, Mandilandwe, ndigoduswe.",
+        "Ndaphambuka emendweni, Ndalushiy' ufe fe lwakho, Kwezi ntandabuzo zimbi Se ndeye le, ndiyatshona.",
+        "Enkungwini, ekufeni, Phuma, Langa lolungiso! Ma ndingena endleleni Ndilubone usindiso.",
+        "Ndipheleke, muKhululi! Ma ndiphathelele kuWe Koba mmandi ndakuhamba Nawe, ndize ndingadinwa",
+        "Ngoko ndinga ndingahamba Nawe, Nkosi enofefe, Ndiwanyuke amaqhina Neentsunguzi ezimnyama. - Amen."
+      ]
+    },
+    {
+      "number": 114,
+      "title": "NDIZA ndingento yalutho",
+      "lyrics": [
+        "NDIZA ndingento yalutho, Ndicengwa ligazi laKho, Elaphalazwa ngenxa yam: Se ndisiqa, se ndisiqa,",
+        "Ndiza ndingento yalutho Ndize kuhlanjwa nguLowo, Onamandla okuhlamba: Se ndisiqa, se ndisiqa",
+        "Ndiza ndingento yalutho Ndingoyimfama zizono, Ndize kuzivuma kuWe: Se n'disiza, se n'disiza.",
+        "Ndiza ndingento yalutho Ndizele yintandabuzo, Noko ndinoko koyika: Se n'disiza, se n'disiza.",
+        "Ndiza ndingento yalutho, Ndize kucela uxolo. Ndize kufun'inkululo: Se n'disiza, se n'disiza",
+        "Ndiza ndingento yalutho, Se nditsalwa lolo thando, Endandingalwazi mina: Se n'disiza, se n'disiza. - Amen."
+      ]
+    },
+    {
+      "number": 115,
+      "title": "NDINGUMONI phambi kwakho",
+      "lyrics": [
+        "NDINGUMONI phambi kwakho, Ndinetyala, Thixo wam! Ndalidela izwi Lakho Futhi entiz'yweni yam. Ndala imithetho yakho, Ngabo ubugeza bam.",
+        "Kodwa ngoku ndiza Kuwe Bona iinyembezi zam, Ndiza ndibiziwe Nguwe, Yiva ukulila kwam. Bawo, ndingxamele Kuwe, Yiba ngu-Mncedi wam.",
+        "Ndizixela phambi Kwakho Zonk'inkohlakalo zam, Ndiwe ezinyaweni Zakho Ekuthandazeni kwam. Ndilifun'itaru Lakho, Taru! Taru! Nkosi yam. - Amen."
+      ]
+    },
+    {
+      "number": 116,
+      "title": "LO mmiselo wobungcwele",
+      "lyrics": [
+        "LO mmiselo wobungcwele Wenziwa ngu Yehova, Esi senzo sococeko Sasekwa ngu-Somandla, Emyezweni, Kusekh'ookhokho bethu.",
+        "Walthetha neli lizwi: 'Ma nichume, ze nande, Nize nizalise lonke Elimiweyo izwe' Emyezweni, Kusekh'ookhokho bethu.",
+        "Senza lo mmiselo ngoku Nakwezi ntsapho ze thu. Umthinjana nomlisela, Omiyo phambi kwethu Kule ndawo Kwisibingelo sethu",
+        "Ma badityaniswe Nguwe Khokho wookhokho be thu, Ma basikelelwe Nguwe, Kuyo le ntalo yethu, Ubakhaphe Kuzo iindlela zabo. - Amen."
+      ]
+    },
+    {
+      "number": 117,
+      "title": "THIXO! Ova izikhungo",
+      "lyrics": [
+        "THIXO! Ova izikhungo, Obaxhas' abantu ba Kho, Othe Wena kule ntlango Wakhokel' oobawo bethu.",
+        "Nanga amadinga ethu, Siw abeka phambi kwakho Nazi ne zikhungo zethu, Siphe impendulo ya Kho.",
+        "Thixo! w ab' oobawo bethu, Yiba ngow asapho lwabo, Yiba nguy' u Bawo wethu, Usiphathe kwa nje ngabo.",
+        "Sohleka emhlabeni Sihambise endleleni, Usidlise, usiseze, Usigcine, usambe se.",
+        "Tweza amaphiko aKho, Ulufihl' usapho lwaKho, Side size kuWe, Baw o, Sihlangulwe kongendaw o. - Amen."
+      ]
+    },
+    {
+      "number": 118,
+      "title": "VUTHELANI ixilongo",
+      "lyrics": [
+        "VUTHELANI ixilongo, Nina bantu baKhe! Ixilongo le zwi laKhe, Ma lihlokonyiswe.",
+        "Leyo nqwelo yezwi laKho, Ma yihambe yona. Kulo lonk' ilizwe Yesu, Ma yifike khona.",
+        "Vuthelani ixilongo, Nina bantu baKhe! Ma liviwe izwi lalo, Ngabo bangaboni.",
+        "Vuthelani ixilongo, Nina bantu baKhe, Lihanjiswe izwi laKhe, Elizweni lonke.",
+        "Ezo zizwe e zikude, Mazilazi lona, Zikhangele ku Msindisi, Zimamkele Yena - Amen."
+      ]
+    },
+    {
+      "number": 119,
+      "title": "KUKHO eka Thix' incwadi",
+      "lyrics": [
+        "KUKHO eka Thix' incwadi, Yamagama abangcwele, Yabo bakholwayo ku Ye: Likhonan'igama Lakho?",
+        "Amaphepha ayo mahle, Soloko ecocekile, Ohlala ngonaphakade: Likhonan'igama Lakho?",
+        "Noxa apha alaziwa, Noxa aph' alidumanga, Phezulu phay' ezulwini Likhonan'igama Lakho.",
+        "Kwe zisemhlaben' incwadi, Lingabakh'igama lakho, Kodwa kweyobom' incwadi: Likhonan'igama lakho.",
+        "Ezalapha emhlabeni, Ziya guga, zilahleke, Eka Thixo ayigugi: Likhonan'igama lakho?",
+        "Liya baleka ixesha, Limka namathuba akho, Wuphendule ngok'umbuzo: Likhonan'igama lakho? - Amen."
+      ]
+    },
+    {
+      "number": 120,
+      "title": "NKOSI, ndive ngezibele",
+      "lyrics": [
+        "NKOSI, ndive ngezibele, Ezesisa ezobom, Ozigalelayo wena, Mazifike zize kum Zize kum.",
+        "Ndingadlulwa Nkosi, Bawo! Ndingashiywa, Nkosi yam! Ndinezono entliziyweni, Kodwa noko yiza kum. Yiza kum.",
+        "Ndingadlulwa Msindisi! Ndingalahlwa Nkosi yam! Uyabiza ndiyanqwena, 'Zundibize ndize nam, Ndize nam.",
+        "Ndingadlulwa Moy'ongcwele! Ndingashiwa, Nkosi yam! Mandibone mina mfama, Them'ilizwi phezu kwam. Phezu kwam.",
+        "Olothando lwakho, Thixo, Elogazi, Nkosi yam! Izibele Zakho zonke, Mazihlale apha kum. Apha kum. - Amen."
+      ]
+    },
+    {
+      "number": 121,
+      "title": "NDIZALISE O Mkululi",
+      "lyrics": [
+        "NDIZALISE O Mkhululi, NgoMoya oyiNgcwele, Ungumhlobo wethu, Mfeli, Yiza ngena uhlale.",
+        "Ungandizalisa wena- Akungexelelwe ndim, Ufuneka kakhulu kum, Ngo thando ndizalise.",
+        "Ndizele bubuthathaka, Ndiguqa enyaweni, Wena unawo amandla, Ndisize, ndiyatshona.",
+        "Thuthuzela, undihlambe, Ndihlambe intiziyo, Mthuthuzeli, ndisimdise, Wen'undizalisayo. - Amen."
+      ]
+    },
+    {
+      "number": 122,
+      "title": "NDIYAKUFUNA kum",
+      "lyrics": [
+        "NDIYAKUFUNA kum, Wena Nkosi, Afikho ilizwi Iinjengelako.",
+        "Ndiyakufuna kum, Nceda hlala nam, Andisokuhluthwa Xa ndina We.",
+        "Ndiyakufuna kum, Yiza ndisize, Yiza kamsinyane Undincede.",
+        "Ndiyakufuna kum, Yiz'uhindise, Ngamadinga Akho Ndibabale.",
+        "Ndiyakufuna kum, Uyingcwele, Mandibe ngoWakho, Ndisindise. - Amen."
+      ]
+    },
+    {
+      "number": 123,
+      "title": "NOKO kunje apha",
+      "lyrics": [
+        "Noko kunje apha Ukuba mmandi, Ndihulo undwendwe Kwa nomphambukeli.",
+        "Kwelam lon' ikhaya Asikho sono, Inzingo nentsizi Azaziwa konke.",
+        "Yesu ndikhuhule, Undihlambulule, Ndikhokele, Moya, Kulendlela yami.",
+        "Apha ndilundwendwe Kwa nowasemzini, Kodwa lon' ikhaya Lam lise-Zulwini - Amen."
+      ]
+    },
+    {
+      "number": 124,
+      "title": "NDINJE. Nkosi, ndiza ndinje",
+      "lyrics": [
+        "NDINJE, Nkosi, ndiza ndinje, Nali lodwa izwi lam, Lokuba wandifela nam, Mvana kaThixo ndiyeza.",
+        "Ndinje, Nkosi, ndiza ndinje, Ndinge lisul' ityala lam, Ndohlaniwa ngelogazi nam, Mvana kaThixo ndiyeza.",
+        "Ndinje, Nkosi, ndiza ndinje, Ndinoval' en'diziyweni, Luyaphehla umbilini, Mvana kaThixo ndiyeza.",
+        "Ndinje, Nkosi, Ndiza ndinje, Ndibomvu ndinobumfama, Phofu konke usinika, Mvana kaThixo ndiyeza.",
+        "Ndinje, Nkosi, ndiza ndinje, Yihlambe intliziyo yam. Ndicokise, ndihlambise, Mvana kaThixo, ndiyeza.",
+        "Ndinje, Nkosi, ndiza ndinje, Ndibanga uthando lwakho, Ndiyaziphosa, ndingowakho, Mvana kaThixo, ndiyeza. - Amen."
+      ]
+    },
+    {
+      "number": 125,
+      "title": "SIBONG' uThixo",
+      "lyrics": [
+        "SIBONG' uThixo, NgoNyana waKhe, NgoYesu owasifelayo thina.",
+        "Sibong'uThixo NgoMoya wakhe, Owasibonisa ilifa Lakho.",
+        "Uzuko lonke Kuyo iMvana Eyathwala izono entabeni.",
+        "Uzuko lonke, Nodumo lonke, Kulowo owasihlawulelayo.",
+        "Sivuselele Ngothando lwakho, Imiphefumlo mayihlaziyeke. - Amen."
+      ]
+    },
+    {
+      "number": 126,
+      "title": "HLALA nami kuyeza ukuhlwa",
+      "lyrics": [
+        "HLALA nami kuyeza ukuhlwa, Sekuyahlwa, uzuhlale nami, Apho abanye sebesoyiswa, Wena ongoyiswayo, hlala nam.",
+        "Kuyakhawuleza okukufa kwam, Ubuhle obomhlaba buphina? Izinto zonke zitshabalala, Wen'ongaguqukiyo, hlala nam",
+        "Ndiyakucela uhlale nam, Ungeko, zondoyis' izilingo, Ungezi, Nkosi, njengodlulayo, Kodwa, Nkosi yam, nced'uhlale nam.",
+        "Kufunek'usolok'uhleli nam, Umlingi uyoyiswa lufefe, Ngubani ongaz'abe njengawe? Ngamazolo onke solok'unam.",
+        "Andoyiki xa ndihleli nawe, Inyembezi azinabukrakra, Kufa nengcwaba ningenzani kum? Ndinoloyiso xa uhleli nam. - Amen."
+      ]
+    },
+    {
+      "number": 127,
+      "title": "LANGA lomphefumlo wam",
+      "lyrics": [
+        "LANGA lomphefumlo wam, Xa ukhoyo tu 'busuku Makungezi ubumnyama Buze buku fihle kuthi.",
+        "Naxa ndisekulaleni, Inkophe zam zilele yo, Ndiphumle kamnandi kuwe, Ngovuy' olukhulu kuwe.",
+        "Kusasa naxa kuhlwayo, Hlala nam ndiphile Nkosi Ubusuku busondele Hlala nam ndingafi Nkosi.",
+        "Kusasa ndisikelele Ndingekahamb'indlela yam, Ukuze ngothando lwakho Ndiyokuba sezulwini. - Amen."
+      ]
+    },
+    {
+      "number": 128,
+      "title": "XA uxolo lunje ngomlamb'omkhulu",
+      "lyrics": [
+        "XA uxolo lunje ngomlamb'omkhulu, Xa ndinosiz'olukhulu Use undifundisile ukuthi, Kuhle ke, kuhle ke Moya wam.",
+        "Xa uSatana endikhathazayo, Ndiya kunqaba kaloku Ngokuthi uYesu undincedile, Waphalaz'igazi lakhe ngam.",
+        "Ingcamang'entle yile yo yokuba Zonge iziphosiso zam Uzibethelele emnqamlezweni Yibonge iNkosi moya wam.",
+        "Nkosi phangisisa usuku lwakho, Amafu aza kusongwa, Yehl'iNkosi ixilongo lakhala, Njalo ke kuhle moya wami - Amen."
+      ]
+    },
+    {
+      "number": 129,
+      "title": "MASIGCOBE namhla",
+      "lyrics": [
+        "MASIGCOBE namhla, Kristu, sikubonge, Osikhululeyo Ekukhedameni, Wasithul' umthwalo We-Yiputh' onzima, Wasigabulela Olu-Bomv' ulwandle.",
+        "Owalal' ukufa Waba ntsuku ntathu, Uphumele thina, Langa laphakade, Yonk' inkohlakalo Yethu, njengengqele, Seyinyibilika 'Kubalela kwakho.",
+        "Onke amaxesha Onganyelwe leli, Sinom-Thendeleko Osivuyisayo. Thina bendlu yakho, I-Jerusaleme, Wenze simemeze Ngokuvuka kwakho.",
+        "Siyakudumisa, Sithi, Aliluya, Nkosi yaphakade, Eyoyis'ukufa, Kwa nakuwe, Bawo, Sithi, Aliluya, Aliluya kuwe, Moya Oyingcwele. - Amen."
+      ]
+    },
+    {
+      "number": 130,
+      "title": "SIBHAPATIZE Ngamandla akho",
+      "lyrics": [
+        "SIBHAPATIZE Ngamandla Akho, Ngo thando sivuse! Yesu ngokwakho.",
+        "Asifanele, Ol sinentsila, Nkosi sihlambise kokubi konke.",
+        "Hobe lezulu, Yihla phezulul Sikucenga, ngentsikelelo Zakho.",
+        "Phulaphul' izwi lasezulwini- Uyathandeka kum, Ndigcobile ke. - Amen."
+      ]
+    },
+    {
+      "number": 131,
+      "title": "OWAKHO umbuso",
+      "lyrics": [
+        "OWAKHO umbuso Mawufike, Nkosi, Eme namabhotwe Ekomkhulu lakho.",
+        "Mawubeth' utyumze Ngentonga yentsimbi Thixo ongu-Kristu, Incwangu yesono.",
+        "Uphin' umzi wakho, Umzi onoxolo ? Nguwuphina umhla Ekophel' intiyo ?",
+        "Ophela ninina Onke lamadabi ? Uralo nomngweno Zhaleke Wena ?",
+        "Vuka Wena, Nkosi, Uze ngomelelo , Safa kukangela, Slindele Wena.",
+        "Nawe uyagxekwa Apha elizweni Ubub'obukhoyo Babulal uthando.",
+        "Apha kwa-hedeni Kulel'ubumnyama, Vela, Kwezi, vela, Vela, ungatshoni. - Amen."
+      ]
+    },
+    {
+      "number": 132,
+      "title": "BAWO, osebenzayo",
+      "lyrics": [
+        "BAWO, osebenzayo, Mzhasi wento zonke, Nguwe osiphileyo Amandl'ethu onke, Sincede, sisebenze Ngokukhutheleyo, Sisebenzele Wena, Ngezizandla zethu",
+        "Bulumko baphakade, Lizwi lika-Bawo, Ingqondo zihuzizi, Zikhanyise Wena: Sifund'imfundo yonke Esisipho Sakho Sikwazi Nawe, Kristu, Nowakuthumayo.",
+        "Moya wofefe lonke, Z'usive namhla nje, Sifle thina sonke, Xa ungekho Wena: Siphefumlele futhi Ngemvo ezingcwele, Nenene nolulamo Kunye nothandano",
+        "Bawo, Bulumko, Moya, Sihuleke kuhle, Ngemfundo nomsebenzi, Nokulunga konke, Uz'umzi lo wakuthi Ube mhl'emhlabeni, Sihungiselw'owakho Phezul'e-Zulwini. - Amen."
+      ]
+    },
+    {
+      "number": 133,
+      "title": "KONKE Yesu ndinikela",
+      "lyrics": [
+        "KONKE Yesu ndinikela, Ndinikela ngesisa, Ndithembela njalo kuwe, Ndiphile nawe apha.",
+        "Ndiyanikela, Ndiyanikela, Konke kuye uMsindisi, ndiyanikela.",
+        "Konke Yesu ndinikela, Ndiguq' ezinyaweni, Nzuzo yomhlaba ndadela, Thatha Yesu, Ndithathe.",
+        "Ndiyanikela, Ndiyanikela, Konke kuye uMsindisi, ndiyanikela.",
+        "Konke Yesu ndinikela Ndenze ngcwele, Msindisi, Ndiphe owakho uMoya, Wen'ungowam ngenene,",
+        "Ndiyanikela, Ndiyanikela, Konke kuye uMsindisi, ndiyanikela.",
+        "Konke Yesu ndinikela, Ndiv'umlilo ongcwele, Nal'uvuyo losindiso, Lube kuye uzuko.",
+        "Ndiyanikela, Ndiyanikela, Konke kuye uMsindisi, ndiyanikela. - Amen."
+      ]
+    },
+    {
+      "number": 134,
+      "title": "AKWABA ndinemilomo",
+      "lyrics": [
+        "AKWABA ndinemilomo Engaba lwaka, Ndidumise Wena, Thixo, Ngal' ufe fe Lwakho.",
+        "Likhup'uloyiko, Yesu, Eli-Gama Lakho, Lisusa zonke intlungu Kwabo bagulayo.",
+        "Waku thetha ngezwi Lakho Siyaphila thina, Abo bagqobhokileyo Liyabhaptizesha",
+        "Yivani, nina zithulu, Zidenge nemfama, Ziqhwala nani, gcobani, Uyez' uMsindisi.",
+        "Nkosi, Wena Thixo wam, Mawundomeleze Ndivise elihlabathi Ngeli gama Lakho. - Amen."
+      ]
+    },
+    {
+      "number": 135,
+      "title": "ILANGA liya tshona",
+      "lyrics": [
+        "ILANGA liya tshona, Izulu liyaphumza, Linda uz' uthandaze, Ubusuku bukhanyis' izibane",
+        "Ngwele, ngwele, ngwele kuYehova, Izulu kwanombaba ziyambonga uBawo, uSomandla.",
+        "Nkosi yokuphila kwam, Izulu likhaya lam, Sibutha amadinga ombuso wokulunga, wasithenga.",
+        "Ngwele, ngwele, ngwele kuYehova, Izulu kwanombaba ziyambonga uBawo, uSomandla.",
+        "Ukuhlwa kusondele, Ngofefe yenz' inceba, Ubuso nobukhosi busithwe zinkwenkwezi, Uyingcwele.",
+        "Ngwele, ngwele, ngwele kuYehova, Izulu kwanombaba ziyambonga uBawo, uSomandla.",
+        "Xa singasaboniyo Ubusuku nemini Nkosi yaz' ingelosi, Makufike ukusa buka Yesu.",
+        "Ngwele, ngwele, ngwele kuYehova, Izulu kwanombaba ziyambonga uBawo, uSomandla. - Amen."
+      ]
+    },
+    {
+      "number": 136,
+      "title": "NDIYAKUTHANDA Nkos' Wena, Yesu wam",
+      "lyrics": [
+        "NDIYAKUTHANDA Nkos' Wena, Yesu wam, Ngenxa yako ndiya zidel' izono, Unguye uMsindisi, Mfeli wam, Ubabeke ndakuthanda, kunamhla.",
+        "Ndiya kuthanda, kuba wandithanda, Wahlawulela phaya emnqamlezweni, Ndiyakuthanda kuba wandifela, Ubabeke ndakuthanda, kunamhla.",
+        "Ekuphileni kwa nasekufeni Ndizakudumisa uMsindisi wam, Ndothi elukhukwenilwam lokufa, Ubabeke ndakuthanda, kunamhla.",
+        "Kwizindlu zobukhosi ngokugcoba Ezulwini ndiya kukudumisa, Ndisholoze ndithwele isisaba, Ubabeke ndakuthanda, kunamhla. - Amen."
+      ]
+    },
+    {
+      "number": 137,
+      "title": "KWELOLIZWE lokukhanya",
+      "lyrics": [
+        "KWELOLIZWE lokukhanya, Kukho umzi omhle, Awunakuz' uguge, Akukho busuku.",
+        "U-Thixo woqisula Inyembey' emehlwenzi, Nay'iminyaka khona Ayisoq'iphele",
+        "Ngamasang' eperile, Apho kumzi omhle, Istrato zigolide, Akukho busuku.",
+        "U-Thixo woqisula Inyembey' emehlwenzi, Nay'iminyaka khona Ayisoq'iphele",
+        "Masango akavalwa, Apho kumzi omhle, Kukho nomlambo wobom, Akukho busuku.",
+        "U-Thixo woqisula Inyembey' emehlwenzi, Nay'iminyaka khona Ayisoq'iphele",
+        "Langa alifineki, Apho kumzi omhle, Yi-Mvana ekukhanya Akukho busuku.",
+        "U-Thixo woqisula Inyembey' emehlwenzi, Nay'iminyaka khona Ayisoq'iphele - Amen."
+      ]
+    },
+    {
+      "number": 138,
+      "title": "MAQHAJI akomkhulu",
+      "lyrics": [
+        "MAQHAJI akomkhulu, Zithatha zezwe lonke, Zdwangube ze-Nkosi, Zinduna zo-Sirayelí",
+        "Kwakumnyam'emhlabeni, Neza nesikhanyiso, Kwesaba zonk'izono, Kwavela inyaniso.",
+        "Neza ningenakrele, Ningenabughetseba, Nathimbela u-Kristu Ngomnqamlezo wehlazo.",
+        "Kwakulawula isono, U-Satan' esamele, Namhl'u-Thix' uyakhonzwa Kulawul' inkululeko.",
+        "Udumo lweli-Gama Likw o wonk'umhlaba, Kuzo zonke indawo U-Thixo uyaziwa.",
+        "Makudunyisw'u-Thixo Ozimilo zithathu, Osikhuph'emnyameni, Seza ekukhanyeni. - Amen."
+      ]
+    },
+    {
+      "number": 139,
+      "title": "YIVA, Mdali, Sozinceba",
+      "lyrics": [
+        "YIVA, Mdali, Sozinceba, Siphulaphule ngofefe, Bona inyembe zi zethu Ngelixesha lokuzila.",
+        "Indiziyo, nobulwelwe Bethu buyaziw a nguwe: Sikufuna ngenguquko, Sixelele ngobubele.",
+        "Izono zethu zininzi, Siyazililela ngazo, Nge-Gama Lakho philisa Imiphefumlo efayo.",
+        "Siph' amandla, 'zengozilo Soyise yonk' iminqweno, 'Ze isind' imiphefumlo Ekudyojweni sisono.",
+        "Thixo Mtaniti Ongcwele, Wena siyakuthandaza, Sikelel' inzilo yethu, Ibe neziqham' ezihle. - Amen."
+      ]
+    },
+    {
+      "number": 140,
+      "title": "BAWO, odale konke ngothando",
+      "lyrics": [
+        "BAWO, odale konke ngothando, Khangel' olusana Olungen' endeleni yobomi, Ngokubizwa Nguwe Bek' owakh' umfanekiso Phezu komphemfulo walo Sive, Bawo!",
+        "Nyana ka-Thix' owasifelayo, Simzisile Kuwe, Malusi olungileyo, mthabathe Ahlal' engo Wakho, Mkhusele emizameni, Umbonis' indlel' obomi, Thixo Nyana!",
+        "Moya owafukamel' amaza, Ngena kulomntwana, Umdlis' ubom, uhlamb' umoya wakhe Ngamanzi angcwele, Yena abe ngumzi wakho Umntwana ongoka-Thixo Moy'Ongcwele!",
+        "Kwenzekile okuyaleleyo, Thixo M-Trinit, Langa labalapha naphezulu Mkhanyselı umntwana, Hukhohwen', ethembeni Huthandweni, novuyo, M-Trinit! - Amen."
+      ]
+    },
+    {
+      "number": 141,
+      "title": "ISIQALO sobulumko",
+      "lyrics": [
+        "ISIQALO sobulumko Kukoyika Wena, Bawo: Sibabale ngobulumko Bokoyika Wena, Bawo.",
+        "Ukoyika Wena, Bawo, Kunceda ngendlela zonke: Kusigcina ekoneni, Kusiqhubel' ebomini.",
+        "Ukoyika Wena, Bawo, Kusikhusel' ebubini, Kusenza sithiye konke Okulisikizi Kuwe.",
+        "Ukoyika Wena, Bawo, Kusithiyisa nesono, Kusenza nyulu ngomzimba, Kuhlambulul' umphemfulo",
+        "Kuyalicekis' ikratshi Akubonani nolunya, Akubonani nomona, Akwazani nobuvila.",
+        "Kusinika intobeko, Kusinika ululamo, Kusinik' ukuzoyisa Kusinika intembeko.",
+        "Masamkel' uMoya Wakho Sifunde ukukoyika, Yise, Nyana, Moy' Ongcwele, Thixo, M-Tinidi Ongcwele. - Amen."
+      ]
+    },
+    {
+      "number": 142,
+      "title": "BUYA, mphefumlo wam",
+      "lyrics": [
+        "BUYA, mphefumlo wam, Buyela e Nkosini, Buya namhla e zonweni Ungasingi ekufeni, Buya, mphefumlo wam.",
+        "Lila, mphefumlo wam, Izono zililele, Zonk' izono zihhlazo, Wena noko usenazo, Lila mphefumlo wam.",
+        "Khunga, mphefumlo wam, Ukhunge kuMkhululi, Riza futhi e Nkosini, Yova yona ezulwini, Khunga mphefumlo wam.",
+        "Themba mphefumlo wam Uthembel' e Nkosini, Yeza yona emhlabeni, Uze uye ezulwini: Themba, mphefumlo wam.",
+        "Vuya mphefumlo wam, Vuyela uMsindisi, Weza yena wakufela, Seleya kukuxolela: Buya, mphefumlo wam. - Amen."
+      ]
+    },
+    {
+      "number": 143,
+      "title": "UYINDLELA yenyaniso",
+      "lyrics": [
+        "UYINDLELA yenyaniso, Nyana Lo ka Thixo wam, Ndimi ngawe onk'amaxa, Wena unobomi bam.",
+        "Uthi ngobubele Bakho, 'Sondelani nonke Kum, Ndonivis' olwam uxolo, Ndonivis' ufe fe lwam.",
+        "'Khawulezani, nab'ubomi Eniyakubudla ngam, Nas' iSonka, esezulu, Sondelani, nitye nam",
+        "'Ndisi-Sonka sokuphila, Ndingamanzi abubom, Nngasela nitye nonke, Nze e-zulwini kum.'",
+        "Nkosi, ndomeleze mina, Ndize ndidi' ubomi nam, Ndibe nokukudumisa Ngayo indiziyo yam. - Amen."
+      ]
+    },
+    {
+      "number": 144,
+      "title": "NDIKHOKELE, O Mkhululi",
+      "lyrics": [
+        "NDIKHOKELE, O Mkhululi, Ndicand' ubugxwayiba, Ndipheleliwe, mandibanjwe Ngeso sakho sithe-nkqi: Wena sonka Saphezulu, xhasa mna.",
+        "Tyhila ngok' umthombo lowo Umpompoz' awempilo, Ithi nentsika yomlilo Indikhaphe nanini: Msindisi, Mandla am nekhakha lam.",
+        "Ndikudini lwase-Jordan Yitsho ndingaxhalabi, Wena mvingci wesihogo, Ndise ngapho eKanan, Imbongo Ndokwenzel' amax' onke. - Amen."
+      ]
+    },
+    {
+      "number": 145,
+      "title": "INYE indlela kwaphela",
+      "lyrics": [
+        "INYE indlela kwaphela, Yokuphuma ekoneni, Esa kwelozwe linyulu, Kuba ngu Thixo okhona.",
+        "Inyaniso nayo inye, Yeka Thixo kwakuphela, Ubom nabo bukwabunye, Bob' asithengele bona.",
+        "Okwamsithelay' uFilipu, Siyakwazi ngay' uKristu, Simtyhilelwe ngay' uYise, Zeyisakal' üntliziyo.",
+        "Ukholo lubambelele Kweka Yakob' imfundiso, Xa singabambelelanga, Siyakuphoswa lizulu.",
+        "Yesu, Ndilela, Nene, Bomi, Sikokhelel' eZulwini, Size ke ekupheleni Sihlale siphambi Kwakho. - Amen."
+      ]
+    },
+    {
+      "number": 146,
+      "title": "INDUMISO yethu",
+      "lyrics": [
+        "INDUMISO yethu Ife ziwe ngoku, Nanga namathunz' okuhlwa Esiwa phezulu",
+        "Kodwa, Lukanyiso Olungapheliyo, Uz'ungasishiyi sodwa, Uxel' elilanga",
+        "Phambi kwe Trone Yakho, Ubusuk' abukho, Izithunywa ezulwini Zihleli zicula.",
+        "Kanti noko, Nkosi Intliziyo yethu Ilungeleliswe Nguwe, Sohlomela nathi",
+        "Ungumthuthuzeli, Beyisele Kuwe Nabo balahlekiswayo Yintliziyo yabo",
+        "Akusexa lide, Sifik' isiphelo: Ingom' ewunywa zingelosi Ine nye neyethu. - Amen."
+      ]
+    },
+    {
+      "number": 147,
+      "title": "BHETLEHEM, wena umkhulu",
+      "lyrics": [
+        "BHETLEHEM, wena umkhulu Kwizixeko zomhlaba, Kuba kuwe kwazalelwa Umlawuli kaSirayeli",
+        "Yabengezel'inkwenkwezi Eyabikel'ilizwe Ukwenziw'abe yinyama Kuka Thix'uSomandla",
+        "Izilumko zakudala Zeza nentlak'emhlophe, Negolide nobulawu, Zivel'empumalanga.",
+        "Zibonisa okokuba Ngu-Thixo wokunqulwa, U-Kumkani woKumkani, Ongasoze abole.",
+        "Yes'owanqulwa zintlanga Ngomhla we-Epifani, Uzuko Kuwe, noYise NoMoya oyiNgcwele. - Amen."
+      ]
+    },
+    {
+      "number": 148,
+      "title": "XA ixilongo likhala",
+      "lyrics": [
+        "XA ixilongo likhala nexesha selidlule, Ko fika usuku olumi njalo, Abasindiswayo behlanganiselwa kwelo zwe, Bebizwa phezulu ndakuba khona.",
+        "Xa sebe... bizwa phezulu, Xa sebe... bizwa phezulu, Xa sebe... bizwa phezulu, Bebizwa phezulu ndakuba khona.",
+        "Ngalo ntsasa yobantle apho sebe vuswa bonke Boza benesimo esitsha ngoko Abanyuliweyo behlanganiselwa ekhaya Bebizwa phezulu ndakuba khona.",
+        "Xa sebe... bizwa phezulu, Xa sebe... bizwa phezulu, Xa sebe... bizwa phezulu, Bebizwa phezulu ndakuba khona.",
+        "Masiyisebenzele iNkosi lide litshone, Masazisane ngothando lweNkosi, Singafa, uyaphela umsebenzi wethu apha Bebizwa phezulu ndakuba khona.",
+        "Xa sebe... bizwa phezulu, Xa sebe... bizwa phezulu, Xa sebe... bizwa phezulu, Bebizwa phezulu ndakuba khona. - Amen."
+      ]
+    },
+    {
+      "number": 149,
+      "title": "SINYÉ isiseko sebandla, ngu Yesu",
+      "lyrics": [
+        "SINYÉ isiseko sebandla, ngu Yesu, Uzidalele lona ngamanzi nelizwi. Yena wehl'ezulwini wazimanya nalo, Walithenga ngegazi, wafa ngenxa yalo.",
+        "Banyulwe emhlabeni, bahlangene kulo, Lithi, 'Inye iNkosi, ukholo, nozalo, 'Iinye igama kwane Sonka esingcwele.' Kukho ithemba linye elinobabalo.",
+        "Liyahlekwa liyacinez elwa kakhulu, Luyahlukan' utshaba apho kukh' u Yesu. Abangcwele ngokholo bathi, \"Koba nini?\" Kwaka msinyane kuza kuphel' ukukhala.",
+        "Phakathi kwenkathazo, intlungu, nenzima, Lilindele umvuzo woxol' olukhulu, Kothi ekupheleni kuvel' ukukhanya, Kophela konk' ukulwa ibandla loyise. - Amen."
+      ]
+    },
+    {
+      "number": 150,
+      "title": "SINESIPHO esikhulu",
+      "lyrics": [
+        "SINESIPHO esikhulu, Esisiphiweyo thina, Sisiphiwe ngu-Yehova, Esosipho esinaso.",
+        "Sinqabile esosipho Kwabo basizuzileyo, Basithanda sona kanye, Phezu kwento abanazo.",
+        "Singamandla esosipho Kwabo basifumeneyo, Sibubomi esosipho Kwabo abasamkeleyo",
+        "Esosipho singu-Yesu, Esisiphiweyo thina, Usisipho esikhulu Kwabo abakholiweyo.",
+        "Simbulela u-Yehova Ngesosipho esikhulu, Simbulel' u-Thixo yedwa, Ngokusiph' u-Nyana Wakhe. - Amen."
+      ]
+    },
+    {
+      "number": 151,
+      "title": "SOBHEKA phina, Thixo",
+      "lyrics": [
+        "SOBHEKA phina, Thixo, singabheki Kuwe? Soncedwa ngubanina, singancedwa Nguwe? Wadala thina bantu, wenza into zonke, Umise nenkululo, sisindiswe sonke.",
+        "Akukho ngxaki kuwe, unamandla onke, Akukho nkohla Kuwe, unokwazi konke. Silondoloze, Bawo, ngalomandla Akho, Sikhanyisele, Bawo, ngokokwazi Kwakho.",
+        "Siphahle ngezibele koluhambo lwethu, Sincede endleleni ngokuswela kwethu Sixhase ekufeni, singahlehli Kuwe, Samkele ezulwini, ngosimnikwe nguwe.",
+        "Amen."
+      ]
+    },
+    {
+      "number": 152,
+      "title": "KUMNANDI ukuthandaza",
+      "lyrics": [
+        "KUMNANDI ukuthandaza, kundibiz' elusizini, Kundibikela kuBawo, konke oku kuswela kwam, Ngamaxesha enkathazo ndizuza ukupholiswa, Andiwole ngamaphiko, ngomoya wokuthandaza.",
+        "Kumnandi ukuthandaza, kundithwalel' izicelo, Aze othembekileyo andisikelele yena, Uthi mandicinge ngaye, mandikholwe lizwi lakhe, Uyakundinceda yena, ndakulinda ndithandaze.",
+        "Kumnandi ukuthandaza, ngathi ndiyathuthuzelwa, Ndize ndibone ikhaya, ndiye kulo ndinoxolo, Ndakuhamba ndifun' izwe elingenez' inkathazo, Ndimemeze, ndimemeze, \"Sala kuhle kuthandaza\".",
+        "Amen"
+      ]
+    },
+    {
+      "number": 153,
+      "title": "AKUHLANGA lungehlanga",
+      "lyrics": [
+        "AKUHLANGA lungehlanga, Dade, nani bazalwana, Lo mntu usishivileyo, Nguye ogodukileyo.",
+        "Akuhlanga lungehlanga Yonw abani lusatshana Nziungisel' okwenu, Xa nibizelwa kokwenu.",
+        "Akuhlanga lungehlanga Kunje kuzo zonk' in tlanga, Kungumthetho ubhaliwe, Sisigqibo sigqityiwe.",
+        "Akuhlanga lungehlanga Gqalani oko bazalwana, Ngaman' u Thixo anibophe Thuthuzelekani ngoko",
+        "Akuhlanga lungehlanga Noko ngathi kubuhlungu, Lo mmiselo wuqondeni, Lo mmiselo wuqheleni. - Amen."
+      ]
+    },
+    {
+      "number": 154,
+      "title": "LUSAPHO loKumkani",
+      "lyrics": [
+        "LUSAPHO loKumkani, Vumani ngokuvuya, Vumelan'uMsindisi, Nuvume ngokuvuya",
+        "Vumani xa nihamba, Nuya ku-Thix' ekhaya, Lo ndlela yabadala, Ababehamba ngayo.",
+        "Bavuyel'uMsindisi, Nengabo sakuvuya, Lakufika elethu Ixesha lokuvuya.",
+        "Mhlanjana! vuyani ke, Nophumlela kuYesu, Apho likhon' ikhaya Ikomkhulu nomvuzo. - Amen."
+      ]
+    },
+    {
+      "number": 155,
+      "title": "MANINGENZ' isono",
+      "lyrics": [
+        "MANINGENZ' isono Maningathethi Amazwi amabi, Ntsapho yeNkosi.",
+        "Ningabaka Yesu Onobubele, Nabantwana Bakhe Mababe ngcwele.",
+        "Kodwa kukh'umoya, Ongongendawo, Onizinga futhi, Ukuze none.",
+        "Ize ningawuva, Ze niwuchase, Nokuya kunzima Ukwenjenjalo.",
+        "Ke nithembisile Ebusaneni Ukulwa nomiyholi, Nendlela zakhe.",
+        "Nina ke nenziwe Abaka Kristu: Fundani ukulwa Nenkohlakalo.",
+        "Eyenu iNkosi Ilunge kanye, Ntabantwana bayo Mababe ngcwele. - Amen."
+      ]
+    },
+    {
+      "number": 156,
+      "title": "UNGUMDALI wento zonke",
+      "lyrics": [
+        "UNGUMDALI wento zonke, Nezisezulwini Nawe, Nezisemhlabeni wonke, Zonke izinto zime Ngawe.",
+        "Zazidalwa ngezwi Lakho, Ngezwi linamandla onke Sithi ubukhulu Bakho Sibubone ngazo zonke.",
+        "Nkosi! singa singahamba Phantsi kobukhulu Bakho. Nkosi! singa singahamba Zonke iziyalo zakho. - Amen."
+      ]
+    },
+      {
+    "number": 157,
+    "title": "AMAXHWANE abingwayo",
+    "lyrics": [
+      "AMAXHWANE abingwayo Ngama-Yuda akudala Akabanga nalusizo Kwizizwe ezingakwazanga.",
+      "Kodwa Wena Kristu, Xhwane Elabingelelw’ abonii, UliDini lenyaniso, Negazi elihlambayo.",
+      "IGazi elimpompozayo Ecaleni laKho, Yesu, Laphalazelwa iintlanga Ezingakwazanga, Yesu.",
+      "Luze ngokubingwa kwaKho Olusindiso lwezizwe, Nyana kaThixo wozuko, Ndlalifa yamaphakade.",
+      "Kuze, zisele eloGazi, Ube kukuphila kwazo, Kuze, zidle nalomZimba, Kube kukonwaba kwazo. - Amen."
+    ]
+  },
+  {
+    "number": 158,
+    "title": "NGELO xa lokushiywa",
+    "lyrics": [
+      "NGELO xa lokushiywa, Ngabo abathandayo, Sokhala kuwe Nkosi, Nyana kaThixo sive!",
+      "Iakusishiy’ ithemba, Ugetsi lwethu lobo, Sokhala kuwe Nkosi, Nyana kaThixo sive!",
+      "Sakutoba iintloko, Ilizwi usizi, Sokhala kuwe Nkosi, Nyana kaThixo sive!",
+      "Satuva ukubuhlungu, Imfesane isika, Sokhala kuwe Nkosi, Nyana kaThixo sive!",
+      "Sakuvuk’ isazela Ngokuba sikonile, Sokhala kuwe Nkosi, Nyana kaThixo sive!",
+      "Duyile usizi, Wafila inyembezi, Sothemba Wena Nkosi Nyana kaThixo sive! - Amen."
+    ]
+  },
+  {
+    "number": 159,
+    "title": "MONWABISI oyiNgcwele",
+    "lyrics": [
+      "MONWABISI oyiNgcwele, Mthombo wazo zonke, Hlis’ umbethe waKho Yiva ukukunga kwethu, Utyebis’ umhlaba wethu Ngobunyela kwaKho.",
+      "Sonwabis’ thina sonke, Usivise uxolo lonke Ngoku nguna kwaKho. Sikhokele enyanisweni, Usimise entandweni, Ngokutsiza kwaKho.",
+      "Sothi, salathiswe Nguwe, Side sifikelele Kuye UMsindisi wethu, Sibubon’ ubuso Bakhe, Glubong’ ufefe lwaKho Ekhayeni letu. - Amen."
+    ]
+  },
+  {
+    "number": 160,
+    "title": "UYES’ uyakulawula",
+    "lyrics": [
+      "UYES’ uyakulawula Aph’ ilanga lihambayo, Both’ ubukumkani Bakhe Buzalise zonke indawo, Zid’ iinyanga zingatshwasi, Neminyaka ingapheli.",
+      "Intandazo ngentandazo Zohlokoma ngenxa Yakhe, Zonyukela iindumiso, Zibe sisitsaba sakhe, Kuqhunyiswe amadini Okuqhol’ igama lakhe.",
+      "Boluncom’ uthando Lwakhe, Ngazi’ iingoma ezimnandi, Zithi zonke’ iilwimi zabo Zitsholoze okumandi Kuvakal’ amazw’ eentsana, Ehlokoma kwangesandi.",
+      "Kuzalis’ intsikelelo, Aph’ uYes’ alawulayo Amakhonxwa akhululwe, Awe amakhamandela, Aphunyuzw’ odiniweyo, Aneliswe osweleyo.",
+      "Izidalwa ezikhoyo, Maziguqe phambi KwaKhe, Zibe zezi qhayisayo, Ngaw’ amandl’ ofefe lwaKhe Zidabane nabezulu, Ngokumnik’ udumo Lwakhe. - Amen."
+    ]
+  },
+  {
+    "number": 161,
+    "title": "YITHWESEN’ iMvana !missing page 169! ",
+    "lyrics": [
+      "YITHWESEN’ iMvana Ngazo izitsaba, Phulaphula! itshatshisele Ingoma yeZulu: Phakama uvume Ngowakufelayo, NguKumkani wakho wedwa, Wena mphefumlo wam.",
+      "Mthweseni uNyana WeNtomb’ uMariya, UThixo ezelwe ngumntu, Uzifumanele Ubukhosi Yena, Ahonjiswe ngabo, Lusana lwaseBhetelehem, Sebe likaIsaya."
+    ]
+  },
+  {
+    "number": 162,
+    "title": "NAMHLA sizalelw’ umntwana",
+    "lyrics": [
+      "NAMHLA sizalelw’ umntwana, Indlalifa yamadinga. Nguye okaThix’ uNyana, Ofikele emhlabeni.",
+      "Sizalelwe uMsindisi, Uze kusiphakamisa, Uze kukhulul’ uluntu, Ngofefe walusindisa.",
+      "Amazisa amanyange, Ephefumlelwa ngumoya, Athi: Nguye ovumileyo Ukusindisa ilizwe.",
+      "UyiNkosi yamabandla, Nok’ eshiye ubukhosi, Ma simamkelele ngovuyo, Nangokholo lwentliziyo. - Amen."
+    ]
+  },
+  {
+    "number": 163,
+    "title": "MANDIHAMBE Nawe, Yesu",
+    "lyrics": [
+      "MANDIHAMBE Nawe, Yesu, Kuzo zonke indlela zam, Izwi laKho mandilive Lonk’ ixesha, Nkosi yam.",
+      "Mandihambe Nawe, Yesu, Zulwandis’ uthando lwam, Ndonwabi’ imini yonke Xa ukhoyo, Nkosi yam.",
+      "Mandihambe Nawe, Yesu, Uzoyis’ intshaba zam, Unamandla, andinawo, Lawula, lawula, Nkosi yam.",
+      "Mandihale Nawe, Yesu, Kwakutk’ uku lwaKwam, Zundamkele ezulwini, Ndiyekuwe, Nkosi yam. - Amen."
+    ]
+  },
+  {
+    "number": 164,
+    "title": "UPHILILE uMsindisi",
+    "lyrics": [
+      "UPHILILE uMsindisi, Uphilile Yena, Sivuyiswa thina boni, Uphilile yena.",
+      "Ebe file uMsindisi, Ebe file yena Wabulawa ngenxa yethu Wabulawa yena.",
+      "Unyukela ezulwini Unyukile yena Usithandazela thina Kuthandaza yena.",
+      "Uya lawula uMsindisi Ulawulela thina Sisindiswe ezonweni Sisindiswe thina. - Amen."
+    ]
+  },
+  {
+    "number": 165,
+    "title": "NKOSI Thixo Mtrinitti",
+    "lyrics": [
+      "NKOSI Thixo Mtrinitti, Wena Mphathi omkhulu, Yiva thina sakuthi Sikucelele.",
+      "Thix’ ongu Sokukhanya, Khanyisel’ iintliziyo, Sihlal’ eluthandweni Ngofefe lwaKho.",
+      "Kwakuhlwa imini le, Izono zixolele, Noxolo luthumele Olwaphezulu.",
+      "Nkosi, singa singathi Sikhonze Wena njalo Apha, naseZulwini Ngonaphakade. - Amen."
+    ]
+  },
+   {
+    "number": 166,
+    "title": "Yizani Ma-Kristu",
+    "lyrics": [
+      "Chorus: Yizani, simbulise, Yizani, simbulise, Yizani, simbulise u-Kristu I-Nkosi.",
+      "Yizani, ma-Kristu, Siye ngokuvuya, Yizani, masiye e-Bethelehem, Siye kumbona Ozalelwe thina, (Chorus)",
+      "* Ngezwi le-Ngelosi, Ukuya kumbona esemkhombeni, Masiye nathi, Siye ngokuvuya, (Chorus)",
+      "* Zikhokelwe kude, Zamsela izipho zelakowazo, Masiye nathi, Simsel' intliziyo, (Chorus)",
+      "Nguthixo ka Thixo, Engumntwana womntu, Ezelwe yi-Ntombi ayenzileyo Akenziwanga, Ungunaphakade, (Chorus)",
+      "Culani nivuye, Nani zi-Ngelosi, Nivume ingoma, sivume nathi, Simbonge apha, Nani ngaphezulu, (Chorus)",
+      "Al Yesu! Lusana! Siyakubulisa, Kungathi siyaya e-Bethelehem, Siye kubona Aph' uzelwe khona, (Chorus)",
+      "* Inkazimlo yakho, Wen' oyinkazimlo ka-Sokukhanya. Thixo wenene, Wasingathwa ngumntu, (Chorus)",
+      "* Uzuzisa thina, Usesibayeni sikubulisa, Usithandile, Mawungathandwa na? (Chorus) - Amen."
+    ]
+  },
+  {
+    "number": 167,
+    "title": "Ikhaya Loyolo",
+    "lyrics": [
+      "Ikhaya loyolo Lingaphaya kweli, Izilinga zikho Khona, nenyembezi Kobe nal' ukholo, Ngentemb' eqinileyo Yonk' inzaliseko Iba sekuhleni.",
+      "Kukh' izw' e loxolo, Laziwa 'Zizthunywa, Ingom' ayipheli Kuwo lomasango, Lo Tron' ingqongiwe Zi-Ngcwele zakhona, Ziqhuba umbuso Wazo ku-Mtimiti.",
+      "Uyolo lukhulu, Lokubon' I-Mvana Eyasifelayo, Nalomanxeb' ayo, Snik' uzuko Olufaneleyo, Syakalis' into Esenzele zona.",
+      "Bhekani phezulu Ngcwele zika-Thixo, Nihambe indlela Awahamba ngayo, Lindan' umzuzwana Ningenakukrokra Wobehl' anamkele Kwelokhaya Lakhe. - Amen."
+    ]
+  },
+  {
+    "number": 168,
+    "title": "Sikelela Isithebe",
+    "lyrics": [
+      "Sikelela isithebe, Esiphambi kwethu, Sondle imizimba yethu Kwanempilo yethu.",
+      "Esisonka sisityayo Siphiwe Nguwe, Nalamanzi aselwayo Siwanikwa Nguwe. - Amen."
+    ]
+  },
+  {
+    "number": 169,
+    "title": "Yivan' Ilizwi LesiBhalo",
+    "lyrics": [
+      "Chorus: Ngenisani konke okweqishumi, Ndiodinge, thsho iNkosi, Ndiompha tintsikelelo, Kade kuswelek' indawo yokugcina.",
+      "Yivan' ilizwi lesiBhalo Lithi, 'Ngenisani konke okweshumi:' Zisan' Umbingelelo waphakade, Themban' ukusikelelwa. (Chorus)",
+      "Ninga ningaz' amandl' omoy' ongcwele? Ngenisani konke okweshumi, Ngenisani konke okweshumi, Thethani nenkosi onke amaxa, Ngoku isasikelela. (Chorus)",
+      "Nahlulwa yinina nenkosi yenu? Ngenisani konke okweshumi, Ngenisani ngokomyalelo Wakhe, Uyakunisikelela. (Chorus)",
+      "Nyusan' intliziyo nithi: YiNkosi xa nizisa konke okweshumi, Themban' amadinga, noba novuyo, Xa nimnike intliziyo. (Chorus)",
+      "Hlabelan' ingom' emandi kakhulu Ngexesha nizisa okweshumi. Sithi: Haleluya! Ngezw' elimnandi, Szuze intsikelelo. (Chorus) - Amen."
+    ]
+  },
+ {
+    "number": 170,
+    "title": "Nguthixo Owenze Zonke",
+    "lyrics": [
+      "Nguthixo owenze zonke Izinto ezinde, Zonk' indidi zezinto Nezithi-manga.",
+      "Ngu-Menzi wentyatyambo, Namabala azo, Ayenzel' amaphiko Nentak' evumayo.",
+      "Isityebi nehlwempu Benziwe ngu-Thixo, Ophezulu nophantsi Namawonga abo.",
+      "Intaba eluhlaza, Umlamb' odlulayo, Ukuhlwa, kwa nokusa Okukhanyisayo.",
+      "Umoya nobusika, Ilanga nehlobo, Iziqham' emyezweni, Nguy' u-Menzi wazo.",
+      "Imithi ehlabathini, Nentli ehlabathini, Ingcongol' emlanjeni Siya zisiphula.",
+      "Wasinika amehlo Oba sizibone, Nomlomo wokuxela Ubukhulu bakhe. - Amen."
+    ]
+  },
+  {
+    "number": 171,
+    "title": "Yizani, Namkel' U-Mzimba We-Nkosi",
+    "lyrics": [
+      "Yizani, namkel' u-Mzimba we-Nkosi Ne-Gazi enliphalezelweyo.",
+      "Lidin' elizalisekileyo, Somelezwe, siyabulela.",
+      "U-Krist' u-Nyana ka-Thixo wethu, Ngokufa kwakhe, wanokoyisa.",
+      "Ungumnike l' ofezekileyo, Ngokufa kwakhe, wanokoyisa.",
+      "Amadimi abebingelelwa, Ashumayela ukufa kwe-Nkosi.",
+      "Oyintlawulelo eyaneleyo Ngu-Kristu, oyi-Pasika yethu.",
+      "Wasinika amelho Oba sizibone, Nomlomo wokuxela Ubukhulu bakhe.",
+      "Nas' i-Sonka essiphiweyo Singu-Mzimba ongcwele ka-Kristu.",
+      "Ne-Wayin' emiselweyo yi-Nkosi, Ili-Gazi layo elingcwele.",
+      "I-Nkos' ikho edinini lethu, Kwa njengokwesithembiso sayo. - Amen."
+    ]
+  },
+  {
+    "number": 172,
+    "title": "Akukho Koyika Apho",
+    "lyrics": [
+      "Akukho koyika apho Ku-Baw' e-Zulwini: Akukh' naliny' ixhala Aph' ahleli khona.",
+      "Akukho sono khon' apho Komkhulu, kwa-Thixo, Nako ukungcol' akukho Kwelo le-Ngelosi.",
+      "Akukho neny' inxwaleko Phezulu, ekhaya: Akukho bunzima bani Kwelo linophumlo.",
+      "Ukuswela nentuthumbo, Intsizi nenzingo, Ingxabano nemisindo- Kwelo linophumlo.",
+      "Azi soyiva ninina Londa' ibuyolo? Azi sowubona nini Lowomzi ka-Bawo? - Amen."
+    ]
+  },
+  {
+    "number": 173,
+    "title": "Thixo, Ongu-Bawo Wethu",
+    "lyrics": [
+      "Thixo, ongu-Bawo wethu, Naku sihlangene, Thina silusapho lwakho, Vela usamkele.",
+      "Kuzo zonk' imbandezelo, Kwa nentsizi zethu, Sizibika kuwe, Bawo, Ngamaxesha onke.",
+      "Sikhulise, usondlele Kulo i-Zwi lakho, Kuba Wena wasithanda Ngobubele bakho.",
+      "Yiba nathi kwakaloku Ebuncinaneni, Usiweze kwingxingongo Apha emhlabeni.",
+      "Sikhusele sinqabise Siphe kwa nokholo Side siye e-Zulwini Ngobabalo lwakho. - Amen."
+    ]
+  },
+  {
+    "number": 174,
+    "title": "Khumbulan' U-Thixo Wenu",
+    "lyrics": [
+      "Khumbulan' u-Thixo wenu, Lowo unguMdali wenu, Owadal' abantu bonke. Yalekani, nimhlonele, Wonibuka ngobubele, Ma kakhonzwe nini nonke.",
+      "Khumbulan' u-Thixo wenu, Lowo ungumgcini wenu, Ungumgcini wento zonke, Nakumenz' amandla enu, Abe sisixhobo senu, Ma kathenjwe nini nonke.",
+      "Khumbulan' u-Thixo wenu, Lowo unguYihlo wenu, Onofefe kuni nonke Thandazani nisondele, Wova anisikelele, Ma kathandwe nini nonke. - Amen."
+    ]
+  },
+  {
+    "number": 175,
+    "title": "Thixo Ndikhangele Kuwe",
+    "lyrics": [
+      "Thixo Ndikhangele Kuwe, Nkosi Ndisindise, Izwi lokubiza kwami Ma lifike Kuwe.",
+      "Nguwe oyiNkosi yami Ndilinda yona, Ndithi, ngentliziyo yami, Ndoza ndikubone.",
+      "Ndenje njalo ukucinga, Ezi ntsuku zonke, Ndikhumbule ukusinga Apho umi khona.",
+      "Liphi ikomkhulu Lakho Apho wakhe khona? Ma undivumele, Nkosi, Ndiye kukubona. - Amen."
+    ]
+  },
+  {
+    "number": 176,
+    "title": "Bawo Wethu, O SeZulwini",
+    "lyrics": [
+      "Bawo wethu, o seZulwini, Maliphathwe ngobungcwele i Gama lakho. Ubukumkani bako mabufike. Intando yakho mayenziwe emhlabeni, Njengokuba isenziwa eZulwini.",
+       "Siphe namhlanje isonka, sethu semihla ngemihla. Usixolele izono zethu, Njengokuba nathi sibaxolela, abo basonayo thina. ",
+       "Ungasingenisi ekuhendweni, Usisindise enkohlakalweni: Ngokuba ubukumkani bobaKho, Namandla, inga waKho' Nobungcwalisa ibobakho Kude kube ngunaphakade. - Amen."
+    ]
+  },
+  {
+    "number": 177,
+    "title": "Isiseko Se-Kerike",
+    "lyrics": [
+      "Isiseko se-Kerike Singu-Kristu I-Nkosi, Isisdalwa sakhe Ngamanzi ne-Gazi, Wayezenzela ibe Ngu-Mtshakazi wakhe, Ohla! esidl' ubomi, Ngokokufa kwakhe.",
+      "Ikuzo zonk' indawo Le-Kerike inye, Intanga zonke kuyo Zabunjwa zabanye, Ngalo u-Khol' olunye, Ngo-Bhaptizo olunye, Nange-Nkosi enye.",
+      "Noko Ikrazukile Ngemfundis' ezimbi, Noko ibandezelwe Zintshaba zaphandle, Basaland' a-Bangcwele Ukufika kwakhe U-Myeni we-Kerike, Abathuthuzele.",
+      "Ebunzimeni bonke Nasemgciphekweni, Isalind' ukufezwa Koxolo noyolo, Ayinakudiniswa, Ayinakoyiswa, Ne-Kerike' isoyisa Yoba nokuphumla.",
+      "Kanti ke imanyene No-Thix' u-Mtriniti, Nobudlelan' obuhle Nabasebemkile: Hayi ubuyolo babo! Kristu, siph' uxolo, Sihlale kuwe nabo Ngamaxesha onke. - Amen."
+    ]
+  },
+  {
+    "number": 178,
+    "title": "Khaya Lam, Jerusaleme",
+    "lyrics": [
+      "Khaya lam, Jerusaleme, Ndoba kuwe nini? Ezintsizi zam ziphele, Ndiv' uyolo nini?",
+      "Sezithweswe khon' I-Ngcwele, Ziyambon' u-Thixo: Ziseyisa, zisagcoba, Hayi inyweba yazo!",
+      "Thina ke, singabagxothwa, Sisambambazela, Siyalila, siyancwina, Senza isijwili.",
+      "Okumnandi kubukrakra, Tu nto ibuyolo: Kuthi-banga, sisajonga, Kusal' intsizi nje.",
+      "Apho ngenxa yokonwaba, Ngenxa yemihlali, Iminyaka eliwaka Ngathi yimin' inye.",
+      "Hayi ubuhle bemiyezo! Mihle kanye bethu, Hayi imithi neziqhamo! Zingumangaliso.",
+      "Khona apho kuluhlaza Ngawo onk' amaxa: Zikho nentyatyamb' ezintle, Ziqholis' umoya.",
+      "Khaya lam, Jerusaleme, Ndanga ndingakhona: Zanga zingaphel' intsizi, Ndiv' uyolo Lwakho! - Amen."
+    ]
+  },
+{
+    "number": 179,
+    "title": "Thetha Nomphefumlo Wam",
+    "lyrics": [
+      "Chorus: Thetha nam usebenza uthando lwakho kum, Yithi, 'Ungumeyisi, ukhulule', Thetha yonk' imihla, Nkosi, ngelithambileyo, Ndisebezele uthi akundishiyile.",
+      "Thetha nomphefumlo wam ngelithambileyo, Ngolo thando yithi kum, 'Akushiyw' e wedwa', Vula lentliziyo yam, Ive wena ngoku, Ndizale yindumiso, Mandigcobe ngawe. (Chorus)",
+      "Nab' abantwana bakho, bakhokele wena, Bazalise ngovuyo, nangokuthandaza, Baphelelise kuwe, bonk' ubomi babo. Khawuleza ufike, size sikubone. (Chorus)",
+      "Wena wazithulayo kwabo bakudala, Ndazis' imfanelo yam, emthethweni wakho, Ndize ndikuzukise, ndiboniswa nguwe. Ndiyavuya Nkosi yam, ndinembeko kuwe. - Amen."
+    ]
+  },
+  {
+    "number": 180,
+    "title": "Will your anchor hold in the storms of life",
+    "lyrics": [
+      "Will your anchor hold in the storms of life, When the clouds unfold their wings of strife? When the strong tides lift and cables strain, Will your anchor shift or firm remain?",
+      "We have an anchor that keeps the soul Steadfast and shore while the billows roll, Fastened to the rock which cannot move, Grounded firm and deep in the Saviour's love.",
+      "It is safely moored, 'twill the storm withstand, For 'tis well secured by the Saviour's hand, And the cables passed from his heart to mine, Can defy the blast, through his strength divine. - Amen."
+    ]
+  },
+  {
+    "number": 181,
+    "title": "THE Church's one foundation",
+    "lyrics": [
+      "THE Church's one foundation Is Jesus Christ her Lord, She is his new creation By water and the Word: From heav'n He came and sought her To be his holy bride, with his own blood He bought her, And for her life He died.",
+      "Now she on earth hath union With God the Three in One, And mystic sweet communion With those whose rest is won: O, happy ones and Holy! Lord, give us grace that we, Like them, the meek and the lowly, On high may dwell with Thee!",
+      "Elect from every nation, Yet one o'er all the earth, Her charter of salvation - One Lord, one faith, one birth: One Holy Name she blesses, Partakes one Holy food, And to one hope she presses, With ev'ry grace endued. - Amen."
+    ]
+  },
+  {
+    "number": 182,
+    "title": "We thank thee God of Israel",
+    "lyrics": [
+      "We thank Thee God of Israel For this day Thou has given us. For the joy, peace and prosperity, Thou has given us, O, praise Thy Name.",
+      " You're the light upon our way And we trust in Thee, O Lord. Thou has given us strength and courage, O Lord Jesus, our eternal friend.",
+      "  O Lord Jesus, our eternal friend. - Amen."
+    ]
+  },
+  {
+    "number": 183,
+    "title": "SIDL' Isonka ka se-Zulu",
+    "lyrics": [
+      "SIDL' isonka se-Zulu Mzimba wakh' oyinyama Dlis' umphefumlo wethu Ngesonka senyaniso Yonk' imihla siphiwa Ngulow' asifelayo",
+      "Gazi lase Zulwini Ndeb' esikelelweyo Yesu lomanxeba akho, Ajong' emnqamlezweni Yesu masihlaliswe Similiselwe Nawe - Amen."
+    ]
+  },
+  {
+    "number": 184,
+    "title": "MVANA kaThixo",
+    "lyrics": [
+      "MVANA kaThixo, Mvana kaThixo, Esusa izono zelizwe Izono ze lizwe Izono ze lizwe Senzele senzele inceba - Amen."
+    ]
+  },
+  {
+    "number": 185,
+    "title": "AMEN, Amen, Amen",
+    "lyrics": [
+      "AMEN, Amen, Amen, Uzuko ku-Yise Naku-Nyana No-Moy' oYingcwele, Kwakunjalo ekuqalekeni Kuya kubanjalo Ngona phakade, Amen."
+    ]
+  }
 
-  { "number": 2,
-   "title": "Yesu langa lomphefumlo", 
-   "lyrics": ["Yesu, langa lomphefumlo, Akumnyama xa ukhoyo Makungabiko nany’intoEnokundahlula nawe.",
-              "Ndakuhlelwa bubuthongo, Selecima nalamehlo, Mandibe ndicinga ngawe Nangopumlo olunawe.",
-              "Hlala nam imini yonke,Ungekho andingephili,Hlala nam kwakuza ukuhlwa,Ize ndingoyik’ukufa",
-              "U’ba kukh’umntwana wakho othe wadel’izwi lakho,Z’umguqule umxolele,Az’ onwabe xa elele.",
-              "Balunguze abafayo Batyebis’abaswele Nabo bonk’ abalusiziBakhangel’ubonwabise.",
-              "Yiza kuthi sakuvuka, Usigcine yonk’imihlaSide simke emhlabeni sibe nawe eZulwini. Amen." ]
-   
- },
-
-  { "number": 3, 
-  "title": "Zovakala Iindudumo", 
-  "lyrics": ["zovakala indudumo engcwabeni; zondivusa ndisalele engcwabeni",
-             " kwakungena edlakeni ukukhanya kwemibani londibiza ixilongo mandiphume. ",
-             "Ndihlangene nengelosi emafini ndiyivume apha ingoma yoloyiso. Zebabone ndinophawu lawo umnqamlezo ngcwele."]
-
-  
-},
-
-  { "number": 4,
-   "title": "Bawo ndingumntwana wakho", 
-   "lyrics": [ "Bawo ndingumntwana wakho, Noko Ndonileyo, Ndiyalila phambi kwakho, Bawo ndixolele.",
-             "Iziphoso zam zininzi, Azinakubalwa, Noko ndibekise kuwe,Bawo! Ndixolele.",
-             "Imithetho ndiyaphule, Wena ndakudela, UmSindisi ndimlahlile, Bawo! Ndixolele.",
-             "Ndone ngako ukuthetha,Ndone nangeengcinga,Ndone nangemisebenzi,Bawo! Ndixolele.",
-             "Noko ndibe ndifanele Ukukubulela, Ndone ngokukulibala, Bawo! Ndixolele.",
-             "Ngaz’ izoono ezininzi, Bawo, ndizonele, Wena ndikuhlazisile, Bawo! Ndixolele.",
-             "UnguThixo onenceba Engazang’ iphele, Ngako ndiya lila, ndithi, Bawo! Ndixolele. Amen." ]
- },
-
-
-  { "number": 5, 
-  "title": "Kwaye kukho Abelusi", 
-  "lyrics": "Blessed assurance, Jesus is mine..." 
-},
-
-  { "number": 6, 
-  "title": "It Is Well", 
-  "lyrics": "When peace like a river..."
- },
-
-  { "number": 7,
-   "title": "Great Is Thy Faithfulness", 
-   "lyrics": "Great is Thy faithfulness..."
- },
-
-  { "number": 8,
-   "title": "Be Thou My Vision", 
-   "lyrics": "Be Thou my vision, O Lord of my heart..."
- },
-
-  { "number": 9,
-   "title": "Holy Spirit Rain Down", 
-   "lyrics": "Holy Spirit rain down..."
- },
-
-  { "number": 10,
-   "title": "Jesus Loves Me", 
-   "lyrics": "Jesus loves me this I know..." 
-},
-
-  { "number": 11,
-   "title": "Rock of Ages", 
-   "lyrics": "Rock of Ages, cleft for me..."
- },
-
-  { "number": 12,
-   "title": "Abide With Me", 
-   "lyrics": "Abide with me, fast falls the eventide..." 
- },
-
-  { "number": 13,
-   "title": "Come Thou Fount", 
-   "lyrics": "Come thou fount of every blessing..."
- },
-
-  { "number": 14,
-   "title": "The Old Rugged Cross", 
-   "lyrics": "On a hill far away..." 
-},
-
-  { "number": 15, 
-  "title": "Shall We Gather at the River", 
-  "lyrics": "Shall we gather at the river..." 
-}
 
 ]
