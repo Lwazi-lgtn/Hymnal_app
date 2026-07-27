@@ -1,5 +1,6 @@
 let hymns = [];
 let filteredHymns = [];
+let hymnsCache = null; //For Hymns Description json file
 
 let currentPage = 1;
 const itemsPerPage = 5;
@@ -264,18 +265,66 @@ function flashShareFeedback(message) {
     }, 1500);
 }
 
-// Some hymns store "lyrics" as a single string, others as an array of
-// verse strings (one verse per array entry, for readability in the JSON
-// file itself). This normalizes either shape into displayable text.
+
+function capitalize(word) {
+    return word.toUpperCase();
+}
+
 function getLyricsText(hymn) {
-    return Array.isArray(hymn.lyrics) ? hymn.lyrics.join("\n\n") : hymn.lyrics;
+    const lyrics = Array.isArray(hymn.lyrics)
+        ? [...hymn.lyrics]
+        : [hymn.lyrics];
+
+    // Bold + capitalize the first word of the FIRST verse
+    lyrics[0] = lyrics[0].replace(/^(\s*)(\S+)/, (match, leadingSpace, firstWord) => {
+        return `${leadingSpace}<b>${capitalize(firstWord)}</b>`;
+    });
+
+    // Bold the last word of the LAST verse, if it has a " - " separator (The last word should be "Amen")
+    const lastIndex = lyrics.length - 1;
+    if (lyrics[lastIndex].lastIndexOf(" - ") !== -1) {
+        lyrics[lastIndex] = lyrics[lastIndex].replace(
+            /(\S+)(\s*)$/,
+            "<b>$1</b>$2"
+        );
+    }
+
+    // Prefix each verse with its number
+    return lyrics
+    .map((verse, index) => `
+        <div class="verse">
+            <span class="verse-number ${index === 0 ? 'bold-number' : ''}">
+                ${index + 1}.
+            </span>
+            <span class="verse-text">${verse}</span>
+        </div>`)
+    .join("");
+}
+
+async function loadHymnsDescription() {
+    if (hymnsCache) return hymnsCache;
+
+    const response = await fetch('hymns-description.json');
+    if (!response.ok) {
+        throw new Error(`Failed to load hymns: ${response.status}`);
+    }
+    hymnsCache = await response.json();
+    return hymnsCache;
+}
+
+async function getHymnDescription(number) {
+    const hymns = await loadHymnsDescription();
+    const hymn = hymns.find(h => h.number === number);
+    return hymn ? hymn.description : null;
 }
 
 // OPEN HYMN
-function openHymn(hymn) {
-    hymnTitle.textContent = `${hymn.number}: ${hymn.title}`;
-    hymnLyrics.textContent = getLyricsText(hymn);
+async function openHymn(hymn) {
+    const desc = await getHymnDescription(hymn.number);
+    hymnTitle.textContent = desc;
+    hymnLyrics.innerHTML = getLyricsText(hymn);
     applyFontSize();
+
 
     hymnList.classList.add("hidden");
     verseSlideshow.classList.add("hidden");
