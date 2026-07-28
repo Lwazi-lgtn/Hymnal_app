@@ -18,13 +18,9 @@ const loadingText = document.getElementById("loadingText");
 const retryBtn = document.getElementById("retryBtn");
 
 const verseSlideshow = document.getElementById("verseSlideshow");
-const dailyVerseBtn = document.getElementById("dailyVerseBtn");
-const dailyVersesPage = document.getElementById("dailyVersesPage");
-const dailyVersesBackBtn = document.getElementById("dailyVersesBackBtn");
 
 const increaseFontBtn = document.getElementById("increaseFontBtn");
 const decreaseFontBtn = document.getElementById("decreaseFontBtn");
-const shareBtn = document.getElementById("shareBtn");
 
 const pageHeading = document.getElementById("pageHeading");
 const pageSubheading = document.getElementById("pageSubheading");
@@ -32,69 +28,11 @@ const pageSubheading = document.getElementById("pageSubheading");
 const updateBanner = document.getElementById("updateBanner");
 const updateReloadBtn = document.getElementById("updateReloadBtn");
 
-const themeToggleBtn = document.getElementById("themeToggleBtn");
-const themeToggleIcon = document.getElementById("themeToggleIcon");
-
-const bibleVerses = [
-    { reference: "Psalm 23:1", text: "The Lord is my shepherd; I shall not want." },
-    { reference: "Philippians 4:13", text: "I can do all things through Christ who strengthens me." },
-    { reference: "John 3:16", text: "For God so loved the world that He gave His only begotten Son." },
-    { reference: "Proverbs 3:5", text: "Trust in the Lord with all your heart and lean not on your own understanding." },
-    { reference: "Isaiah 41:10", text: "Fear not, for I am with you." }
+// Alternating book-title messages for the slideshow (English ↔ isiXhosa)
+const bookTitles = [
+    "Song and Hymn Book of the Old Apostolic Church of Africa",
+    "Incwadi yamaculo neeNgoma zeBandla labaPostile lase Afrika"
 ];
-
-// ====================== DARK / LIGHT THEME ======================
-const THEME_KEY = "oacHymnalTheme";
-
-function getStoredOrPreferredTheme() {
-    const stored = localStorage.getItem(THEME_KEY);
-    if (stored === "dark" || stored === "light") return stored;
-    return (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
-}
-
-function applyTheme(theme) {
-    const isDark = theme === "dark";
-    document.documentElement.setAttribute("data-theme", theme);
-
-    if (themeToggleBtn) {
-        themeToggleBtn.setAttribute("aria-pressed", String(isDark));
-        themeToggleBtn.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
-    }
-    if (themeToggleIcon) {
-        themeToggleIcon.textContent = isDark ? "☀️" : "🌙";
-    }
-
-    // Keep the mobile browser status bar color in sync with the active theme.
-    const themeColorMeta = document.querySelector('meta[name="theme-color"]');
-    if (themeColorMeta) {
-        themeColorMeta.setAttribute("content", isDark ? "#16283f" : "#1d3557");
-    }
-}
-
-// index.html already set data-theme on <html> before first paint (to avoid
-// a flash of the wrong theme); this just syncs the toggle button's
-// icon/label to match, and re-applies whenever the user toggles manually.
-let currentTheme = getStoredOrPreferredTheme();
-applyTheme(currentTheme);
-
-if (themeToggleBtn) {
-    themeToggleBtn.addEventListener("click", () => {
-        currentTheme = currentTheme === "dark" ? "light" : "dark";
-        localStorage.setItem(THEME_KEY, currentTheme);
-        applyTheme(currentTheme);
-    });
-}
-
-// If the user hasn't explicitly chosen a theme, keep following the system
-// setting live (e.g. their OS switching to dark mode at sunset).
-if (!localStorage.getItem(THEME_KEY) && window.matchMedia) {
-    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-        if (!localStorage.getItem(THEME_KEY)) {
-            currentTheme = e.matches ? "dark" : "light";
-            applyTheme(currentTheme);
-        }
-    });
-}
 
 // ====================== HEADER / SUBTITLE SWAPPING ======================
 const DEFAULT_HEADING = "Welcome to the OAC Hymnal";
@@ -102,9 +40,6 @@ const DEFAULT_SUBHEADING = "Experience the Power of Worship";
 
 const HYMN_HEADING = "Let's all sing together";
 const HYMN_SUBHEADING = "Singing together brings together individuals both physically and emotionally, going beyond just music.";
-
-const DAILY_VERSE_HEADING = "John 3:16";
-const DAILY_VERSE_SUBHEADING = "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.";
 
 function setHeaderForHome() {
     if (!pageHeading || !pageSubheading) return;
@@ -118,13 +53,6 @@ function setHeaderForHymn() {
     pageHeading.textContent = HYMN_HEADING;
     pageHeading.classList.remove("hidden");
     pageSubheading.textContent = HYMN_SUBHEADING;
-}
-
-function setHeaderForDailyVerses() {
-    if (!pageHeading || !pageSubheading) return;
-    pageHeading.textContent = DAILY_VERSE_HEADING;
-    pageHeading.classList.remove("hidden");
-    pageSubheading.textContent = DAILY_VERSE_SUBHEADING;
 }
 
 // ====================== LOAD HYMNS (with retry) ======================
@@ -225,47 +153,6 @@ if (decreaseFontBtn) {
     });
 }
 
-// ====================== SHARE / COPY ======================
-if (shareBtn) {
-    shareBtn.addEventListener("click", async () => {
-        const shareText = `${hymnTitle.textContent}\n\n${hymnLyrics.textContent}`;
-
-        if (navigator.share) {
-            try {
-                await navigator.share({ title: hymnTitle.textContent, text: shareText });
-            } catch (err) {
-                // User cancelled the share sheet — not an error worth surfacing.
-            }
-            return;
-        }
-
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-            try {
-                await navigator.clipboard.writeText(shareText);
-                flashShareFeedback("Copied!");
-            } catch (err) {
-                console.error(err);
-                flashShareFeedback("Copy failed");
-            }
-            return;
-        }
-
-        window.prompt("Copy this text:", shareText);
-    });
-}
-
-function flashShareFeedback(message) {
-    if (!shareBtn) return;
-    const original = shareBtn.textContent;
-    shareBtn.textContent = message;
-    shareBtn.disabled = true;
-    setTimeout(() => {
-        shareBtn.textContent = original;
-        shareBtn.disabled = false;
-    }, 1500);
-}
-
-
 function capitalize(word) {
     return word.toUpperCase();
 }
@@ -325,11 +212,8 @@ async function openHymn(hymn) {
     hymnLyrics.innerHTML = getLyricsText(hymn);
     applyFontSize();
 
-
     hymnList.classList.add("hidden");
     verseSlideshow.classList.add("hidden");
-    dailyVersesPage.classList.add("hidden");
-    dailyVerseBtn.style.display = "none";
     pagination.style.display = "none";
     searchInput.style.display = "none";
 
@@ -342,7 +226,6 @@ backBtn.addEventListener("click", () => {
 
     hymnList.classList.remove("hidden");
     verseSlideshow.classList.remove("hidden");
-    dailyVerseBtn.style.display = "block";
     searchInput.style.display = "block";
     pagination.style.display = "block";
     setHeaderForHome();
@@ -409,37 +292,17 @@ function updatePaginationButtons() {
         currentPage === totalPages ? "none" : "inline-block";
 }
 
-// Daily Verses
-dailyVerseBtn.addEventListener("click", () => {
-    verseSlideshow.classList.add("hidden");
-    hymnList.classList.add("hidden");
-    pagination.style.display = "none";
-    searchInput.style.display = "none";
-    dailyVerseBtn.style.display = "none";
-    noResults.classList.add("hidden");
-    dailyVersesPage.classList.remove("hidden");
-    setHeaderForDailyVerses();
-});
-
-dailyVersesBackBtn.addEventListener("click", () => {
-    dailyVersesPage.classList.add("hidden");
-    verseSlideshow.classList.remove("hidden");
-    hymnList.classList.remove("hidden");
-    searchInput.style.display = "block";
-    dailyVerseBtn.style.display = "block";
-    setHeaderForHome();
-    displayHymns();
-});
-
-// Verse Slideshow
-let currentVerse = 0;
-function showVerse() {
-    document.getElementById("verseReference").textContent = bibleVerses[currentVerse].reference;
-    document.getElementById("verseText").textContent = bibleVerses[currentVerse].text;
-    currentVerse = (currentVerse + 1) % bibleVerses.length;
+// Book-title slideshow (English ↔ isiXhosa)
+let currentTitle = 0;
+function showBookTitle() {
+    const verseTextEl = document.getElementById("verseText");
+    if (verseTextEl) {
+        verseTextEl.textContent = bookTitles[currentTitle];
+    }
+    currentTitle = (currentTitle + 1) % bookTitles.length;
 }
-showVerse();
-setInterval(showVerse, 10000);
+showBookTitle();
+setInterval(showBookTitle, 5000);
 
 // ====================== UPDATE BANNER + SERVICE WORKER ======================
 if (updateReloadBtn) {

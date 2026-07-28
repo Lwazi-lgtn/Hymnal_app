@@ -22,6 +22,10 @@
         })();
     </script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 
 <link rel="manifest" href="manifest.json">
@@ -43,9 +47,6 @@
        
     </div>
 
-    <button id="themeToggleBtn" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
-        <span id="themeToggleIcon">🌙</span>
-    </button>
 
     <h1 id="pageHeading">Welcome to the OAC Hymnal</h1>
     <h2 id="pageSubheading">Experience the Power of Worship</h2>
@@ -55,32 +56,9 @@
 </header>
 
 <main>
-    <!-- Verse Slideshow -->
+    <!-- Book title slideshow (English ↔ isiXhosa) -->
     <div id="verseSlideshow">
-        <div id="verseReference"></div>
         <div id="verseText"></div>
-    </div>
-
-    <!-- Daily Verses Button -->
-    <button id="dailyVerseBtn">📖 Daily Verses</button>
-
-    <!-- Daily Verses Full Page -->
-    <div id="dailyVersesPage" class="hidden">
-        <button id="dailyVersesBackBtn">← Back to Hymns</button>
-        <h2>Daily Encouragement</h2>
-        
-        <div class="verse-card">
-            <h3>Faith</h3>
-            <p>Proverbs 3:5<br><br>Trust in the Lord with all your heart and lean not on your own understanding.</p>
-        </div>
-        <div class="verse-card">
-            <h3>Strength</h3>
-            <p>Philippians 4:13<br><br>I can do all things through Christ who strengthens me.</p>
-        </div>
-        <div class="verse-card">
-            <h3>Hope</h3>
-            <p>Jeremiah 29:11<br><br>For I know the plans I have for you.</p>
-        </div>
     </div>
 
     <div id="loading">
@@ -99,18 +77,17 @@
 
     <!-- Single Hymn View -->
     <div id="hymnDetails" class="hidden">
-        <button id="backBtn">← Back</button>
-
         <div class="hymn-toolbar">
             <div class="font-controls" role="group" aria-label="Text size">
                 <button id="decreaseFontBtn" aria-label="Decrease text size">A−</button>
                 <button id="increaseFontBtn" aria-label="Increase text size">A+</button>
             </div>
-            <button id="shareBtn">📤 Share</button>
         </div>
 
         <p id="hymnTitle"></p>
         <div id="hymnLyrics"></div>
+
+        <button id="backBtn">Back</button>
     </div>
 
     <p id="noResults" class="hidden">No hymn found 😬</p>
