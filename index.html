@@ -4,32 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OAC Hymnal</title>
-
-    <!-- Applies the saved/preferred theme before first paint, so there's
-         no flash of the wrong theme while app.js is still loading. -->
-    <script>
-        (function () {
-            try {
-                var stored = localStorage.getItem('oacHymnalTheme');
-                var theme = (stored === 'dark' || stored === 'light')
-                    ? stored
-                    : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                document.documentElement.setAttribute('data-theme', theme);
-            } catch (e) {
-                // localStorage can throw in some locked-down browser contexts; default to light.
-                document.documentElement.setAttribute('data-theme', 'light');
-            }
-        })();
-    </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1d3557">
 
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1d3557">
+    <script>
+        function matchChurchNameWidth() {
+            const oac = document.getElementById('oacText');
+            const subtitle = document.getElementById('churchName');
+
+            subtitle.style.transform = 'scaleX(1)';
+            const targetWidth = oac.offsetWidth;
+            const naturalWidth = subtitle.offsetWidth;
+            const scale = targetWidth / naturalWidth;
+            subtitle.style.transform = `scaleX(${scale})`;
+        }
+
+        window.addEventListener('load', matchChurchNameWidth);
+        window.addEventListener('resize', matchChurchNameWidth);
+    </script>
 
 </head>
 <body>
@@ -41,12 +38,11 @@
 </div>
 
 <header>
-  <div class="logo-text">
-        <span class="oac">OAC</span>
-        <span class="church-name">Old Apostolic Church</span>
-       
+  
+    <div class="logo-text">
+        <span class="oac" id="oacText">OAC</span>
+        <span class="church-name" id="churchName">Old Apostolic Church</span>
     </div>
-
 
     <h1 id="pageHeading">Welcome to the OAC Hymnal</h1>
     <h2 id="pageSubheading">Experience the Power of Worship</h2>
