@@ -31,7 +31,7 @@ const updateReloadBtn = document.getElementById("updateReloadBtn");
 // Alternating book-title messages for the slideshow (English ↔ isiXhosa)
 const bookTitles = [
     "Song and Hymn Book of the Old Apostolic Church of Africa",
-    "Incwadi yamaculo neeNgoma zeBandla labaPostile lase Afrika"
+    "Incwadi yamaculo neeNgoma zeBandla Elidala labaPostile lase Afrika"
 ];
 
 // ====================== HEADER / SUBTITLE SWAPPING ======================
