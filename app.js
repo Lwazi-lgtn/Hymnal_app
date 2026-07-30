@@ -178,14 +178,14 @@ function getLyricsText(hymn) {
 
     // Prefix each verse with its number
     return lyrics
-    .map((verse, index) => `
+        .map((verse, index) => `
         <div class="verse">
             <span class="verse-number ${index === 0 ? 'bold-number' : ''}">
                 ${index + 1}.
             </span>
             <span class="verse-text">${verse}</span>
         </div>`)
-    .join("");
+        .join("");
 }
 
 async function loadHymnsDescription() {

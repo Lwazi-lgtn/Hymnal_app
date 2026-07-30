@@ -10,6 +10,7 @@ const urlsToCache = [
     "./styles.css",
     "./app.js",
     "./hymns.json",
+    "./hymns-description.json",
     "./manifest.json",
     "./app_pic.png"   // matches the icon filename currently in manifest.json
 ];

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OAC Hymnal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
@@ -29,71 +31,73 @@
     </script>
 
 </head>
+
 <body>
 
-<!-- Shown when a new deployed version has taken over in the background -->
-<div id="updateBanner" class="hidden" role="status">
-    <span>A new version of the app is available.</span>
-    <button id="updateReloadBtn">Refresh</button>
-</div>
-
-<header>
-  
-    <div class="logo-text">
-        <span class="oac" id="oacText">OAC</span>
-        <span class="church-name" id="churchName">Old Apostolic Church</span>
+    <!-- Shown when a new deployed version has taken over in the background -->
+    <div id="updateBanner" class="hidden" role="status">
+        <span>A new version of the app is available.</span>
+        <button id="updateReloadBtn">Refresh</button>
     </div>
 
-    <h1 id="pageHeading">Welcome to the OAC Hymnal</h1>
-    <h2 id="pageSubheading">Experience the Power of Worship</h2>
+    <header>
 
-    <label for="searchInput" class="sr-only">Search hymns by number or title</label>
-    <input type="text" id="searchInput" placeholder="Search by hymn number or title...">
-</header>
-
-<main>
-    <!-- Book title slideshow (English ↔ isiXhosa) -->
-    <div id="verseSlideshow">
-        <div id="verseText"></div>
-    </div>
-
-    <div id="loading">
-        <span id="loadingText">Loading hymns...</span>
-        <button id="retryBtn" class="hidden">Retry</button>
-    </div>
-
-    <!-- Hymn List -->
-    <div id="hymnList"></div>
-
-    <!-- Pagination -->
-    <div id="pagination">
-        <button id="prevBtn">Prev</button>
-        <button id="nextBtn">Next</button>
-    </div>
-
-    <!-- Single Hymn View -->
-    <div id="hymnDetails" class="hidden">
-        <div class="hymn-toolbar">
-            <div class="font-controls" role="group" aria-label="Text size">
-                <button id="decreaseFontBtn" aria-label="Decrease text size">A−</button>
-                <button id="increaseFontBtn" aria-label="Increase text size">A+</button>
-            </div>
+        <div class="logo-text">
+            <span class="oac" id="oacText">OAC</span>
+            <span class="church-name" id="churchName">Old Apostolic Church</span>
         </div>
 
-        <p id="hymnTitle"></p>
-        <div id="hymnLyrics"></div>
+        <h1 id="pageHeading">Welcome to the OAC Hymnal</h1>
+        <h2 id="pageSubheading">Experience the Power of Worship</h2>
 
-        <button id="backBtn">Back</button>
-    </div>
+        <label for="searchInput" class="sr-only">Search hymns by number or title</label>
+        <input type="text" id="searchInput" placeholder="Search by hymn number or title...">
+    </header>
 
-    <p id="noResults" class="hidden">No hymn found 😬</p>
-</main>
+    <main>
+        <!-- Book title slideshow (English ↔ isiXhosa) -->
+        <div id="verseSlideshow">
+            <div id="verseText"></div>
+        </div>
 
-<!-- Footer -->
-<footer>
-    <div class="footer-info">© 2026 OAC Hymnal • All Rights Reserved</div>
-</footer>
+        <div id="loading">
+            <span id="loadingText">Loading hymns...</span>
+            <button id="retryBtn" class="hidden">Retry</button>
+        </div>
 
-<script src="app.js"></script>
+        <!-- Hymn List -->
+        <div id="hymnList"></div>
+
+        <!-- Pagination -->
+        <div id="pagination">
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <!-- Single Hymn View -->
+        <div id="hymnDetails" class="hidden">
+            <div class="hymn-toolbar">
+                <div class="font-controls" role="group" aria-label="Text size">
+                    <button id="decreaseFontBtn" aria-label="Decrease text size">A−</button>
+                    <button id="increaseFontBtn" aria-label="Increase text size">A+</button>
+                </div>
+            </div>
+
+            <p id="hymnTitle"></p>
+            <div id="hymnLyrics"></div>
+
+            <button id="backBtn">Back</button>
+        </div>
+
+        <p id="noResults" class="hidden">No hymn found 😬</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-info">© 2026 OAC Hymnal • All Rights Reserved</div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
+
 </html>

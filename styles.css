@@ -140,7 +140,6 @@ header {
 #pageHeading {
     font-family: "Libre Baskerville", Baskerville, Georgia, serif;
     font-weight: 700;
-    font-size: 1.75rem;
     letter-spacing: 0.3px;
     margin: 0 0 6px 0;
 }
@@ -149,7 +148,6 @@ header {
     font-family: "Libre Baskerville", Baskerville, Georgia, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 1.05rem;
     opacity: 0.92;
     margin: 0;
 }
