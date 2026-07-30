@@ -12,7 +12,8 @@ const urlsToCache = [
     "./hymns.json",
     "./hymns-description.json",
     "./manifest.json",
-    "./app_pic.png"   // matches the icon filename currently in manifest.json
+    "./app_pic_192.png",
+    "./app_pic_512.png"
 ];
 
 self.addEventListener("install", event => {
