@@ -2,7 +2,7 @@
 // list changes. The browser only re-fetches and re-caches files when
 // CACHE_NAME itself changes — keeping the same name means updates never
 // reach devices that already have the app installed/cached.
-const CACHE_NAME = "oac-hymnal-v18";
+const CACHE_NAME = "oac-hymnal-v19";
 
 const urlsToCache = [
     "./",
