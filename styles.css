@@ -31,6 +31,27 @@ body {
     color: var(--color-text);
 }
 
+/* ====================== COPY / SELECTION PREVENTION ======================
+   Deters casual copying of hymn/verse text via click-drag selection or
+   right-click "Copy". This is a soft deterrent only — it does not stop
+   view-source, browser dev tools, or the app's own Share button (which
+   copies text programmatically, not via DOM selection). */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ 
+/* The search box still needs normal text selection/editing behavior */
+#searchInput {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+ 
+
 /* ====================== ACCESSIBILITY UTILITIES ====================== */
 /* Visually hidden but still announced by screen readers */
 .sr-only {

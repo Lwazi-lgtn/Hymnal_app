@@ -337,3 +337,25 @@ if ('serviceWorker' in navigator && !isLocalDev) {
         registrations.forEach(registration => registration.unregister());
     });
 }
+
+// ====================== COPY / SELECTION PREVENTION ======================
+// Deters casual copying of hymn/verse text. This is a soft deterrent only —
+// it doesn't stop view-source, browser dev tools, or the Share button
+// (which copies text on purpose, via the Web Share API / Clipboard API,
+// not via DOM selection, so it's intentionally unaffected by this).
+document.addEventListener("copy", (e) => {
+    if (e.target && e.target.id === "searchInput") return; // allow copying from the search box
+    e.preventDefault();
+});
+ 
+document.addEventListener("contextmenu", (e) => {
+    if (e.target && e.target.id === "searchInput") return; // allow right-click in the search box
+    e.preventDefault();
+});
+ 
+document.addEventListener("keydown", (e) => {
+    const isCopyShortcut = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "c";
+    if (isCopyShortcut && (!e.target || e.target.id !== "searchInput")) {
+        e.preventDefault();
+    }
+});
